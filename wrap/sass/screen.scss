@@ -5,6 +5,37 @@
 
 @import "compass/reset";
 
+/* 
+////// Global //////////
+*/
+
+h1{
+	font-size: 1.5em; 
+	text-transform: uppercase;
+}
+
+.orangeButton{
+	background-color: #f37920;
+	color : white;
+	text-transform: uppercase;
+	float : left;
+	margin-right: 1em; 
+	padding : .5em 2em;
+}
+
+.left{
+	float: left; 
+}
+
+.right{
+	float: right; 
+}
+
+/* 
+////// Global //////////
+*/
+
+
 body, html{
 	position: relative;
 	width: 100%; 
@@ -50,13 +81,83 @@ body, html{
 		}
 	}
 
-	.container{
+	.module{
 		width: inherit;
-		height: inherit;
+		height: 100%;
+		float: none;
+		clear: both;
 
-		.module{
-			width: inherit;
-			height: inherit;
+		.titleContainers{
+			width: 100%; 
+			text-align: center; 
+		}
+	}
+
+	.hero{
+		.copy{
+			padding : 20% 0 0 15%;
+		}
+	}
+
+	.about{
+		.aboutHero{
+			position: absolute;
+		}
+
+		.aboutCopyContainer{
+			float: right; 
+			padding: 10% 20% 0 0;
+			width: 25%;  
+		}
+	}
+
+	.howDoesItWork{
+		width : inherit;
+
+		.howDoesItWorkContainer{
+			width : inherit;
+
+			ul{
+				li{
+					width : 100%;
+
+					.copy{
+						width : 50%; 
+					}
+
+					.hero{
+						width : 50%; 
+					}
+					
+				}
+			}
+		}
+	}
+
+	.footer{
+		background : #333;
+
+		.footerContainer{
+			padding : 5% 20%;
+			height: 10em;
+		}
+
+		.column{
+			float : left;
+			margin-right: 6em; 
+
+			ul{
+				li{
+					color: #908f8f;
+					padding-bottom: .5em;
+					text-transform: uppercase;
+
+					&:first-child{
+						color : white; 
+						
+					} 
+				}
+			}
 		}
 	}
 }
