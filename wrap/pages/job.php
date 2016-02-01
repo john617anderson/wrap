@@ -103,6 +103,14 @@
 					paste
 				</div>
 			</div>
+			<div class="field">
+				<span class="formDescriptions">Desired Salary Range<span class="orange">*</span></span>
+				<input id="salaryRange" type="text" />
+			</div>
+			<div class="field">
+				<span class="formDescriptions">Voluntary contributors? Exmples include pro bono and charity work</span>
+				<input id="voluntaryContributors" type="textArea" />
+			</div>
 		</form>
 	</div>
 </section>
