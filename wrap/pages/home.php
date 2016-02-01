@@ -1,4 +1,4 @@
-<div class="module hero">
+<section class="module topHero">
 	<div class="copy">
 		<h1>tell your story</h1>
 		<p>The simplest way to create and deliver app-like 
@@ -14,8 +14,8 @@ experiences customized to your audience.
 			</div>
 		</div>
 	</div>
-</div>
-<div class="module about">
+</section>
+<section class="module about">
 	<div class="aboutHero">
 		<img src="hero.jpg" />
 	</div>
@@ -30,8 +30,8 @@ quasi architecto beatae vitae explicabo.
 		<img src="video.jpg" />
 		<ol>watch video</ol>
 	</div>
-</div>
-<div class="module carosel">
+</section>
+<section class="module carosel">
 	<div class="titleContainers caroselCopyContainer">
 		<h1>Explore the world of wraps</h1>
 		<p>ncrease user engagement and drive improved 
@@ -49,8 +49,8 @@ your, eaque
 			</ul>
 		</div>
 	</div>
-</div>
-<div class="module howDoesItWork">
+</section>
+<section class="module howDoesItWork">
 	<div class="titleContainers">
 		<h1>How Does Wrap work?</h1>
 		<p>ncrease user engagement and drive improved 
@@ -112,8 +112,8 @@ quasi architecto beatae vitae explicabo.
 			</li>
 		</ul>
 	</div>
-</div>
-<div class="module wrapIsAbout">
+</section>
+<section class="module wrapIsAbout">
 	<div class="titleContainers">
 		<h1>wrap is about engagement</h1>
 		<p>Wrap enables new ways of doing business that increase customer loyalty and deliver unprecedented value.</p>
@@ -146,4 +146,4 @@ quasi architecto beatae vitae explicabo.
 			</li>
 		</ul>
 	</div>
-</div>	
+</section>	
