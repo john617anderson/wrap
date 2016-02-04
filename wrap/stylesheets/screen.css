@@ -70,28 +70,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* 
 ////// Global //////////
 */
-/* line 12, ../sass/screen.scss */
+@font-face {
+  font-family: proximaNova;
+  src: url("../fonts/proximaNova/Proxima-Nova-Light.otf");
+}
+@font-face {
+  font-family: proximaNovaBold;
+  src: url("../fonts/proximaNova/Proxima-Nova-Bold.otf");
+}
+/* line 22, ../sass/screen.scss */
+h1, h2, h3, h4, p, span, ol {
+  font-family: proximaNova;
+}
+
+/* line 26, ../sass/screen.scss */
 h1 {
-  font-size: 1.5em;
+  font-family: proximaNova;
+  font-size: 2em;
   text-transform: uppercase;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
+h2 {
+  font-family: proximaNova;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: .5em;
+}
+
+/* line 39, ../sass/screen.scss */
+p {
+  line-height: 1.5em;
+}
+
+/* line 43, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 47, ../sass/screen.scss */
 .orangeButton {
+  font-family: proximaNovaBold;
+  font-size: .5em;
   background-color: #f37920;
   color: white;
   text-transform: uppercase;
   float: left;
   margin-right: 1em;
-  padding: .5em 2em;
+  padding: 1em 2em;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .left {
   float: left;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .right {
   float: right;
 }
@@ -99,117 +133,394 @@ h1 {
 /* 
 ////// Global //////////
 */
-/* line 39, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 body, html {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 #wrapper {
   position: inherit;
   width: inherit;
   height: inherit;
 }
-/* line 50, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 #wrapper .navContainer {
-  position: relative;
+  position: fixed;
   width: inherit;
   background: white;
   min-height: 3em;
 }
-/* line 56, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 #wrapper .navContainer .leftNav, #wrapper .navContainer .rightNav {
   float: left;
   width: 40%;
   padding: 0 0 0 10%;
 }
-/* line 62, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 #wrapper .navContainer .leftNav ul li, #wrapper .navContainer .rightNav ul li {
+  font-family: proximaNovaBold;
   list-style: none;
   list-style-type: none;
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: .7em;
   float: left;
-  padding: 1em 1%;
+  padding: 2em 1.5em;
+  color: #969696;
 }
-/* line 73, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
+#wrapper .navContainer .leftNav ul li a, #wrapper .navContainer .rightNav ul li a {
+  color: #969696;
+}
+/* line 109, ../sass/screen.scss */
+#wrapper .navContainer .leftNav ul:nth-child(2), #wrapper .navContainer .rightNav ul:nth-child(2) {
+  color: black;
+}
+/* line 113, ../sass/screen.scss */
+#wrapper .navContainer .leftNav ul #navLogo, #wrapper .navContainer .rightNav ul #navLogo {
+  padding: .8em 1.5em;
+}
+/* line 117, ../sass/screen.scss */
+#wrapper .navContainer .leftNav ul #navLogo img, #wrapper .navContainer .rightNav ul #navLogo img {
+  height: 3.2em;
+}
+/* line 124, ../sass/screen.scss */
 #wrapper .navContainer .rightNav {
   float: right;
   padding: 0 5% 0 0;
 }
-/* line 77, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #wrapper .navContainer .rightNav ul li {
   float: right;
 }
-/* line 84, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 #wrapper .module {
   width: inherit;
   height: 100%;
   float: none;
   clear: both;
 }
-/* line 90, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #wrapper .module .titleContainers {
   width: 100%;
   text-align: center;
+  padding: 2em 0;
 }
-/* line 97, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #wrapper .topHero .copy {
   padding: 20% 0 0 15%;
+  width: 30%;
+  color: white;
 }
-/* line 103, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
+#wrapper .topHero .copy h1 {
+  margin-bottom: .5em;
+}
+/* line 158, ../sass/screen.scss */
+#wrapper .topHero .copy p {
+  margin-bottom: 1em;
+}
+/* line 164, ../sass/screen.scss */
+#wrapper .homeHero {
+  background-image: url("../assets/home/2_HERO/hero_pix.jpg");
+  background-size: cover;
+}
+/* line 169, ../sass/screen.scss */
+#wrapper .about {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 173, ../sass/screen.scss */
 #wrapper .about .aboutHero {
-  position: absolute;
+  margin-top: -6em;
+  width: 60%;
+  float: left;
 }
-/* line 107, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
+#wrapper .about .aboutHero img {
+  width: 100%;
+}
+/* line 183, ../sass/screen.scss */
 #wrapper .about .aboutCopyContainer {
   float: right;
-  padding: 10% 20% 0 0;
-  width: 25%;
+  padding: 10% 10% 0 0;
+  width: 30%;
 }
-/* line 114, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
+#wrapper .about .aboutCopyContainer ol {
+  font-family: proximaNovaBold;
+  color: #f37920;
+  font-size: .7em;
+  margin: 1.5em 0;
+  line-height: 1.7em;
+}
+/* line 196, ../sass/screen.scss */
+#wrapper .about .aboutCopyContainer img {
+  width: 80%;
+}
+/* line 202, ../sass/screen.scss */
 #wrapper .howDoesItWork {
   width: inherit;
 }
-/* line 117, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer {
   width: inherit;
 }
-/* line 121, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul li {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 4em;
+  clear: both;
+}
+/* line 215, ../sass/screen.scss */
+#wrapper .howDoesItWork .howDoesItWorkContainer ul li .copy {
+  width: 30%;
+}
+/* line 218, ../sass/screen.scss */
+#wrapper .howDoesItWork .howDoesItWorkContainer ul li .copy img {
+  width: 20%;
+  margin-bottom: 1em;
+}
+/* line 224, ../sass/screen.scss */
+#wrapper .howDoesItWork .howDoesItWorkContainer ul li .hero {
+  width: 40%;
+}
+/* line 227, ../sass/screen.scss */
+#wrapper .howDoesItWork .howDoesItWorkContainer ul li .hero img {
   width: 100%;
 }
-/* line 124, ../sass/screen.scss */
-#wrapper .howDoesItWork .howDoesItWorkContainer ul li .copy {
+/* line 234, ../sass/screen.scss */
+#wrapper .howDoesItWork .howDoesItWorkContainer ul .right {
+  margin-right: 3em;
+}
+/* line 238, ../sass/screen.scss */
+#wrapper .howDoesItWork .howDoesItWorkContainer ul .left {
+  margin-left: 3em;
+}
+/* line 245, ../sass/screen.scss */
+#wrapper .carosel {
+  background: #f1f1f1;
+}
+/* line 248, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer {
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+/* line 253, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer .absoluteContainer {
+  width: 200%;
+  height: 80%;
+}
+/* line 256, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer .absoluteContainer ul {
+  overflow: hidden;
+  width: auto;
+  height: inherit;
+}
+/* line 260, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer .absoluteContainer ul li {
+  height: 100%;
+  float: left;
+}
+/* line 264, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer .absoluteContainer ul li img {
+  height: 100%;
+}
+/* line 273, ../sass/screen.scss */
+#wrapper .wrapIsAbout {
+  height: 60%;
+  background: #515151;
+}
+/* line 278, ../sass/screen.scss */
+#wrapper .wrapIsAbout .titleContainers h1 {
+  color: white;
+}
+/* line 283, ../sass/screen.scss */
+#wrapper .wrapIsAbout .wrapIsAboutContainer {
+  width: 64%;
+  height: inherit;
+  margin: 0 auto;
+}
+/* line 288, ../sass/screen.scss */
+#wrapper .wrapIsAbout .wrapIsAboutContainer ul {
+  width: 100%;
+  height: inherit;
+}
+/* line 291, ../sass/screen.scss */
+#wrapper .wrapIsAbout .wrapIsAboutContainer ul li {
+  width: 25%;
+  float: left;
+  margin: 0 2em;
+}
+/* line 296, ../sass/screen.scss */
+#wrapper .wrapIsAbout .wrapIsAboutContainer ul li h2 {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  color: white;
+}
+/* line 302, ../sass/screen.scss */
+#wrapper .wrapIsAbout .wrapIsAboutContainer ul li p {
+  color: white;
+  font-size: .7em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+/* line 309, ../sass/screen.scss */
+#wrapper .wrapIsAbout .wrapIsAboutContainer ul li span {
+  font-family: proximaNovaBold;
+  font-size: .7em;
+  color: #f37920;
+}
+/* line 315, ../sass/screen.scss */
+#wrapper .wrapIsAbout .wrapIsAboutContainer ul li img {
+  height: 40px;
+  margin-bottom: 1em;
+}
+/* line 324, ../sass/screen.scss */
+#wrapper .heroCareers {
+  background-image: url("../assets/careers/HERO/hero_careers.jpg");
+  background-size: cover;
+}
+/* line 328, ../sass/screen.scss */
+#wrapper .heroCareers .copy {
+  width: 40%;
+}
+/* line 331, ../sass/screen.scss */
+#wrapper .heroCareers .copy h1 {
+  width: 100%;
+}
+/* line 337, ../sass/screen.scss */
+#wrapper .careersContainer {
+  height: auto;
+}
+/* line 340, ../sass/screen.scss */
+#wrapper .careersContainer .careerNavigation {
+  width: inherit;
+}
+/* line 343, ../sass/screen.scss */
+#wrapper .careersContainer .careerNavigation ul {
+  width: 19em;
+  margin: 0 auto;
+}
+/* line 346, ../sass/screen.scss */
+#wrapper .careersContainer .careerNavigation ul li {
+  float: left;
+  margin: 3em 1em;
+  font-family: proximaNovaBold;
+  color: #969696;
+  text-transform: uppercase;
+  font-size: .7em;
+}
+/* line 357, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer {
+  clear: both;
+}
+/* line 360, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer {
+  padding: 3em 12em;
+}
+/* line 363, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobOpenings {
+  width: 40%;
+}
+/* line 366, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobOpenings h2 {
+  font-size: 1.7em;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+/* line 372, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobOpenings .sections {
+  margin-bottom: 3em;
+}
+/* line 375, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobOpenings .sections h2 {
+  font-size: 1.3em;
+  color: #9cc547;
+}
+/* line 380, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobOpenings .sections h5 {
+  font-family: proximaNova;
+  font-size: .5em;
+  color: #f37920;
+  text-transform: uppercase;
+  margin-bottom: .2em;
+}
+/* line 388, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobOpenings .sections h4 {
+  font-family: proximaNovaBold;
+  font-size: .8em;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+/* line 398, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobDescriptions {
   width: 50%;
 }
-/* line 128, ../sass/screen.scss */
-#wrapper .howDoesItWork .howDoesItWorkContainer ul li .hero {
-  width: 50%;
+/* line 401, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobDescriptions .sections {
+  margin-bottom: 3em;
 }
-/* line 137, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobDescriptions .sections h2 {
+  font-size: 1.7em;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+/* line 410, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobDescriptions .sections p {
+  font-size: .7em;
+  line-height: 1.3em;
+}
+/* line 415, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobDescriptions .sections ul {
+  margin: 1em 1em;
+}
+/* line 417, ../sass/screen.scss */
+#wrapper .careersContainer .contentContainer .careerContentContainer .jobDescriptions .sections ul li {
+  font-family: proximaNova;
+  font-size: .7em;
+  line-height: 1.2em;
+  list-style: disc;
+  margin-bottom: .3em;
+}
+/* line 430, ../sass/screen.scss */
+#wrapper .careersContainer .finePrint {
+  width: 70%;
+  clear: both;
+  margin: 2em auto;
+  font-family: proximaNova;
+  font-size: .5em;
+  line-height: .9em;
+}
+/* line 440, ../sass/screen.scss */
 #wrapper .footer {
   background: #333;
 }
-/* line 140, ../sass/screen.scss */
+/* line 443, ../sass/screen.scss */
 #wrapper .footer .footerContainer {
-  padding: 5% 20%;
+  padding: 5% 21%;
   height: 10em;
 }
-/* line 145, ../sass/screen.scss */
+/* line 448, ../sass/screen.scss */
 #wrapper .footer .column {
   float: left;
   margin-right: 6em;
 }
-/* line 150, ../sass/screen.scss */
+/* line 453, ../sass/screen.scss */
 #wrapper .footer .column ul li {
+  font-family: proximaNovaBold;
+  font-size: .7em;
   color: #908f8f;
-  padding-bottom: .5em;
+  padding-bottom: 1em;
   text-transform: uppercase;
 }
-/* line 155, ../sass/screen.scss */
+/* line 460, ../sass/screen.scss */
 #wrapper .footer .column ul li:first-child {
   color: white;
 }

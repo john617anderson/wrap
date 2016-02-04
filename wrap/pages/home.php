@@ -1,4 +1,4 @@
-<section class="module topHero">
+<section class="module topHero homeHero">
 	<div class="copy">
 		<h1>tell your story</h1>
 		<p>The simplest way to create and deliver app-like 
@@ -17,17 +17,16 @@ experiences customized to your audience.
 </section>
 <section class="module about">
 	<div class="aboutHero">
-		<img src="hero.jpg" />
+		<img src="assets/home/3_WHAT_IS_A_WRAP/phone_group_1.png" />
 	</div>
 	<div class="aboutCopyContainer">
-		<h1>What is a wrap?</h1>
+		<h2>What is a wrap?</h2>
 		<p>ncrease user engagement and drive improved 
 your, eaque ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
 		</p>
-		<ol>FREE NON-COMMERICAL USE INFO</ol>
-		<ol>COMMERCIAL USE INFO</ol>
-		<img src="video.jpg" />
+		<ol>FREE NON-COMMERICAL USE INFO <br/>COMMERCIAL USE INFO</ol>
+		<img src="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg" />
 		<ol>watch video</ol>
 	</div>
 </section>
@@ -41,11 +40,12 @@ your, eaque
 	<div class="caroselContainer">
 		<div class="absoluteContainer">
 			<ul>	
-				<li><img src="card.jpg" /></li>
-				<li><img src="card.jpg" /></li>
-				<li><img src="card.jpg" /></li>
-				<li><img src="card.jpg" /></li>
-				<li><img src="card.jpg" /></li>
+				<li><img src="assets/home/4_EXPLORE_WRAPS/1_axe.png" /></li>
+				<li><img src="assets/home/4_EXPLORE_WRAPS/2_brunello.png" /></li>
+				<li><img src="assets/home/4_EXPLORE_WRAPS/3_grillinwithguy.png" /></li>
+				<li><img src="assets/home/4_EXPLORE_WRAPS/4_lincoln.png" /></li>
+				<li><img src="assets/home/4_EXPLORE_WRAPS/5_platespoon.png" /></li>
+				<li><img src="assets/home/4_EXPLORE_WRAPS/6_royalblood.png" /></li>
 			</ul>
 		</div>
 	</div>
@@ -61,10 +61,10 @@ your, eaque
 		<ul>
 			<li>
 				<div class="hero left">
-					<img src="hero.jpg" />	
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_monitor.jpg" />	
 				</div>
-				<div class="copy right">
-					<img src="icon.jpg" />	
+				<div class="copy left">
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_icon.jpg" />	
 					<h2>create</h2>
 					<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
@@ -74,10 +74,10 @@ quasi architecto beatae vitae explicabo.
 
 			<li>
 				<div class="hero right">
-					<img src="hero.jpg" />	
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_monitor.jpg" />	
 				</div>
-				<div class="copy left">
-					<img src="icon.jpg" />	
+				<div class="copy right">
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_icon.jpg" />	
 					<h2>share</h2>
 					<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
@@ -87,10 +87,10 @@ quasi architecto beatae vitae explicabo.
 
 			<li>
 				<div class="hero left">
-					<img src="hero.jpg" />	
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_monitor.jpg" />	
 				</div>
 				<div class="copy right">
-					<img src="icon.jpg" />	
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/engage_icon.jpg" />	
 					<h2>engage</h2>
 					<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
@@ -100,10 +100,10 @@ quasi architecto beatae vitae explicabo.
 
 			<li>
 				<div class="hero right">
-					<img src="hero.jpg" />	
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_monitor.jpg" />	
 				</div>
 				<div class="copy left">
-					<img src="icon.jpg" />	
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/manage_icon.jpg" />	
 					<h2>manage</h2>
 					<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
@@ -121,15 +121,15 @@ quasi architecto beatae vitae explicabo.
 	<div class="wrapIsAboutContainer">
 		<ul>
 			<li>
-				<img src="icon.jpg" />	
-				<h2>3 minute session</h2>
+				<img src="assets/home/6_ENGAGEMENT/neiman_marcus_logo.png" />	
+				<h2>9% clicked shop now</h2>
 				<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
 				</p>
 				<span>learn more</span>	
-		</li>
+			</li>
 			<li>
-				<img src="icon.jpg" />	
+				<img src="assets/home/6_ENGAGEMENT/loverly_logo.png" />	
 				<h2>56% clicked on trial</h2>
 				<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
@@ -137,8 +137,8 @@ quasi architecto beatae vitae explicabo.
 				<span>learn more</span>	
 			</li>
 			<li>
-				<img src="icon.jpg" />	
-				<h2>9% clicked shop now</h2>
+				<img src="assets/home/6_ENGAGEMENT/ancestry_logo.png" />	
+				<h2>3 minute session</h2>
 				<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
 				</p>

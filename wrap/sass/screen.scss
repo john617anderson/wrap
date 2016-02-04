@@ -9,18 +9,50 @@
 ////// Global //////////
 */
 
+@font-face {
+    font-family: proximaNova;
+    src: url('../fonts/proximaNova/Proxima-Nova-Light.otf');
+}
+
+@font-face {
+    font-family: proximaNovaBold;
+    src: url('../fonts/proximaNova/Proxima-Nova-Bold.otf');
+}
+
+h1,h2,h3,h4,p,span,ol{
+	font-family: proximaNova;
+}
+
 h1{
-	font-size: 1.5em; 
+	font-family: proximaNova;
+	font-size: 2em; 
 	text-transform: uppercase;
 }
 
+h2{
+	font-family: proximaNova;
+	font-size: 1.5em; 
+	text-transform: uppercase;
+	margin-bottom: .5em; 
+}
+
+p{
+	line-height: 1.5em;
+}
+
+a{
+	text-decoration: none;
+}
+
 .orangeButton{
+	font-family: proximaNovaBold;
+	font-size : .5em;
 	background-color: #f37920;
 	color : white;
 	text-transform: uppercase;
 	float : left;
 	margin-right: 1em; 
-	padding : .5em 2em;
+	padding : 1em 2em;
 }
 
 .left{
@@ -48,7 +80,7 @@ body, html{
 	height : inherit;
 
 	.navContainer{
-		position: relative;
+		position: fixed;
 		width: inherit;
 		background : white;
 		min-height: 3em; 
@@ -60,12 +92,31 @@ body, html{
 
 			ul{
 				li{
+					font-family: proximaNovaBold;
 					list-style: none; 
 					list-style-type: none; 
 					text-transform: uppercase;
-					font-size: 1em; 
+					font-size: .7em; 
 					float: left; 
-					padding : 1em 1%;
+					padding : 2em 1.5em;
+					color : #969696;
+
+					a{
+						color : #969696;
+					}
+				}
+
+				&:nth-child(2){
+					color : black;
+				}
+
+				#navLogo{
+					padding : .8em 1.5em;
+					
+
+					img{
+						height : 3.2em;
+					}
 				}
 			}
 		}
@@ -90,24 +141,61 @@ body, html{
 		.titleContainers{
 			width: 100%; 
 			text-align: center; 
+			padding : 2em 0;
 		}
 	}
 
 	.topHero{
 		.copy{
 			padding : 20% 0 0 15%;
+			width : 30%;
+			color : white;
+
+			h1{
+				margin-bottom: .5em;  
+			}
+
+			p{
+				margin-bottom: 1em;   
+			}
 		}
 	}
 
+	.homeHero{
+		background-image: url("../assets/home/2_HERO/hero_pix.jpg"); 
+		background-size: cover; 
+	}
+
 	.about{
+		width : 80%; 
+		margin : 0 auto;
+
 		.aboutHero{
-			position: absolute;
+			margin-top: -6em; 
+			width : 60%;
+			float: left; 
+
+			img{
+				width : 100%;
+			}
 		}
 
 		.aboutCopyContainer{
 			float: right; 
-			padding: 10% 20% 0 0;
-			width: 25%;  
+			padding: 10% 10% 0 0;
+			width: 30%;
+
+			ol{
+				font-family: proximaNovaBold;
+				color: #f37920;
+				font-size: .7em;
+				margin: 1.5em 0;
+				line-height: 1.7em; 
+			} 
+
+			img{
+				width : 80%;
+			} 
 		}
 	}
 
@@ -119,18 +207,233 @@ body, html{
 
 			ul{
 				li{
-					width : 100%;
+					width : 70%;
+					margin: 0 auto;
+					padding-top: 4em;
+					clear: both;
 
 					.copy{
-						width : 50%; 
+						width : 30%; 
+
+						img{
+							width: 20%; 
+							margin-bottom: 1em;
+						}
 					}
 
 					.hero{
-						width : 50%; 
+						width : 40%; 
+
+						img{
+							width: 100%; 
+						}
 					}
 					
 				}
+
+				.right{
+					margin-right: 3em;
+				} 
+
+				.left{
+					margin-left: 3em;
+				}
 			}
+		}
+	}
+
+	.carosel{
+		background: #f1f1f1; 
+
+		.caroselContainer{
+			width : inherit;
+			height: inherit;
+			overflow: hidden; 
+
+			.absoluteContainer{
+				width : 200%;
+				height : 80%; 
+				ul{
+					overflow: hidden; 
+					width: auto;
+					height: inherit;
+					li{
+						height : 100%;
+						float : left;
+
+						img{
+							height : 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.wrapIsAbout{
+		height : 60%;
+		background: #515151;
+
+		.titleContainers{
+			h1{
+				color: white;
+			}
+		}
+
+		.wrapIsAboutContainer{
+			width : 64%;
+			height : inherit;
+			margin: 0 auto; 
+
+			ul{
+				width : 100%;
+				height : inherit;
+				li{
+					width: 25%; 
+					float : left;
+					margin : 0 2em;
+
+					h2{
+						font-size: 1.2em; 
+						line-height: 1.3em;
+						color : white;
+					}
+
+					p{
+						color: white; 
+						font-size: .7em; 
+						line-height: 1.5em; 
+						margin-bottom: 1em; 
+					}
+
+					span{
+						font-family: proximaNovaBold;
+						font-size : .7em;
+						color: #f37920;
+					}
+
+					img{
+						height : 40px;
+						margin-bottom: 1em; 
+					}
+				}
+			}
+		}
+	}
+
+	.heroCareers{
+		background-image: url("../assets/careers/HERO/hero_careers.jpg"); 
+		background-size: cover;
+
+		.copy{
+			width : 40%;
+
+			h1{
+				width: 100%;
+			}
+		}
+	}
+
+	.careersContainer{
+		height: auto; 
+
+		.careerNavigation{
+			width : inherit;
+
+			ul{
+				width : 19em;
+				margin: 0 auto; 
+				li{
+					float : left; 
+					margin : 3em 1em;
+					font-family: proximaNovaBold;
+					color : #969696;
+					text-transform: uppercase;
+					font-size: .7em; 
+				}
+			}
+		}
+
+		.contentContainer{
+			clear : both;
+
+			.careerContentContainer{
+				padding: 3em 12em; 
+
+				.jobOpenings{
+					width: 40%; 
+
+					h2{
+						font-size: 1.7em;
+						margin-bottom: 1em; 
+						line-height: 1.2em;
+					}
+
+					.sections{
+						margin-bottom: 3em; 
+
+						h2{
+							font-size: 1.3em; 
+							color: rgb(156,197,71);
+						}
+
+						h5{
+							font-family: proximaNova;
+							font-size: .5em; 
+							color: #f37920;
+							text-transform: uppercase;
+							margin-bottom: .2em;
+						}
+
+						h4{
+							font-family: proximaNovaBold;
+							font-size: .8em; 
+							color: black;
+							text-transform: uppercase;
+							margin-bottom: 2em;
+						}
+					}
+				}
+
+				.jobDescriptions{
+					width: 50%;
+
+					.sections{
+						margin-bottom: 3em;
+
+						h2,{
+							font-size: 1.7em;
+							margin-bottom: 1em; 
+							line-height: 1.2em;
+						}
+
+						p{
+							font-size: .7em; 
+							line-height: 1.3em;
+						}
+
+						ul{
+							margin: 1em 1em; 
+							li{
+								font-family: proximaNova;
+								font-size: .7em; 
+								line-height: 1.2em;
+								list-style: disc; 
+								margin-bottom: .3em;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.finePrint{
+			width: 70%; 
+			clear: both;
+			margin: 2em auto;
+			font-family: proximaNova;
+			font-size: .5em; 
+			line-height: .9em; 
 		}
 	}
 
@@ -138,7 +441,7 @@ body, html{
 		background : #333;
 
 		.footerContainer{
-			padding : 5% 20%;
+			padding : 5% 21%;
 			height: 10em;
 		}
 
@@ -148,8 +451,10 @@ body, html{
 
 			ul{
 				li{
+					font-family: proximaNovaBold;
+					font-size : .7em;
 					color: #908f8f;
-					padding-bottom: .5em;
+					padding-bottom: 1em;
 					text-transform: uppercase;
 
 					&:first-child{

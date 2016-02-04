@@ -111,6 +111,24 @@
 				<span class="formDescriptions">Voluntary contributors? Exmples include pro bono and charity work</span>
 				<input id="voluntaryContributors" type="textArea" />
 			</div>
+			<div class="field">
+				<span class="formDescriptions">Work Status<span class="orange">*</span></span>
+				<ul>
+					<li><input id="usCitizen" type="checkBox" /> US Citizen</li>
+					<li><input id="greenCard" type="checkBox" /> Perminant Resident / Green Card</li>
+					<li><input id="h1" type="checkBox" /> H1 Visa</li>
+					<li><input id="f1" type="checkBox" /> F1 Visa</li>
+					<li><input id="tn1" type="checkBox" /> TN1 Visa</li>	
+				</ul>
+
+				
+			</div>
+			<div class="field">
+				<span class="headlineBold">Lorem ipsum dolor sit amet, consectetur</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
 		</form>
 	</div>
 </section>
