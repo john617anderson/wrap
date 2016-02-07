@@ -15,11 +15,11 @@ experiences customized to your audience.
 		</div>
 	</div>
 </section>
-<section class="module about">
-	<div class="aboutHero">
+<section class="module homeAbout">
+	<div class="homeAboutHero">
 		<img src="assets/home/3_WHAT_IS_A_WRAP/phone_group_1.png" />
 	</div>
-	<div class="aboutCopyContainer">
+	<div class="homeAboutCopyContainer">
 		<h2>What is a wrap?</h2>
 		<p>ncrease user engagement and drive improved 
 your, eaque ipsa quae ab illo inventore tatis et 
@@ -113,7 +113,7 @@ quasi architecto beatae vitae explicabo.
 		</ul>
 	</div>
 </section>
-<section class="module wrapIsAbout">
+<section class="module subFooter subFooterHome wrapIsAbout">
 	<div class="titleContainers">
 		<h1>wrap is about engagement</h1>
 		<p>Wrap enables new ways of doing business that increase customer loyalty and deliver unprecedented value.</p>
@@ -121,7 +121,10 @@ quasi architecto beatae vitae explicabo.
 	<div class="wrapIsAboutContainer">
 		<ul>
 			<li>
-				<img src="assets/home/6_ENGAGEMENT/neiman_marcus_logo.png" />	
+				<div class="subImageContainer home">
+					<img src="assets/home/6_ENGAGEMENT/neiman_marcus_logo.png" />
+				</div>
+					
 				<h2>9% clicked shop now</h2>
 				<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
@@ -129,7 +132,9 @@ quasi architecto beatae vitae explicabo.
 				<span>learn more</span>	
 			</li>
 			<li>
-				<img src="assets/home/6_ENGAGEMENT/loverly_logo.png" />	
+				<div class="subImageContainer home">
+					<img src="assets/home/6_ENGAGEMENT/loverly_logo.png" />
+				</div>	
 				<h2>56% clicked on trial</h2>
 				<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.
@@ -137,7 +142,9 @@ quasi architecto beatae vitae explicabo.
 				<span>learn more</span>	
 			</li>
 			<li>
-				<img src="assets/home/6_ENGAGEMENT/ancestry_logo.png" />	
+				<div class="subImageContainer home">
+					<img src="assets/home/6_ENGAGEMENT/ancestry_logo.png" />
+				</div>		
 				<h2>3 minute session</h2>
 				<p>ipsa quae ab illo inventore tatis et 
 quasi architecto beatae vitae explicabo.

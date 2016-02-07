@@ -5,9 +5,13 @@
 
 @import "compass/reset";
 
+
+
 /* 
-////// Global //////////
+////////////////////////// Global /////////////////////////////////
 */
+
+
 
 @font-face {
     font-family: proximaNova;
@@ -19,7 +23,7 @@
     src: url('../fonts/proximaNova/Proxima-Nova-Bold.otf');
 }
 
-h1,h2,h3,h4,p,span,ol{
+h1,h2,h3,h4,h5,p,span,ol{
 	font-family: proximaNova;
 }
 
@@ -34,6 +38,10 @@ h2{
 	font-size: 1.5em; 
 	text-transform: uppercase;
 	margin-bottom: .5em; 
+}
+
+h4{
+	font-family: proximaNovaBold;
 }
 
 p{
@@ -84,6 +92,7 @@ body, html{
 		width: inherit;
 		background : white;
 		min-height: 3em; 
+		z-index: 999;
 
 		.leftNav, .rightNav{
 			float : left;
@@ -145,14 +154,30 @@ body, html{
 		}
 	}
 
+	.largeContainer{
+		display: block;
+		height : auto;
+		clear : both;
+		overflow: auto;
+
+		.contentContainer{
+			width : 70%; 
+			margin : 3em auto;
+			position: relative;
+		}
+	}
+
 	.topHero{
+		background-size: cover; 
+
 		.copy{
 			padding : 20% 0 0 15%;
-			width : 30%;
+			width : 40%;
 			color : white;
 
 			h1{
-				margin-bottom: .5em;  
+				margin-bottom: .5em;
+				height: 100%;  
 			}
 
 			p{
@@ -161,16 +186,116 @@ body, html{
 		}
 	}
 
-	.homeHero{
-		background-image: url("../assets/home/2_HERO/hero_pix.jpg"); 
-		background-size: cover; 
+	.shortHero{
+		height: 75%; 
+
+		.copy{
+			padding : 16% 0 0 15%;
+		}
 	}
 
-	.about{
+	.subFooter{
+		height : 70%;
+		background: #515151;
+		overflow: auto;
+
+		.titleContainers{
+			h1{
+				color: white;
+			}
+
+			span{
+				font-family: proximaNovaBold;
+				font-size : .7em;
+				color: #f37920;
+			}
+		}
+
+		.wrapIsAboutContainer{
+			width : 64%;
+			height : inherit;
+			margin: 0 auto; 
+
+			ul{
+				width : 100%;
+				height : inherit;
+				li{
+					width: 25%; 
+					float : left;
+					margin : 0 2em;
+					text-align: center;
+
+					h2{
+						font-size: 1.2em; 
+						line-height: 1.3em;
+						color : white;
+					}
+
+					p{
+						color: white; 
+						font-size: .7em; 
+						line-height: 1.5em; 
+						margin-bottom: 1em; 
+					}
+
+					span{
+						font-family: proximaNovaBold;
+						font-size : .7em;
+						color: #f37920;
+					}
+					.subImageContainer{
+						padding : 0 20%;
+						min-height: 10em; 
+
+						img{
+							width : 100% 
+						}
+					}
+
+					.home{
+						min-height: 4em; 
+					}
+
+					.collab{
+						padding : 0 10%;
+					}
+					
+				}
+			}
+		}
+	}
+
+	.subFooterHome{
+		height: 60%; 
+	}
+
+	/* 
+		////////////////////////// HEROS /////////////////////////////////
+	*/
+
+	.homeHero{
+		background-image: url("../assets/home/2_HERO/hero_pix.jpg"); 
+		
+	}
+
+	.heroAbout{
+		background-image: url("../assets/about/1_HERO/about_hero_pix.jpg"); 
+		
+	}
+
+	.heroCareers{
+		background-image: url("../assets/careers/HERO/hero_careers.jpg"); 
+	}
+
+	/* 
+		////////////////////////// HOME /////////////////////////////////
+	*/
+
+	.homeAbout{
 		width : 80%; 
 		margin : 0 auto;
 
-		.aboutHero{
+		.homeAboutHero{
 			margin-top: -6em; 
 			width : 60%;
 			float: left; 
@@ -180,7 +305,7 @@ body, html{
 			}
 		}
 
-		.aboutCopyContainer{
+		.homeAboutCopyContainer{
 			float: right; 
 			padding: 10% 10% 0 0;
 			width: 30%;
@@ -271,6 +396,7 @@ body, html{
 	}
 
 	.wrapIsAbout{
+		/* 
 		height : 60%;
 		background: #515151;
 
@@ -319,24 +445,76 @@ body, html{
 				}
 			}
 		}
+		*/
 	}
 
-	.heroCareers{
-		background-image: url("../assets/careers/HERO/hero_careers.jpg"); 
-		background-size: cover;
 
-		.copy{
-			width : 40%;
+	/* 
+		////////////////////////// ABOUT /////////////////////////////////
+	*/
 
-			h1{
-				width: 100%;
+	.aboutContainer{
+		display: block; 
+		height : auto;
+
+		.contentContainer{
+			display: block; 
+
+			.aboutPeopleSectionContainer{
+				margin: 2em 0;
+				clear : both;
+				width: 100%; 
+
+				.aboutPeopleContainer{
+					position: relative;
+					margin: 2em 0; 			
+					width: 100%; 
+					overflow: auto;
+
+					ul{
+						height: inherit;
+
+						li{
+							float : left;
+							width : 18%; 
+							padding : 0 1.8% 1% 0;
+							min-height: 100px; 
+							text-align: center; 
+
+							img{
+								width: 100%; 
+							}
+
+							h4{
+								text-transform: uppercase;
+								font-size: 80%; 
+								margin : 1% 0;
+							}
+
+							h5{
+								text-transform: uppercase;
+								text-align: center; 
+								font-size: 70%; 
+							}
+						}
+
+						.investors{
+							width: 100%; 
+						}
+					}
+				}
+
 			}
 		}
 	}
 
-	.careersContainer{
-		height: auto; 
+	/* 
+		////////////////////////// CAREERS /////////////////////////////////
+	*/
 
+
+
+	.careersContainer{
 		.careerNavigation{
 			width : inherit;
 
@@ -357,70 +535,66 @@ body, html{
 		.contentContainer{
 			clear : both;
 
-			.careerContentContainer{
-				padding: 3em 12em; 
+			.jobOpenings{
+				width: 40%; 
 
-				.jobOpenings{
-					width: 40%; 
+				h2{
+					font-size: 1.7em;
+					margin-bottom: 1em; 
+					line-height: 1.2em;
+				}
+
+				.sections{
+					margin-bottom: 3em; 
 
 					h2{
+						font-size: 1.3em; 
+						color: rgb(156,197,71);
+					}
+
+					h5{
+						font-family: proximaNova;
+						font-size: .5em; 
+						color: #f37920;
+						text-transform: uppercase;
+						margin-bottom: .2em;
+					}
+
+					h4{
+						font-family: proximaNovaBold;
+						font-size: .8em; 
+						color: black;
+						text-transform: uppercase;
+						margin-bottom: 2em;
+					}
+				}
+			}
+
+			.jobDescriptions{
+				width: 50%;
+
+				.sections{
+					margin-bottom: 3em;
+
+					h2,{
 						font-size: 1.7em;
 						margin-bottom: 1em; 
 						line-height: 1.2em;
 					}
 
-					.sections{
-						margin-bottom: 3em; 
-
-						h2{
-							font-size: 1.3em; 
-							color: rgb(156,197,71);
-						}
-
-						h5{
-							font-family: proximaNova;
-							font-size: .5em; 
-							color: #f37920;
-							text-transform: uppercase;
-							margin-bottom: .2em;
-						}
-
-						h4{
-							font-family: proximaNovaBold;
-							font-size: .8em; 
-							color: black;
-							text-transform: uppercase;
-							margin-bottom: 2em;
-						}
+					p{
+						font-size: .7em; 
+						line-height: 1.3em;
 					}
-				}
 
-				.jobDescriptions{
-					width: 50%;
-
-					.sections{
-						margin-bottom: 3em;
-
-						h2,{
-							font-size: 1.7em;
-							margin-bottom: 1em; 
-							line-height: 1.2em;
-						}
-
-						p{
+					ul{
+						margin: 1em 1em; 
+						li{
+							font-family: proximaNova;
 							font-size: .7em; 
-							line-height: 1.3em;
-						}
-
-						ul{
-							margin: 1em 1em; 
-							li{
-								font-family: proximaNova;
-								font-size: .7em; 
-								line-height: 1.2em;
-								list-style: disc; 
-								margin-bottom: .3em;
-							}
+							line-height: 1.2em;
+							list-style: disc; 
+							margin-bottom: .3em;
 						}
 					}
 				}
