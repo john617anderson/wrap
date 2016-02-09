@@ -71,6 +71,10 @@ a{
 	float: right; 
 }
 
+.white{
+	color: white; 
+}
+
 /* 
 ////// Global //////////
 */
@@ -96,7 +100,7 @@ body, html{
 
 		.leftNav, .rightNav{
 			float : left;
-			width: 40%; 
+			width: 45%; 
 			padding : 0 0 0 10%;
 
 			ul{
@@ -131,6 +135,7 @@ body, html{
 		}
 
 		.rightNav{
+			width: 30%; 
 			float : right;
 			padding : 0 5% 0 0;
 			ul{
@@ -187,11 +192,15 @@ body, html{
 	}
 
 	.shortHero{
-		height: 75%; 
+		height: 70%; 
 
 		.copy{
 			padding : 16% 0 0 15%;
 		}
+	}
+
+	.greenBack{
+		background: #9cc737;
 	}
 
 	.subFooter{
@@ -504,6 +513,90 @@ body, html{
 					}
 				}
 
+			}
+		}
+	}
+
+	/* 
+		////////////////////////// CONTACT /////////////////////////////////
+	*/
+
+	.contactContainer{
+		.contentContainer{
+			height: auto; 
+			overflow: auto; 
+
+			.addressContainer, questionsContainer{
+				width : 20%;
+
+				h2{
+					margin-bottom: 1em; 
+				}
+
+				ol, p{
+					color : #646464;
+					font-size: .8em; 
+					margin-bottom: .2em; 
+
+					a{
+						color: #f37920;
+					}
+				}
+			}
+
+			.map, .form{
+				width : 70%;
+				height: inherit;
+
+				.mapIframe{
+					width : 100%; 
+					height : 25em; 
+				}
+
+				form{
+					width: 100%; 
+
+					.field{
+						width: inherit;
+
+						.formDescriptions{
+							font-size: .7em; 
+							width: 50%;
+							margin-bottom: .3em 
+						}
+
+						input{
+							clear : both;
+							width: 96%; 
+							padding : .7em;
+							margin-bottom: .5em; 
+						}
+
+						textarea{
+							width: 96%; 
+							padding : .7em;
+							border: 1px solid #ddd;
+							height : 8em;
+							margin-bottom: 2em; 
+						}
+
+						.required{
+							text-align: right; 
+
+						}
+
+						.orange{
+							color: #f37920;
+						}
+					}
+				}
+			}
+
+			.questionsContainer{
+				clear: both; 
+				margin-top: 30em; 
+				border-top : 1px solid #646464;
+				padding-top : 5em;
 			}
 		}
 	}

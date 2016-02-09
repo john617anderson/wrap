@@ -6,6 +6,7 @@
 			<li>create</li>
 			<li><a href="index.php?section=about">about</a></li>
 			<li><a href="index.php?section=careers">careers</a></li>
+			<li><a href="index.php?section=contact">contact</a></li>
 		</ul>
 	</div>
 	<div class="rightNav">

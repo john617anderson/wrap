@@ -1,4 +1,4 @@
-<section class="topHero jobOpening">
+<section class="topHero greenBack jobOpening">
 	<div class="heroContainer">
 		<h7>San Francisco</h7>
 		<h1>Head of Customer Sucess</h1>
