@@ -7,24 +7,21 @@
 		</div>
 		<div class="column">
 			<ul>
+				<li>explore</li>
 				<li>create</li>
-				<li>page one</li>
-				<li>page two</li>
 			</ul>
 		</div>
 		<div class="column">
 			<ul>
-				<li>about</li>
-				<li>our team</li>
 				<li>careers</li>
+				<li>about</li>
 				<li>contact</li>
 			</ul>
 		</div>
 		<div class="column">
 			<ul>
-				<li>category</li>
-				<li>page one</li>
-				<li>page two</li>
+				<li>log in</li>
+				<li>sign up</li>
 			</ul>
 		</div>
 	</div>

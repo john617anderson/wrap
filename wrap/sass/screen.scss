@@ -100,8 +100,8 @@ body, html{
 
 		.leftNav, .rightNav{
 			float : left;
-			width: 45%; 
-			padding : 0 0 0 10%;
+			width: 55%; 
+			padding : 0 0 0 9%;
 
 			ul{
 				li{
@@ -142,6 +142,12 @@ body, html{
 				li{
 					float: right; 
 				}
+
+				.free{
+					    color: white;
+					    margin: 1em 0;
+					    padding: 1em 1.7em;
+				}
 			}
 		}
 	}
@@ -155,7 +161,7 @@ body, html{
 		.titleContainers{
 			width: 100%; 
 			text-align: center; 
-			padding : 2em 0;
+			padding : 3em 0;
 		}
 	}
 
@@ -174,10 +180,11 @@ body, html{
 
 	.topHero{
 		background-size: cover; 
+		background-position: 0 3em; 
 
 		.copy{
 			padding : 20% 0 0 15%;
-			width : 40%;
+			width : 35%;
 			color : white;
 
 			h1{
@@ -192,10 +199,10 @@ body, html{
 	}
 
 	.shortHero{
-		height: 70%; 
+		height: 65%; 
 
 		.copy{
-			padding : 16% 0 0 15%;
+			padding : 14% 0 0 15%;
 		}
 	}
 
@@ -294,6 +301,10 @@ body, html{
 
 	.heroCareers{
 		background-image: url("../assets/careers/HERO/hero_careers.jpg"); 
+	}
+
+	.heroExplore{
+		background-image: url("../assets/explore/HERO/hero_explore.jpg"); 
 	}
 
 	/* 
@@ -513,6 +524,63 @@ body, html{
 					}
 				}
 
+			}
+		}
+	}
+
+	/* 
+		////////////////////////// EXPLORE /////////////////////////////////
+	*/
+
+	.cardNavigation{
+		margin-left: 15%; 
+		width : 100%;
+		margin-top: -2.4em; 
+		position: absolute;
+		z-index: 9999; 
+
+		.cardTitle{
+			float: left; 
+			margin-right: .2em; 
+			background: rgba(63, 63, 67, .7); 
+			color : rgba(175, 175, 175, 1);
+			font-family: proximaNovaBold;
+			text-transform: uppercase;
+			font-size: .6em; 
+			padding : 1.5em 3em;
+
+			&:first-child{
+				background: white; 
+				color: rgba(175, 175, 175, 1); 
+			}
+		} 
+
+		
+	}
+
+	.exploreContainer{
+		.contentContainer{
+			margin: 0em auto; 
+
+			.wrapCoverContainer{
+				width: 100%; 
+				height : inherit;
+
+				.personal{
+					width: inherit; 
+					height: inherit;
+
+					.card{
+						float: left; 
+						width : 23%;
+						padding : 1%;
+
+						img{
+							width: 100%;
+							min-height: 315px;  
+						}
+					}
+				}
 			}
 		}
 	}
