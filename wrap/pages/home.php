@@ -91,7 +91,7 @@ puts mobile storytelling within anyone’s reach.
 
 			<li>
 				<div class="hero right">
-					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_monitor.jpg" />	
+					<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_a.jpg" />	
 				</div>
 				<div class="copy right">
 					<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_icon.jpg" />	
@@ -105,7 +105,7 @@ your audience uses Mobile smart devices every day.
 
 			<li>
 				<div class="hero left">
-					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_monitor.jpg" />	
+					<img class="size" src="assets/home/5_HOW_DOES_WRAP_WORK/engage.png" />	
 				</div>
 				<div class="copy right">
 					<img src="assets/home/5_HOW_DOES_WRAP_WORK/engage_icon.jpg" />	
@@ -119,7 +119,7 @@ reach.
 
 			<li>
 				<div class="hero right">
-					<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_monitor.jpg" />	
+					<img class="size" src="assets/home/5_HOW_DOES_WRAP_WORK/authoring_laptop.jpg" />	
 				</div>
 				<div class="copy left">
 					<img src="assets/home/5_HOW_DOES_WRAP_WORK/manage_icon.jpg" />	

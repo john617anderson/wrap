@@ -211,9 +211,9 @@ body, html{
 	}
 
 	.subFooter{
-		height : 70%;
+		margin-top: 80em;
+		height : 80%;
 		background: #515151;
-		overflow: auto;
 
 		.titleContainers{
 			h1{
@@ -345,7 +345,7 @@ body, html{
 		width : inherit;
 
 		.howDoesItWorkContainer{
-			width : inherit;
+			width : inherit; 
 
 			ul{
 				li{
@@ -368,6 +368,10 @@ body, html{
 
 						img{
 							width: 100%; 
+						}
+
+						.size{
+							width: 130%;
 						}
 					}
 					
@@ -402,7 +406,7 @@ body, html{
 					height: inherit;
 
 					.card{
-						width : 12%;
+						width : 10%;
 						float : left;
 
 						.wrap-media-embed{
