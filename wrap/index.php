@@ -1,10 +1,5 @@
 <?php
-
-	if(isset($_GET['section'])){
-		$section = $_GET['section']; 
-	}else{
-		$section = "null";
-	}
+	(isset($_GET['section'])) ? $section = $_GET['section'] : $section = "null";
 ?>
 
 <!DOCTYPE html>
@@ -30,3 +25,8 @@
 		</div>
 	</body>
 </html>
+
+<?php
+	if($section == "null" || $section == "explore")
+	echo '<script src="https://wrap.co/embed/bootstrap.js" async defer></script>';
+?>

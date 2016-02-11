@@ -13,7 +13,7 @@
 		<ul>
 			<li class="orangeButton free">free trial</li>
 			<li>sign up</li>
-			<li>login</li>
+			<li id="login">login</li>
 		</ul>
 	</div>
 </div>

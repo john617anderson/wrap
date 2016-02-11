@@ -359,48 +359,44 @@ body, html {
 #wrapper .subFooter .wrapIsAboutContainer ul li .collab {
   padding: 0 10%;
 }
-/* line 284, ../sass/screen.scss */
-#wrapper .subFooterHome {
-  height: 60%;
-}
-/* line 292, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 #wrapper .homeHero {
   background-image: url("../assets/home/2_HERO/hero_pix.jpg");
 }
-/* line 297, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 #wrapper .heroAbout {
   background-image: url("../assets/about/1_HERO/about_hero_pix.jpg");
 }
-/* line 302, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 #wrapper .heroCareers {
   background-image: url("../assets/careers/HERO/hero_careers.jpg");
 }
-/* line 306, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 #wrapper .heroExplore {
   background-image: url("../assets/explore/HERO/hero_explore.jpg");
 }
-/* line 314, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 #wrapper .homeAbout {
   width: 80%;
   margin: 0 auto;
 }
-/* line 318, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 #wrapper .homeAbout .homeAboutHero {
   margin-top: -6em;
   width: 60%;
   float: left;
 }
-/* line 323, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 #wrapper .homeAbout .homeAboutHero img {
   width: 100%;
 }
-/* line 328, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 #wrapper .homeAbout .homeAboutCopyContainer {
   float: right;
   padding: 10% 10% 0 0;
   width: 30%;
 }
-/* line 333, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 #wrapper .homeAbout .homeAboutCopyContainer ol {
   font-family: proximaNovaBold;
   color: #f37920;
@@ -408,81 +404,81 @@ body, html {
   margin: 1.5em 0;
   line-height: 1.7em;
 }
-/* line 341, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 #wrapper .homeAbout .homeAboutCopyContainer img {
   width: 80%;
 }
-/* line 347, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 #wrapper .howDoesItWork {
   width: inherit;
 }
-/* line 350, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer {
   width: inherit;
 }
-/* line 354, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul li {
   width: 70%;
   margin: 0 auto;
   padding-top: 4em;
   clear: both;
 }
-/* line 360, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul li .copy {
   width: 30%;
 }
-/* line 363, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul li .copy img {
   width: 20%;
   margin-bottom: 1em;
 }
-/* line 369, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul li .hero {
   width: 40%;
 }
-/* line 372, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul li .hero img {
   width: 100%;
 }
-/* line 379, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul .right {
   margin-right: 3em;
 }
-/* line 383, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 #wrapper .howDoesItWork .howDoesItWorkContainer ul .left {
   margin-left: 3em;
 }
-/* line 390, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 #wrapper .carosel {
   background: #f1f1f1;
 }
-/* line 393, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer {
   width: inherit;
   height: inherit;
   overflow: hidden;
 }
-/* line 398, ../sass/screen.scss */
+/* line 395, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .absoluteContainer {
   width: 200%;
   height: 80%;
 }
-/* line 401, ../sass/screen.scss */
-#wrapper .carosel .caroselContainer .absoluteContainer ul {
+/* line 399, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer .absoluteContainer .cardContainer {
   overflow: hidden;
   width: auto;
   height: inherit;
 }
-/* line 405, ../sass/screen.scss */
-#wrapper .carosel .caroselContainer .absoluteContainer ul li {
-  height: 100%;
+/* line 404, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer .absoluteContainer .cardContainer .card {
+  width: 12%;
   float: left;
 }
-/* line 409, ../sass/screen.scss */
-#wrapper .carosel .caroselContainer .absoluteContainer ul li img {
-  height: 100%;
+/* line 408, ../sass/screen.scss */
+#wrapper .carosel .caroselContainer .absoluteContainer .cardContainer .card .wrap-media-embed {
+  width: 100%;
 }
-/* line 418, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 #wrapper .wrapIsAbout {
   		/* 
   		height : 60%;
@@ -535,33 +531,33 @@ body, html {
   		}
   		*/
 }
-/* line 476, ../sass/screen.scss */
+/* line 475, ../sass/screen.scss */
 #wrapper .aboutContainer {
   display: block;
   height: auto;
 }
-/* line 480, ../sass/screen.scss */
+/* line 479, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer {
   display: block;
 }
-/* line 483, ../sass/screen.scss */
+/* line 482, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer {
   margin: 2em 0;
   clear: both;
   width: 100%;
 }
-/* line 488, ../sass/screen.scss */
+/* line 487, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer {
   position: relative;
   margin: 2em 0;
   width: 100%;
   overflow: auto;
 }
-/* line 494, ../sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul {
   height: inherit;
 }
-/* line 497, ../sass/screen.scss */
+/* line 496, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li {
   float: left;
   width: 18%;
@@ -569,27 +565,27 @@ body, html {
   min-height: 100px;
   text-align: center;
 }
-/* line 504, ../sass/screen.scss */
+/* line 503, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li img {
   width: 100%;
 }
-/* line 508, ../sass/screen.scss */
+/* line 507, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li h4 {
   text-transform: uppercase;
   font-size: 80%;
   margin: 1% 0;
 }
-/* line 514, ../sass/screen.scss */
+/* line 513, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li h5 {
   text-transform: uppercase;
   text-align: center;
   font-size: 70%;
 }
-/* line 521, ../sass/screen.scss */
+/* line 520, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul .investors {
   width: 100%;
 }
-/* line 535, ../sass/screen.scss */
+/* line 534, ../sass/screen.scss */
 #wrapper .cardNavigation {
   margin-left: 15%;
   width: 100%;
@@ -597,7 +593,7 @@ body, html {
   position: absolute;
   z-index: 9999;
 }
-/* line 542, ../sass/screen.scss */
+/* line 541, ../sass/screen.scss */
 #wrapper .cardNavigation .cardTitle {
   float: left;
   margin-right: .2em;
@@ -608,91 +604,90 @@ body, html {
   font-size: .6em;
   padding: 1.5em 3em;
 }
-/* line 552, ../sass/screen.scss */
+/* line 551, ../sass/screen.scss */
 #wrapper .cardNavigation .cardTitle:first-child {
   background: white;
   color: #afafaf;
 }
-/* line 562, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer {
   margin: 0em auto;
 }
-/* line 565, ../sass/screen.scss */
+/* line 564, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer {
   width: 100%;
   height: inherit;
 }
-/* line 569, ../sass/screen.scss */
+/* line 568, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer .personal {
   width: inherit;
   height: inherit;
 }
-/* line 573, ../sass/screen.scss */
+/* line 572, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer .personal .card {
   float: left;
-  width: 23%;
-  padding: 1%;
+  width: 24%;
+  padding: .5%;
 }
-/* line 578, ../sass/screen.scss */
-#wrapper .exploreContainer .contentContainer .wrapCoverContainer .personal .card img {
+/* line 577, ../sass/screen.scss */
+#wrapper .exploreContainer .contentContainer .wrapCoverContainer .personal .card img, #wrapper .exploreContainer .contentContainer .wrapCoverContainer .personal .card .wrap-media-embed {
   width: 100%;
-  min-height: 315px;
 }
-/* line 593, ../sass/screen.scss */
+/* line 591, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer {
   height: auto;
   overflow: auto;
 }
-/* line 597, ../sass/screen.scss */
+/* line 595, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer, #wrapper .contactContainer .contentContainer questionsContainer {
   width: 20%;
 }
-/* line 600, ../sass/screen.scss */
+/* line 598, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer h2, #wrapper .contactContainer .contentContainer questionsContainer h2 {
   margin-bottom: 1em;
 }
-/* line 604, ../sass/screen.scss */
+/* line 602, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer ol, #wrapper .contactContainer .contentContainer .addressContainer p, #wrapper .contactContainer .contentContainer questionsContainer ol, #wrapper .contactContainer .contentContainer questionsContainer p {
   color: #646464;
   font-size: .8em;
   margin-bottom: .2em;
 }
-/* line 609, ../sass/screen.scss */
+/* line 607, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer ol a, #wrapper .contactContainer .contentContainer .addressContainer p a, #wrapper .contactContainer .contentContainer questionsContainer ol a, #wrapper .contactContainer .contentContainer questionsContainer p a {
   color: #f37920;
 }
-/* line 615, ../sass/screen.scss */
+/* line 613, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map, #wrapper .contactContainer .contentContainer .form {
   width: 70%;
   height: inherit;
 }
-/* line 619, ../sass/screen.scss */
+/* line 617, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map .mapIframe, #wrapper .contactContainer .contentContainer .form .mapIframe {
   width: 100%;
   height: 25em;
 }
-/* line 624, ../sass/screen.scss */
+/* line 622, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form, #wrapper .contactContainer .contentContainer .form form {
   width: 100%;
 }
-/* line 627, ../sass/screen.scss */
+/* line 625, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field, #wrapper .contactContainer .contentContainer .form form .field {
   width: inherit;
 }
-/* line 630, ../sass/screen.scss */
+/* line 628, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field .formDescriptions, #wrapper .contactContainer .contentContainer .form form .field .formDescriptions {
   font-size: .7em;
   width: 50%;
   margin-bottom: 0.3em;
 }
-/* line 636, ../sass/screen.scss */
+/* line 634, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field input, #wrapper .contactContainer .contentContainer .form form .field input {
   clear: both;
   width: 96%;
   padding: .7em;
   margin-bottom: .5em;
 }
-/* line 643, ../sass/screen.scss */
+/* line 641, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field textarea, #wrapper .contactContainer .contentContainer .form form .field textarea {
   width: 96%;
   padding: .7em;
@@ -700,31 +695,31 @@ body, html {
   height: 8em;
   margin-bottom: 2em;
 }
-/* line 651, ../sass/screen.scss */
+/* line 649, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field .required, #wrapper .contactContainer .contentContainer .form form .field .required {
   text-align: right;
 }
-/* line 656, ../sass/screen.scss */
+/* line 654, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field .orange, #wrapper .contactContainer .contentContainer .form form .field .orange {
   color: #f37920;
 }
-/* line 663, ../sass/screen.scss */
+/* line 661, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .questionsContainer {
   clear: both;
   margin-top: 30em;
   border-top: 1px solid #646464;
   padding-top: 5em;
 }
-/* line 679, ../sass/screen.scss */
+/* line 677, ../sass/screen.scss */
 #wrapper .careersContainer .careerNavigation {
   width: inherit;
 }
-/* line 682, ../sass/screen.scss */
+/* line 680, ../sass/screen.scss */
 #wrapper .careersContainer .careerNavigation ul {
   width: 19em;
   margin: 0 auto;
 }
-/* line 685, ../sass/screen.scss */
+/* line 683, ../sass/screen.scss */
 #wrapper .careersContainer .careerNavigation ul li {
   float: left;
   margin: 3em 1em;
@@ -733,30 +728,30 @@ body, html {
   text-transform: uppercase;
   font-size: .7em;
 }
-/* line 696, ../sass/screen.scss */
+/* line 694, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer {
   clear: both;
 }
-/* line 699, ../sass/screen.scss */
+/* line 697, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings {
   width: 40%;
 }
-/* line 702, ../sass/screen.scss */
+/* line 700, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings h2 {
   font-size: 1.7em;
   margin-bottom: 1em;
   line-height: 1.2em;
 }
-/* line 708, ../sass/screen.scss */
+/* line 706, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections {
   margin-bottom: 3em;
 }
-/* line 711, ../sass/screen.scss */
+/* line 709, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections h2 {
   font-size: 1.3em;
   color: #9cc547;
 }
-/* line 716, ../sass/screen.scss */
+/* line 714, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections h5 {
   font-family: proximaNova;
   font-size: .5em;
@@ -764,7 +759,7 @@ body, html {
   text-transform: uppercase;
   margin-bottom: .2em;
 }
-/* line 724, ../sass/screen.scss */
+/* line 722, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections h4 {
   font-family: proximaNovaBold;
   font-size: .8em;
@@ -772,30 +767,30 @@ body, html {
   text-transform: uppercase;
   margin-bottom: 2em;
 }
-/* line 734, ../sass/screen.scss */
+/* line 732, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions {
   width: 50%;
 }
-/* line 737, ../sass/screen.scss */
+/* line 735, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections {
   margin-bottom: 3em;
 }
-/* line 740, ../sass/screen.scss */
+/* line 738, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections h2 {
   font-size: 1.7em;
   margin-bottom: 1em;
   line-height: 1.2em;
 }
-/* line 746, ../sass/screen.scss */
+/* line 744, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections p {
   font-size: .7em;
   line-height: 1.3em;
 }
-/* line 751, ../sass/screen.scss */
+/* line 749, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections ul {
   margin: 1em 1em;
 }
-/* line 753, ../sass/screen.scss */
+/* line 751, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections ul li {
   font-family: proximaNova;
   font-size: .7em;
@@ -803,7 +798,7 @@ body, html {
   list-style: disc;
   margin-bottom: .3em;
 }
-/* line 765, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 #wrapper .careersContainer .finePrint {
   width: 70%;
   clear: both;
@@ -812,21 +807,21 @@ body, html {
   font-size: .5em;
   line-height: .9em;
 }
-/* line 775, ../sass/screen.scss */
+/* line 773, ../sass/screen.scss */
 #wrapper .footer {
   background: #333;
 }
-/* line 778, ../sass/screen.scss */
+/* line 776, ../sass/screen.scss */
 #wrapper .footer .footerContainer {
   padding: 5% 21%;
   height: 10em;
 }
-/* line 783, ../sass/screen.scss */
+/* line 781, ../sass/screen.scss */
 #wrapper .footer .column {
   float: left;
   margin-right: 6em;
 }
-/* line 788, ../sass/screen.scss */
+/* line 786, ../sass/screen.scss */
 #wrapper .footer .column ul li {
   font-family: proximaNovaBold;
   font-size: .7em;
@@ -834,7 +829,7 @@ body, html {
   padding-bottom: 1em;
   text-transform: uppercase;
 }
-/* line 795, ../sass/screen.scss */
+/* line 793, ../sass/screen.scss */
 #wrapper .footer .column ul li:first-child {
   color: white;
 }

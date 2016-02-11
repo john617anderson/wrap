@@ -281,9 +281,6 @@ body, html{
 		}
 	}
 
-	.subFooterHome{
-		height: 60%; 
-	}
 
 	/* 
 		////////////////////////// HEROS /////////////////////////////////
@@ -398,16 +395,18 @@ body, html{
 			.absoluteContainer{
 				width : 200%;
 				height : 80%; 
-				ul{
+
+				.cardContainer{
 					overflow: hidden; 
 					width: auto;
 					height: inherit;
-					li{
-						height : 100%;
+
+					.card{
+						width : 12%;
 						float : left;
 
-						img{
-							height : 100%;
+						.wrap-media-embed{
+							width : 100%;
 						}
 					}
 				}
@@ -572,12 +571,11 @@ body, html{
 
 					.card{
 						float: left; 
-						width : 23%;
-						padding : 1%;
+						width : 24%;
+						padding : .5%;
 
-						img{
-							width: 100%;
-							min-height: 315px;  
+						img, .wrap-media-embed{
+							width: 100%; 
 						}
 					}
 				}
