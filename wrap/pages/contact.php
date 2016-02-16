@@ -1,7 +1,9 @@
 <section class="shortHero greenBack">
-	<div class="copy">
-		<h1 class="white">CONTACT US OR STOP ON BY</h1>
-	</div>
+	<div class="contentContainer heroContent">
+		<div class="copy">
+			<h1 class="white">CONTACT US OR STOP ON BY</h1>
+		</div>
+	</div>	
 </section>
 <section class="module largeContainer contactContainer">
 	<div class="contentContainer">

@@ -1,14 +1,16 @@
 <section class="module topHero shortHero heroAbout">
-	<div class="copy">
-		<h1>We are storytellers</h1>
-		<p>We are also creators, designers, thinkers, writers and
-we’re serious about delivering mobile user experiences
-that move you. 
-		</p>
-		<div class="orangeButton">
-			join us
+	<div class="contentContainer heroContent">
+		<div class="copy">
+			<h1>We are storytellers</h1>
+			<p>We are also creators, designers, thinkers, writers and
+	we’re serious about delivering mobile user experiences
+	that move you. 
+			</p>
+			<div class="orangeButton">
+				join us
+			</div>
 		</div>
-	</div>
+	</div>	
 </section>
 <section class="module largeContainer aboutContainer">
 	<div class="contentContainer">

@@ -1,7 +1,12 @@
 <div class="navContainer">
+	<div class="navImages hamburger">
+		<img src="assets/global/NAV/hamburger.png" />
+	</div>	
+	<div class="navImages navLogo">
+		<img src="assets/global/NAV/logo_horizontal.png" />
+	</div>
 	<div class="leftNav">
 		<ul>
-			<li id="navLogo"><img src="assets/global/NAV/logo_horizontal.png" /></li>
 			<li><a href="index.php">home</a></li>
 			<li><a href="index.php?section=explore">explore</a></li>
 			<li><a href="index.php?section=about">about</a></li>

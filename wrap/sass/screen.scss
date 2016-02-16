@@ -25,12 +25,14 @@
 
 h1,h2,h3,h4,h5,p,span,ol{
 	font-family: proximaNova;
+	color: #646464; 
 }
 
 h1{
 	font-family: proximaNova;
-	font-size: 2em; 
+	font-size: 2.3em; 
 	text-transform: uppercase;
+	color: white; 
 }
 
 h2{
@@ -41,11 +43,12 @@ h2{
 }
 
 h4{
-	font-family: proximaNovaBold;
+	font-family: proximaNovaBold; 
 }
 
 p{
-	line-height: 1.5em;
+	line-height: 1.6em;
+	font-size: 1em;
 }
 
 a{
@@ -54,7 +57,7 @@ a{
 
 .orangeButton{
 	font-family: proximaNovaBold;
-	font-size : .5em;
+	font-size : .6em;
 	background-color: #f37920;
 	color : white;
 	text-transform: uppercase;
@@ -90,20 +93,37 @@ body, html{
 	position: inherit;
 	width : inherit;
 	height : inherit;
+	overflow-x : hidden;
 
 	.navContainer{
 		position: fixed;
-		width: inherit;
+		width: 74%;
 		background : white;
 		min-height: 3em; 
 		z-index: 999;
+		padding: 0 13%; 
+
+		.navImages{
+			padding : .8em 1.5em;
+			float: left; 
+
+			 img{
+				height : 2.2em;
+			}
+		}
+
+		.hamburger{
+			display: none;
+		}
+
 
 		.leftNav, .rightNav{
-			float : left;
-			width: 55%; 
-			padding : 0 0 0 9%;
+			position: absolute;
+			width: 50%; 
 
 			ul{
+				width : 100%; 
+
 				li{
 					font-family: proximaNovaBold;
 					list-style: none; 
@@ -111,7 +131,7 @@ body, html{
 					text-transform: uppercase;
 					font-size: .7em; 
 					float: left; 
-					padding : 2em 1.5em;
+					padding : 2.4em 3%;
 					color : #969696;
 
 					a{
@@ -122,31 +142,28 @@ body, html{
 				&:nth-child(2){
 					color : black;
 				}
-
-				#navLogo{
-					padding : .8em 1.5em;
-					
-
-					img{
-						height : 3.2em;
-					}
-				}
 			}
 		}
 
+		.leftNav{
+			margin-left : 7.7em;
+		}
+
 		.rightNav{
-			width: 30%; 
-			float : right;
-			padding : 0 5% 0 0;
+			right : 15%; 
+			width: 25%; 
+
+
 			ul{
 				li{
 					float: right; 
+					padding : 2.4em 7%;
 				}
 
 				.free{
-					    color: white;
-					    margin: 1em 0;
-					    padding: 1em 1.7em;
+				    color: white;
+				    margin: 1.2em 0;
+				    padding: 1em 1.7em;
 				}
 			}
 		}
@@ -158,10 +175,43 @@ body, html{
 		float: none;
 		clear: both;
 
+		.contentContainer{
+			height: 100%; 
+			width: 70%; 
+			padding : 0 15%;
+			
+
+			.copy{
+				display: table-cell;
+				vertical-align: middle;
+				width : 35%;
+				color : white;
+
+				h1{
+					margin-bottom: .2em; 
+				}
+
+				p{
+					margin-bottom: 1em; 
+					width : 50%; 
+					color : white; 
+				}
+			}
+		}
+
+		.heroContent{
+			display: table;
+		}
+
 		.titleContainers{
 			width: 100%; 
 			text-align: center; 
 			padding : 3em 0;
+			
+
+			h1{
+				color: #646464; 
+			}
 		}
 	}
 
@@ -180,38 +230,19 @@ body, html{
 
 	.topHero{
 		background-size: cover; 
-		background-position: 0 3em; 
-
-		.copy{
-			padding : 20% 0 0 15%;
-			width : 35%;
-			color : white;
-
-			h1{
-				margin-bottom: .5em;
-				height: 100%;  
-			}
-
-			p{
-				margin-bottom: 1em;   
-			}
-		}
+		background-position: 0 3em;
+		display: table;
+		height: 100%;  
 	}
 
 	.shortHero{
-		height: 65%; 
-
-		.copy{
-			padding : 14% 0 0 15%;
-		}
-	}
-
-	.greenBack{
-		background: #9cc737;
+		height : 70%; 
+		width: 100%; 
+		background-size: cover; 
 	}
 
 	.subFooter{
-		margin-top: 80em;
+		margin-top: 2em;
 		height : 80%;
 		background: #515151;
 
@@ -309,83 +340,97 @@ body, html{
 	*/
 
 	.homeAbout{
-		width : 80%; 
-		margin : 0 auto;
+		.contentContainer{
+			.homeAboutHero{
+				margin: -6em 0 0 -2em; 
+				width : 62%;
+				float: left; 
 
-		.homeAboutHero{
-			margin-top: -6em; 
-			width : 60%;
-			float: left; 
-
-			img{
-				width : 100%;
+				img{
+					width : 100%;
+				}
 			}
-		}
 
-		.homeAboutCopyContainer{
-			float: right; 
-			padding: 10% 10% 0 0;
-			width: 30%;
+			.homeAboutCopyContainer{
+				float: right; 
+				padding: 10% 0 0 0;
+				width: 40%;
 
-			ol{
-				font-family: proximaNovaBold;
-				color: #f37920;
-				font-size: .7em;
-				margin: 1.5em 0;
-				line-height: 1.7em; 
-			} 
+				h1{
+					color: #646464; 
+					margin-bottom: .2em;
+				}
 
-			img{
-				width : 80%;
-			} 
+				ol{
+					font-family: proximaNovaBold;
+					color: #f37920;
+					font-size: .7em;
+					margin: 1.5em 0;
+					line-height: 1.7em; 
+				} 
+
+				img{
+					width : 80%;
+				} 
+			}
 		}
 	}
 
 	.howDoesItWork{
-		width : inherit;
+		overflow: auto; 
+		height: auto;
 
-		.howDoesItWorkContainer{
-			width : inherit; 
+		.contentContainer{
+			.howDoesItWorkContainer{
+				width : 100%; 
 
-			ul{
-				li{
-					width : 70%;
-					margin: 0 auto;
-					padding-top: 4em;
-					clear: both;
+				ul{
+					li{
+						width : inherit;
+						margin: 0 auto;
+						padding-top: 4em;
+						clear: both;
+						height: 100%; 
 
-					.copy{
-						width : 30%; 
+						.copy{
+							margin-top: 3em;
+							width : 30%; 
 
-						img{
-							width: 20%; 
-							margin-bottom: 1em;
+							img{
+								width: 20%; 
+								margin-bottom: 1em;
+							}
+
+							p{
+								width: 100%;
+								color: #646464; 
+							}
 						}
+
+						.hero{
+							width : 40%; 
+
+							img{
+								width: 120%; 
+							}
+
+							.size{
+								width: 130%;
+							}
+						}
+						
 					}
 
-					.hero{
-						width : 40%; 
+					.right{
+						margin-right: 3em;
+					} 
 
-						img{
-							width: 100%; 
-						}
+					.left{
 
-						.size{
-							width: 130%;
-						}
 					}
-					
-				}
-
-				.right{
-					margin-right: 3em;
-				} 
-
-				.left{
-					margin-left: 3em;
 				}
 			}
-		}
+		}	
 	}
 
 	.carosel{
@@ -802,4 +847,275 @@ body, html{
 			}
 		}
 	}
+}
+
+@media only screen and (max-device-width: 1267px) 
+    and (-webkit-device-pixel-ratio: 3){
+
+    h1{
+    	font-size: 3em;
+    }
+
+    h2{
+    	font-size: 2.5rem;
+    }	
+
+    p{
+    	font-size: 1.5rem;
+    }
+
+    span{
+    	font-size: 1.5rem;
+    }
+
+    .orangeButton{
+    	font-size: 1.5rem; 
+    }
+
+    #wrapper{
+    	height: auto; 
+    	overflow: auto; 
+
+    	.module{
+    		.contentContainer{
+    			width: 90%; 
+    			padding: 5%; 
+    		}
+    	}
+
+    	/* /////////// MOBILE NAV ////////// */
+
+    	.navContainer{
+			width: 100%;
+			padding: 0;
+			min-height: 6.8em;
+
+			.navImages{
+				 img{
+					height : 5.2em;
+				}
+			}
+
+			.hamburger{
+				display: block;
+				position: absolute;
+				padding : .8em 2%;
+			}
+
+			.navLogo{
+				width : inherit;
+				padding: .8em 0; 
+
+				img{
+					display: block;
+					margin: 0 auto; 
+				}
+			}
+
+
+			.leftNav{
+				display: none; 
+			}
+
+			.rightNav{
+				width: 7%; 
+				position: absolute;
+				right : 3%; 
+
+				ul{
+					li{
+						display: none; 
+
+					}
+
+					#login{
+						display: block; 
+						font-size: 2rem; 
+						padding : 1.3em 3%;
+					}
+				}
+			}
+    	}
+
+    	/* /////////// MOBILE GLOBAL ////////// */
+
+    	.module{
+    		height : auto;
+    		width : 100%;
+    	}
+
+    	.topHero{
+    		height : 60%;
+    		background-position: -145em 0em;
+    		background-size: 480% 170%; 
+
+    		.contentContainer{
+    			height: 100%; 
+
+	    		.copy{
+	    			position: absolute;
+	    			height : auto; 
+	    			bottom : 45%;
+	    			padding: 0; 
+	    			margin : 1em;
+	    			width : 97%;
+	    			text-align: center; 
+
+	    			h1{
+	    				margin-bottom: .1em; 
+	    			}
+
+	    			p{
+	    				width: inherit;
+	    			}
+
+	    			.callToActionContainer{
+	    				display: block;
+	    				margin : 0 17%;
+	    			}
+	    		}
+    		}
+    	}
+
+    	/* /////////// MOBILE HOME ////////// */
+
+    	.homeAbout{
+			.contentContainer{
+				.homeAboutHero{
+					margin: -8em 0 0 0; 
+					width : 100%;
+					float: left; 
+
+					img{
+						width : 100%;
+					}
+				}
+
+				.homeAboutCopyContainer{
+					float: right; 
+					padding: 0 0 0 0;
+					text-align: center;
+					width: 100%;
+
+					p{
+						width: 100%;
+					}
+
+					img{
+						display: block;
+						width : 80%;
+						margin : 0 auto;
+					} 
+
+					ol{
+						font-size: 1.5rem;
+					}
+				}
+			}
+		}
+
+		.carosel{
+			height: auto;
+
+			.caroselContainer{ 
+				.absoluteContainer{
+					margin-left: -72%; 
+					height: 50%;
+					overflow: hidden;
+
+					.cardContainer{
+						width: 500em;
+						overflow: hidden;
+
+						.card{
+							width : 10%;
+							float : left;
+
+							.wrap-media-embed{
+								width : 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+
+    	.howDoesItWork{
+			.contentContainer{
+				.howDoesItWorkContainer{
+					ul{
+						height: 100%; 
+
+						li{
+							width : 100%;
+							margin: 0 auto;
+							padding-top: 0;
+							clear: both;
+							height: 100%; 
+
+
+							.copy{
+								margin-top: 3em;
+								width : 100%; 
+								float: none;
+								clear: both;
+
+								h2{
+									text-align: center;
+								}
+
+								img{
+									display: block;
+									width: 20%; 
+									margin: 1em auto;
+								}
+							}
+
+							.hero{
+								width : 100%; 
+
+								img{
+									width: 100%; 
+								}
+
+								.size{
+									width: 100%;
+								}
+							}				
+						}
+
+						.right{
+							margin-right: 0em;
+						} 
+					}
+				}
+			}	
+		}
+
+		.subFooter{
+			height: auto; 
+			overflow: auto; 
+
+			.wrapIsAboutContainer{
+				width: 100%; 
+				
+				ul{
+					li{
+						float: none; 
+						width: 80%;
+						margin : 0; 
+						padding: 2% 10%;  
+
+						.subImageContainer{
+							padding: 2em 20% .5em; 
+						}
+
+						p{
+							line-height: 2em;	
+						}
+					}
+				}
+			}
+		}
+    }
 }

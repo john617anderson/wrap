@@ -1,9 +1,11 @@
 <section class="module topHero shortHero heroExplore">
-	<div class="copy">
-		<h1>There's a wrap for everyone</h1>
-		<p>Discover the world of Wraps and experience
-the stories of now. 
-		</p>
+	<div class="contentContainer heroContent">
+		<div class="copy">
+			<h1>There's a wrap for everyone</h1>
+			<p>Discover the world of Wraps and experience
+	the stories of now. 
+			</p>
+		</div>
 	</div>
 </section>
 <section class="cardNavigation">
