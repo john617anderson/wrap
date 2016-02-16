@@ -849,32 +849,29 @@ body, html{
 	}
 }
 
-@media only screen and (max-device-width: 1267px) 
-    and (-webkit-device-pixel-ratio: 3){
+@media handheld, screen and (max-width: 995px){
 
     h1{
-    	font-size: 3em;
+    	
     }
 
     h2{
-    	font-size: 2.5rem;
+    	
     }	
 
     p{
-    	font-size: 1.5rem;
+    	
     }
 
     span{
-    	font-size: 1.5rem;
+    	
     }
 
     .orangeButton{
-    	font-size: 1.5rem; 
+    	
     }
 
     #wrapper{
-    	height: auto; 
-    	overflow: auto; 
 
     	.module{
     		.contentContainer{
@@ -888,11 +885,11 @@ body, html{
     	.navContainer{
 			width: 100%;
 			padding: 0;
-			min-height: 6.8em;
+			min-height: 3.8em;
 
 			.navImages{
 				 img{
-					height : 5.2em;
+					height : 2.2em;
 				}
 			}
 
@@ -930,8 +927,7 @@ body, html{
 
 					#login{
 						display: block; 
-						font-size: 2rem; 
-						padding : 1.3em 3%;
+						padding : 2.5em 3%;
 					}
 				}
 			}
@@ -946,8 +942,8 @@ body, html{
 
     	.topHero{
     		height : 60%;
-    		background-position: -145em 0em;
-    		background-size: 480% 170%; 
+    		background-size: 150% 100%;
+    		background-repeat: none;
 
     		.contentContainer{
     			height: 100%; 
@@ -957,8 +953,7 @@ body, html{
 	    			height : auto; 
 	    			bottom : 45%;
 	    			padding: 0; 
-	    			margin : 1em;
-	    			width : 97%;
+	    			width : 94%;
 	    			text-align: center; 
 
 	    			h1{
@@ -971,7 +966,8 @@ body, html{
 
 	    			.callToActionContainer{
 	    				display: block;
-	    				margin : 0 17%;
+	    				width : 15em;
+	    				margin : 0 auto;
 	    			}
 	    		}
     		}
@@ -982,7 +978,7 @@ body, html{
     	.homeAbout{
 			.contentContainer{
 				.homeAboutHero{
-					margin: -8em 0 0 0; 
+					margin: -2em 0 0 0; 
 					width : 100%;
 					float: left; 
 
@@ -1006,10 +1002,6 @@ body, html{
 						width : 80%;
 						margin : 0 auto;
 					} 
-
-					ol{
-						font-size: 1.5rem;
-					}
 				}
 			}
 		}
@@ -1019,16 +1011,15 @@ body, html{
 
 			.caroselContainer{ 
 				.absoluteContainer{
-					margin-left: -72%; 
-					height: 50%;
-					overflow: hidden;
+					margin-left: -11em; 
+					width: 500em;
 
 					.cardContainer{
-						width: 500em;
+						
 						overflow: hidden;
 
 						.card{
-							width : 10%;
+							width: 15em; 
 							float : left;
 
 							.wrap-media-embed{
