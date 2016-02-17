@@ -94,6 +94,7 @@ body, html{
 	width : inherit;
 	height : inherit;
 	overflow-x : hidden;
+	display: block; 
 
 	.navContainer{
 		position: fixed;
@@ -114,6 +115,10 @@ body, html{
 
 		.hamburger{
 			display: none;
+
+			.x{
+				display: none;
+			}
 		}
 
 
@@ -230,15 +235,20 @@ body, html{
 
 	.topHero{
 		background-size: cover; 
-		background-position: 0 3em;
+		background-position: 0 0;
 		display: table;
 		height: 100%;  
+		margin-top: 4em;
 	}
 
 	.shortHero{
-		height : 70%; 
+		height : 50%; 
 		width: 100%; 
 		background-size: cover; 
+	}
+
+	.greenBack{
+		background : #9cc737;
 	}
 
 	.subFooter{
@@ -259,7 +269,7 @@ body, html{
 		}
 
 		.wrapIsAboutContainer{
-			width : 64%;
+			width : 80%;
 			height : inherit;
 			margin: 0 auto; 
 
@@ -267,9 +277,9 @@ body, html{
 				width : 100%;
 				height : inherit;
 				li{
-					width: 25%; 
+					width: 27%; 
 					float : left;
-					margin : 0 2em;
+					margin : 0 3%;
 					text-align: center;
 
 					h2{
@@ -585,7 +595,7 @@ body, html{
 		width : 100%;
 		margin-top: -2.4em; 
 		position: absolute;
-		z-index: 9999; 
+		z-index: 2; 
 
 		.cardTitle{
 			float: left; 
@@ -810,7 +820,7 @@ body, html{
 		}
 
 		.finePrint{
-			width: 70%; 
+			width: 100%; 
 			clear: both;
 			margin: 2em auto;
 			font-family: proximaNova;
@@ -825,24 +835,24 @@ body, html{
 		.footerContainer{
 			padding : 5% 21%;
 			height: 10em;
-		}
 
-		.column{
-			float : left;
-			margin-right: 6em; 
+			.column{
+				float : left;
+				margin-right: 6em; 
 
-			ul{
-				li{
-					font-family: proximaNovaBold;
-					font-size : .7em;
-					color: #908f8f;
-					padding-bottom: 1em;
-					text-transform: uppercase;
+				ul{
+					li{
+						font-family: proximaNovaBold;
+						font-size : .7em;
+						color: #908f8f;
+						padding-bottom: 1em;
+						text-transform: uppercase;
 
-					&:first-child{
-						color : white; 
-						
-					} 
+						&:first-child{
+							color : white; 
+							
+						} 
+					}
 				}
 			}
 		}
@@ -872,6 +882,8 @@ body, html{
     }
 
     #wrapper{
+    	overflow :scroll;
+    	-webkit-overflow-scrolling: touch;
 
     	.module{
     		.contentContainer{
@@ -896,7 +908,19 @@ body, html{
 			.hamburger{
 				display: block;
 				position: absolute;
+				width: 3em; 
+				height: 3em; 
+				z-index: 99; 
 				padding : .8em 2%;
+
+				.x{
+					position: absolute;
+					padding: 0; 
+					margin: -1em 0; 
+					font-size: 3em; 
+					color: white; 
+					z-index: 200; 
+				}
 			}
 
 			.navLogo{
@@ -912,6 +936,28 @@ body, html{
 
 			.leftNav{
 				display: none; 
+				font-family: proximaNova;
+				font-size: 1.2em;
+				position: fixed; 
+				width : 100%;
+				height : 100%;
+				margin-left: 0;
+				float : none;
+				clear : both;
+				color : white; 
+				background : rgba(0,0,0,.9);
+				z-index: 9; 
+
+				ul{
+					li{
+						text-align: center; 
+						width : 100%;
+						padding: 3em 0; 
+						float: none;
+						clear: both; 
+						border : 1px solid #111;
+					}
+				}
 			}
 
 			.rightNav{
@@ -1006,8 +1052,33 @@ body, html{
 			}
 		}
 
-		.carosel{
+		.cardNavigation{
+			margin-left: 1%; 
+			width : 100%;
+			margin-top: -2.4em; 
+			position: absolute;
 
+			.cardTitle{
+				font-size: .6em; 
+				padding : 1.5em 5%;
+			} 		
+		}
+
+		.exploreContainer{
+			.contentContainer{
+				.wrapCoverContainer{
+					.personal{
+						.card{
+							float: none; 
+							width : 100%;
+							padding : .5%;
+						}
+					}
+				}
+			}
+		}
+
+		.carosel{
 			.caroselContainer{ 
 				.absoluteContainer{
 					margin-left: -11em; 
@@ -1032,6 +1103,7 @@ body, html{
 
     	.howDoesItWork{
 			.contentContainer{
+				height: inherit;
 				.howDoesItWorkContainer{
 					ul{
 						height: 100%; 
@@ -1102,6 +1174,111 @@ body, html{
 
 						p{
 							line-height: 2em;	
+						}
+					}
+				}
+			}
+		}
+
+		/*///////// ABOUT MOBILE /////////*/
+
+		.aboutContainer{
+			.contentContainer{
+				.aboutPeopleSectionContainer{
+					.aboutPeopleContainer{			
+						ul{
+							li{
+								float : left;
+								width : 45%; 
+								padding : 0 3% 3% 0;
+								min-height: 100px; 
+							}
+
+							.investors{
+								width: 100%; 
+								float: none;
+								clear: both;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.contactContainer{
+			.contentContainer{
+				.addressContainer, questionsContainer{
+					width : 100%;
+					text-align: center;
+				}
+
+				.map, .form{
+					width : 100%;
+					height: inherit;
+
+					form{
+						margin-top: 1em;
+					}
+				}
+
+				.questionsContainer{
+					clear: both; 
+					margin-top: 30em; 
+					border-top : 1px solid #646464;
+					padding-top : 5em;
+				}
+			}
+		}
+
+		/*///////// CAREERS MOBILE /////////*/
+
+
+		.careersContainer{
+			.careerNavigation{
+				width : inherit;
+				ul{
+					margin: 0 auto; 
+					li{
+						margin : 3em 1em;
+					}
+				}
+			}
+
+			.contentContainer{
+				.jobOpenings{
+					float: none;
+					width: 100%; 
+					text-align: center; 
+				}
+
+				.jobDescriptions{
+					width: 100%;
+					float: none;
+				}
+			}
+		}
+
+		.footer{
+			.footerContainer{
+				padding : 15% 5%;
+				height: 10em;
+
+				.column{
+					float : left;
+					margin: 0 6%; 
+
+					ul{
+						li{
+							font-family: proximaNovaBold;
+							font-size : .7em;
+							color: #908f8f;
+							padding-bottom: 1em;
+							text-transform: uppercase;
+
+							&:first-child{
+								color : white; 
+								
+							} 
 						}
 					}
 				}

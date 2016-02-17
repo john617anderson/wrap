@@ -1,6 +1,7 @@
 <div class="navContainer">
 	<div class="navImages hamburger">
 		<img src="assets/global/NAV/hamburger.png" />
+		<div class="x">x</div>
 	</div>	
 	<div class="navImages navLogo">
 		<img src="assets/global/NAV/logo_horizontal.png" />

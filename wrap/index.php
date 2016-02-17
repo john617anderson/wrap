@@ -8,6 +8,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="stylesheets/screen.css" rel="stylesheet" media="screen">
+		<script src="js/jquery.js"></script>
+		<script src="js/main.js"></script>
 	</head>
 	<body>
 		<div id="wrapper">

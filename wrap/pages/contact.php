@@ -1,4 +1,4 @@
-<section class="shortHero greenBack">
+<section class="module shortHero topHero greenBack">
 	<div class="contentContainer heroContent">
 		<div class="copy">
 			<h1 class="white">CONTACT US OR STOP ON BY</h1>
