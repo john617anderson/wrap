@@ -387,7 +387,7 @@ body, html{
 	}
 
 	.howDoesItWork{
-		overflow: auto; 
+		overflow: hidden; 
 		height: auto;
 
 		.contentContainer{
@@ -419,6 +419,7 @@ body, html{
 
 						.hero{
 							width : 40%; 
+							position: relative;
 
 							img{
 								width: 120%; 
@@ -427,6 +428,44 @@ body, html{
 							.size{
 								width: 130%;
 							}
+
+							.shareCar{
+								float: none; 
+								clear: both;
+								display: block;
+								width: 100%; 
+								
+
+								.shareContainers{
+									width: 78%; 
+									height: 100%; 
+									float: left;
+
+									img{
+										display: none; 
+										width: 100%; 
+
+										&:first-child{
+											display : block;
+										}
+									}
+								}
+
+								.arrows{
+									width : 5%;
+									padding : 3%;
+									display: table;
+									margin-top: 45%;
+								}
+
+								#first{
+									display: block;
+								}
+							}
+						}
+
+						.heroShare{
+							width: 50%; 
 						}
 						
 					}
@@ -448,14 +487,36 @@ body, html{
 
 		.caroselContainer{
 			width : inherit;
-			height: inherit;
 			overflow: hidden; 
+			position: relative;
+
+			.carArrows{
+				display: inline-block;
+				position: absolute;
+				height : 100%;
+				width  : 5em;
+				z-index: 2; 
+				overflow: hidden;
+			}
+
+			.leftArrow{
+				background: rgba(255, 255, 255, .8) url("../assets/home/4_EXPLORE_WRAPS/arrow_left.png") no-repeat 40% center;
+				padding-left : 2em;
+				background-size: 40px 72px; 
+			}
+
+			.rightArrow{
+				background: rgba(255, 255, 255, .8) url("../assets/home/4_EXPLORE_WRAPS/arrow_right.png") no-repeat 40% center;
+				right : 0em;
+				padding-right: 2em;
+				background-size: 40px 72px; 
+			}
 
 			.absoluteContainer{
-				width : 200%;
 				height : 80%; 
 
 				.cardContainer{
+					position: relative;
 					overflow: hidden; 
 					width: auto;
 					height: inherit;

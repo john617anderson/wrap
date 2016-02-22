@@ -42,8 +42,36 @@
 		</p>
 	</div>
 	<div class="caroselContainer">
+		<div class="carArrows leftArrow" id="left"></div>
+		<div class="carArrows rightArrow" id="right"></div>
+
 		<div class="absoluteContainer">
+			
 			<div class="cardContainer">
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="54259855-242e-4f53-b9c8-2ceaa04a53a0"></div>
+				</div>
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="4a1d69b7-7c90-48c8-985b-3c3242562914"></div>
+				</div>
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="557bf241-72a2-409f-9403-2c9aaf121aee"></div>
+				</div>
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="38ff57db-4bd7-4ebf-ba3b-4e6aff6ee265"></div>
+				</div>
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="d90ee810-8894-49a4-8e49-0bc3df03033e"></div>
+				</div>
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="38ff57db-4bd7-4ebf-ba3b-4e6aff6ee265"></div>
+				</div>
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="841c9572-3490-4fd8-b989-7809ec2f1824"></div>
+				</div>
+				<div class="card">
+					<div class="wrap-media-embed" data-wrap-id="1f2f5a2f-904a-43dc-95b6-43785b5ceb5a"></div>
+				</div>
 				<div class="card">
 					<div class="wrap-media-embed" data-wrap-id="54259855-242e-4f53-b9c8-2ceaa04a53a0"></div>
 				</div>
@@ -95,10 +123,25 @@
 				</li>
 
 				<li>
-					<div class="hero right">
-						<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_a.jpg" />	
+					<div class="hero heroShare right">
+						<div class="shareCar">
+							<div class="shareContainers arrows" id="leftArr">
+								<img src="assets/home/5_HOW_DOES_WRAP_WORK/arrow_left.png" />
+							</div>
+							<div class="shareContainers shareAssets">
+								<img id="first" src="assets/home/5_HOW_DOES_WRAP_WORK/share_a.jpg" />	
+								<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_b.jpg" />	
+								<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_c.jpg" />	
+								<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_d.jpg" />	
+								<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_e.jpg" />
+							</div>	
+							<div class="shareContainers arrows" id="rightArr">
+								<img src="assets/home/5_HOW_DOES_WRAP_WORK/arrow_right.png" />
+							</div>
+						</div>
 					</div>
 					<div class="copy left">
+
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_icon.jpg" />	
 						<h2>share</h2>
 						<p>Your audience is mobile. Make sure your message is too. Wrap makes it easier 
