@@ -1,3 +1,22 @@
+<div class="shareModal">
+	<div class="freeTrialContainer">
+		<div class="close"></div>
+
+		<h2>free trial</h2>
+		<div class="freeTrialButton facebook">
+		sign up with facebook
+		</div>
+		<p>
+		or
+		</p>
+		<span>Email</span>
+		<input class="freeTrialButton inputEmail" type="text" />
+		<div class="freeTrialButton emailMe">
+		email me a wrap
+		</div>
+		<span class="already">Already have an account? <a href="#">Sign in</a></span>
+	</div>
+</div>
 <div class="navContainer">
 	<div class="navImages hamburger">
 		<img src="assets/global/NAV/hamburger.png" />
@@ -17,7 +36,7 @@
 	</div>
 	<div class="rightNav">
 		<ul>
-			<li class="orangeButton free">free trial</li>
+			<li class="orangeButton free" id="free">free trial</li>
 			<li>sign up</li>
 			<li id="login">login</li>
 		</ul>

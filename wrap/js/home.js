@@ -51,6 +51,13 @@ $(function(){
 	}
 
 	
+	$('.free, .close').click(function(){
+		if($(this).attr('id') === "free"){
+			$('.shareModal').show(); 
+		}else{
+			$('.shareModal').hide(); 
+		}
+	}); 
 
 	setWrapWidth(); 
 	createWraps(totalWraps, _wrapW); 

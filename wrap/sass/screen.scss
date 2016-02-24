@@ -23,7 +23,7 @@
     src: url('../fonts/proximaNova/Proxima-Nova-Bold.otf');
 }
 
-h1,h2,h3,h4,h5,p,span,ol{
+h1,h2,h3,h4,h5,p,span,ol, div{
 	font-family: proximaNova;
 	color: #646464; 
 }
@@ -94,7 +94,85 @@ body, html{
 	width : inherit;
 	height : inherit;
 	overflow-x : hidden;
-	display: block; 
+	display: block;
+
+	.shareModal{
+		position: fixed;
+		width: 100%; 
+		height : 100%;
+		z-index: 9999; 
+		background : rgba(0,0,0,.8);
+		display: none; 
+
+		.freeTrialContainer{
+			width : 30%; 
+			margin: 10% auto; 
+			
+			.close{
+				width : 29px;
+				height : 29px; 
+				background : url("../assets/global/NAV/white_x.png") no-repeat;
+				float : right;
+			}
+
+			h2{
+				display: block;
+				color: white; 
+				clear : none; 
+				margin: 0 0 1em; 
+				padding-top: 2em;
+				width: 100%; 
+				text-align: center; 
+			}
+
+			.freeTrialButton{
+				width : 100%;
+				padding : .8em 0;
+				text-align: center; 
+				color: white; 
+				background : #f37920;
+				margin-bottom: 1em; 
+				text-transform: uppercase;
+				font-family: proximaNovaBold;
+				font-size : .8em;
+			}
+
+			.facebook{
+				background: #3f589a;
+			}
+
+			p{
+				color: white; 
+				width: 100%; 
+				text-align: center; 
+				margin: 1em 0; 
+			}
+
+			span{
+				color: #969696; 
+				font-size : .8em;
+
+				a{
+					color: white;
+					font-family: proximaNovaBold;
+					font-weight: bold;
+					text-decoration: none; 
+				}
+			}
+
+			.inputEmail{
+				background : white; 
+				border: none; 
+			}
+
+			.already{
+				display: block; 
+				padding: 1em; 
+				width: 100%; 
+				text-align: center; 
+			}
+		} 
+	}	
 
 	.navContainer{
 		position: fixed;
@@ -138,6 +216,7 @@ body, html{
 					float: left; 
 					padding : 2.4em 3%;
 					color : #969696;
+					cursor: pointer; 
 
 					a{
 						color : #969696;
