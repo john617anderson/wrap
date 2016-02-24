@@ -50,6 +50,8 @@ $(function(){
 		});
 	}
 
+	
+
 	setWrapWidth(); 
 	createWraps(totalWraps, _wrapW); 
 	whatWrapIsAboutShare(); 

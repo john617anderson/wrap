@@ -8,12 +8,20 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="stylesheets/screen.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/slick-theme.css" rel="stylesheet" media="screen">
+		<link href="stylesheets/slick.css" rel="stylesheet" media="screen">
 		<script src="js/jquery.js"></script>
+		<script src="js/slick.min.js"></script>
 		<script src="js/main.js"></script>
 
 		<?php
-			if($section == "null"){
-				echo '<script src="js/home.js"></script>';
+			switch ($section) {
+			    case "explore":
+			        echo '<script src="js/explore.js"></script>';
+			        break;
+			    case "null":
+			        echo '<script src="js/home.js"></script>';
+			        break;
 			}
 		?>	
 

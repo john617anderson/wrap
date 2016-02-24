@@ -494,7 +494,7 @@ body, html{
 				display: inline-block;
 				position: absolute;
 				height : 100%;
-				width  : 5em;
+				width  : 3%;
 				z-index: 2; 
 				overflow: hidden;
 			}
@@ -660,6 +660,7 @@ body, html{
 
 		.cardTitle{
 			float: left; 
+			cursor: pointer;
 			margin-right: .2em; 
 			background: rgba(63, 63, 67, .7); 
 			color : rgba(175, 175, 175, 1);
@@ -670,7 +671,6 @@ body, html{
 
 			&:first-child{
 				background: white; 
-				color: rgba(175, 175, 175, 1); 
 			}
 		} 
 
@@ -685,9 +685,10 @@ body, html{
 				width: 100%; 
 				height : inherit;
 
-				.personal{
+				.wrapCovers{
 					width: inherit; 
 					height: inherit;
+					display: none; 
 
 					.card{
 						float: left; 
@@ -697,6 +698,10 @@ body, html{
 						img, .wrap-media-embed{
 							width: 100%; 
 						}
+					}
+
+					&:first-child{
+						display: block; 
 					}
 				}
 			}
@@ -950,7 +955,13 @@ body, html{
     		.contentContainer{
     			width: 90%; 
     			padding: 5%; 
+
+    			
     		}
+
+    		.titleContainers{
+					padding : 1em 0;
+				}
     	}
 
     	/* /////////// MOBILE NAV ////////// */
@@ -1223,6 +1234,9 @@ body, html{
 				width: 100%; 
 				
 				ul{
+					display: block; 
+					margin-bottom: 2em; 
+					
 					li{
 						float: none; 
 						width: 80%;
