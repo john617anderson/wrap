@@ -10,7 +10,7 @@
 				<div class="orangeButton">
 					Start now
 				</div>
-				<div class="orangeButton">
+				<div class="orangeButton modalButton" id="sendMeAWrap">
 					send me a wrap
 				</div>
 			</div>

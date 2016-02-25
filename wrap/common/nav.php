@@ -1,5 +1,5 @@
-<div class="shareModal">
-	<div class="freeTrialContainer">
+<div class="modal">
+	<div class="modalContainers" id="freeTrial">
 		<div class="close"></div>
 
 		<h2>free trial</h2>
@@ -15,6 +15,17 @@
 		email me a wrap
 		</div>
 		<span class="already">Already have an account? <a href="#">Sign in</a></span>
+	</div>
+	<div class="modalContainers" id="sendMeAWrap">
+		<div class="close"></div>
+
+		<h2>Send Me a Wrap</h2>
+		<div class="freeTrialButton emailMe">
+		send me a wrap
+		</div>
+		<div class="freeTrialButton emailMe">
+		text me a wrap
+		</div>
 	</div>
 </div>
 <div class="navContainer">
@@ -36,7 +47,7 @@
 	</div>
 	<div class="rightNav">
 		<ul>
-			<li class="orangeButton free" id="free">free trial</li>
+			<li class="orangeButton modalButton" id="freeTrial">free trial</li>
 			<li>sign up</li>
 			<li id="login">login</li>
 		</ul>
