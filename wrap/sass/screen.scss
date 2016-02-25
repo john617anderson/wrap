@@ -105,8 +105,8 @@ body, html{
 		display: none; 
 
 		.modalContainers{
-			width : 30%; 
-			margin: 10% auto;
+			width : 60%; 
+			margin: 5% auto;
 			display: none;  
 			
 			.close{
@@ -114,6 +114,11 @@ body, html{
 				height : 29px; 
 				background : url("../assets/global/NAV/white_x.png") no-repeat;
 				float : right;
+				margin-right : 20%; 
+			}
+
+			.vidClose{
+				margin-right : 0; 
 			}
 
 			h2{
@@ -126,13 +131,17 @@ body, html{
 				text-align: center; 
 			}
 
+			video{
+				width: 100%;  
+			}
+
 			.freeTrialButton{
-				width : 100%;
-				padding : .8em 0;
+				width : 60%;
+				padding : .9em 0;
+				margin: 0 auto 1em; 
 				text-align: center; 
 				color: white; 
 				background : #f37920;
-				margin-bottom: 1em; 
 				text-transform: uppercase;
 				font-family: proximaNovaBold;
 				font-size : .8em;
@@ -152,6 +161,9 @@ body, html{
 			span{
 				color: #969696; 
 				font-size : .8em;
+				display: block;
+				width: 60%; 
+				margin: 0 auto; 
 
 				a{
 					color: white;
@@ -162,6 +174,7 @@ body, html{
 			}
 
 			.inputEmail{
+				margin: 0 20% 1em; 
 				background : white; 
 				border: none; 
 			}
@@ -614,59 +627,6 @@ body, html{
 		}
 	}
 
-	.wrapIsAbout{
-		/* 
-		height : 60%;
-		background: #515151;
-
-		.titleContainers{
-			h1{
-				color: white;
-			}
-		}
-
-		.wrapIsAboutContainer{
-			width : 64%;
-			height : inherit;
-			margin: 0 auto; 
-
-			ul{
-				width : 100%;
-				height : inherit;
-				li{
-					width: 25%; 
-					float : left;
-					margin : 0 2em;
-
-					h2{
-						font-size: 1.2em; 
-						line-height: 1.3em;
-						color : white;
-					}
-
-					p{
-						color: white; 
-						font-size: .7em; 
-						line-height: 1.5em; 
-						margin-bottom: 1em; 
-					}
-
-					span{
-						font-family: proximaNovaBold;
-						font-size : .7em;
-						color: #f37920;
-					}
-
-					img{
-						height : 40px;
-						margin-bottom: 1em; 
-					}
-				}
-			}
-		}
-		*/
-	}
-
 
 	/* 
 		////////////////////////// ABOUT /////////////////////////////////
@@ -1059,6 +1019,12 @@ body, html{
     #wrapper{
     	overflow :scroll;
     	-webkit-overflow-scrolling: touch;
+
+    	.modal{
+    		.modalContainers{
+    			width: 90%;
+    		}
+    	}
 
     	.module{
     		.contentContainer{

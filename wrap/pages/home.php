@@ -30,7 +30,7 @@
 			</p>
 			<ol>FREE NON-COMMERICAL USE INFO <br/>COMMERCIAL USE INFO</ol>
 			<img src="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg" />
-			<ol>watch video</ol>
+			<ol class="modalButton" id="video">watch video</ol>
 		</div>
 	</div>	
 </section>

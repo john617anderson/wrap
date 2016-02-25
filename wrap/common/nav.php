@@ -27,6 +27,15 @@
 		text me a wrap
 		</div>
 	</div>
+	<div class="modalContainers" id="video">
+		<div class="close vidClose"></div>
+
+		<h2>What is a Wrap?</h2>
+		<video controls poster="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg">
+		  <source src="assets/video/WrapCo_VO_FX_11.02.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
+	</div>
 </div>
 <div class="navContainer">
 	<div class="navImages hamburger">

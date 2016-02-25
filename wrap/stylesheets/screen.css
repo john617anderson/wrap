@@ -190,8 +190,8 @@ body, html {
 }
 /* line 107, ../sass/screen.scss */
 #wrapper .modal .modalContainers {
-  width: 30%;
-  margin: 10% auto;
+  width: 60%;
+  margin: 5% auto;
   display: none;
 }
 /* line 112, ../sass/screen.scss */
@@ -200,8 +200,13 @@ body, html {
   height: 29px;
   background: url("../assets/global/NAV/white_x.png") no-repeat;
   float: right;
+  margin-right: 20%;
 }
-/* line 119, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
+#wrapper .modal .modalContainers .vidClose {
+  margin-right: 0;
+}
+/* line 124, ../sass/screen.scss */
 #wrapper .modal .modalContainers h2 {
   display: block;
   color: white;
@@ -211,54 +216,62 @@ body, html {
   width: 100%;
   text-align: center;
 }
-/* line 129, ../sass/screen.scss */
-#wrapper .modal .modalContainers .freeTrialButton {
+/* line 134, ../sass/screen.scss */
+#wrapper .modal .modalContainers video {
   width: 100%;
-  padding: .8em 0;
+}
+/* line 138, ../sass/screen.scss */
+#wrapper .modal .modalContainers .freeTrialButton {
+  width: 60%;
+  padding: .9em 0;
+  margin: 0 auto 1em;
   text-align: center;
   color: white;
   background: #f37920;
-  margin-bottom: 1em;
   text-transform: uppercase;
   font-family: proximaNovaBold;
   font-size: .8em;
 }
-/* line 141, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #wrapper .modal .modalContainers .facebook {
   background: #3f589a;
 }
-/* line 145, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 #wrapper .modal .modalContainers p {
   color: white;
   width: 100%;
   text-align: center;
   margin: 1em 0;
 }
-/* line 152, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #wrapper .modal .modalContainers span {
   color: #969696;
   font-size: .8em;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
 }
-/* line 156, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #wrapper .modal .modalContainers span a {
   color: white;
   font-family: proximaNovaBold;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 164, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #wrapper .modal .modalContainers .inputEmail {
+  margin: 0 20% 1em;
   background: white;
   border: none;
 }
-/* line 169, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 #wrapper .modal .modalContainers .already {
   display: block;
   padding: 1em;
   width: 100%;
   text-align: center;
 }
-/* line 178, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 #wrapper .navContainer {
   position: fixed;
   width: 74%;
@@ -267,33 +280,33 @@ body, html {
   z-index: 999;
   padding: 0 13%;
 }
-/* line 186, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 #wrapper .navContainer .navImages {
   padding: .8em 1.5em;
   float: left;
 }
-/* line 190, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 #wrapper .navContainer .navImages img {
   height: 2.2em;
 }
-/* line 195, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 #wrapper .navContainer .hamburger {
   display: none;
 }
-/* line 198, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #wrapper .navContainer .hamburger .x {
   display: none;
 }
-/* line 204, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #wrapper .navContainer .leftNav, #wrapper .navContainer .rightNav {
   position: absolute;
   width: 50%;
 }
-/* line 208, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 #wrapper .navContainer .leftNav ul, #wrapper .navContainer .rightNav ul {
   width: 100%;
 }
-/* line 211, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 #wrapper .navContainer .leftNav ul li, #wrapper .navContainer .rightNav ul li {
   font-family: proximaNovaBold;
   list-style: none;
@@ -305,92 +318,92 @@ body, html {
   color: #969696;
   cursor: pointer;
 }
-/* line 222, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #wrapper .navContainer .leftNav ul li a, #wrapper .navContainer .rightNav ul li a {
   color: #969696;
 }
-/* line 227, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 #wrapper .navContainer .leftNav ul:nth-child(2), #wrapper .navContainer .rightNav ul:nth-child(2) {
   color: black;
 }
-/* line 233, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 #wrapper .navContainer .leftNav {
   margin-left: 7.7em;
 }
-/* line 237, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 #wrapper .navContainer .rightNav {
   right: 15%;
   width: 25%;
 }
-/* line 243, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 #wrapper .navContainer .rightNav ul li {
   float: right;
   padding: 2.4em 7%;
 }
-/* line 248, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 #wrapper .navContainer .rightNav ul #freeTrial {
   color: white;
   margin: 1.2em 0;
   padding: 1em 1.7em;
 }
-/* line 257, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 #wrapper .module {
   width: inherit;
   height: 100%;
   float: none;
   clear: both;
 }
-/* line 263, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 #wrapper .module .contentContainer {
   height: 100%;
   width: 70%;
   padding: 0 15%;
 }
-/* line 269, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 #wrapper .module .contentContainer .copy {
   display: table-cell;
   vertical-align: middle;
   width: 35%;
   color: white;
 }
-/* line 275, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 #wrapper .module .contentContainer .copy h1 {
   margin-bottom: .2em;
 }
-/* line 279, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 #wrapper .module .contentContainer .copy p {
   margin-bottom: 1em;
   width: 50%;
   color: white;
 }
-/* line 287, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 #wrapper .module .heroContent {
   display: table;
 }
-/* line 291, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 #wrapper .module .titleContainers {
   width: 100%;
   text-align: center;
   padding: 3em 0;
 }
-/* line 297, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 #wrapper .module .titleContainers h1 {
   color: #646464;
 }
-/* line 303, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 #wrapper .largeContainer {
   display: block;
   height: auto;
   clear: both;
   overflow: auto;
 }
-/* line 309, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 #wrapper .largeContainer .contentContainer {
   width: 70%;
   margin: 3em auto;
   position: relative;
 }
-/* line 316, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 #wrapper .topHero {
   background-size: cover;
   background-position: 0 0;
@@ -398,124 +411,124 @@ body, html {
   height: 100%;
   margin-top: 4em;
 }
-/* line 324, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 #wrapper .shortHero {
   height: 50%;
   width: 100%;
   background-size: cover;
 }
-/* line 330, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 #wrapper .greenBack {
   background: #9cc737;
 }
-/* line 334, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 #wrapper .subFooter {
   margin-top: 2em;
   height: 80%;
   background: #515151;
 }
-/* line 340, ../sass/screen.scss */
+/* line 353, ../sass/screen.scss */
 #wrapper .subFooter .titleContainers h1 {
   color: white;
 }
-/* line 344, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 #wrapper .subFooter .titleContainers span {
   font-family: proximaNovaBold;
   font-size: .7em;
   color: #f37920;
 }
-/* line 351, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer {
   width: 80%;
   height: inherit;
   margin: 0 auto;
 }
-/* line 356, ../sass/screen.scss */
+/* line 369, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul {
   width: 100%;
   height: inherit;
 }
-/* line 359, ../sass/screen.scss */
+/* line 372, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li {
   width: 27%;
   float: left;
   margin: 0 3%;
   text-align: center;
 }
-/* line 365, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li h2 {
   font-size: 1.2em;
   line-height: 1.3em;
   color: white;
 }
-/* line 371, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li p {
   color: white;
   font-size: .7em;
   line-height: 1.5em;
   margin-bottom: 1em;
 }
-/* line 378, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li span {
   font-family: proximaNovaBold;
   font-size: .7em;
   color: #f37920;
 }
-/* line 383, ../sass/screen.scss */
+/* line 396, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li .subImageContainer {
   padding: 0 20%;
   min-height: 10em;
 }
-/* line 387, ../sass/screen.scss */
+/* line 400, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li .subImageContainer img {
   width: 100%;
 }
-/* line 392, ../sass/screen.scss */
+/* line 405, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li .home {
   min-height: 4em;
 }
-/* line 396, ../sass/screen.scss */
+/* line 409, ../sass/screen.scss */
 #wrapper .subFooter .wrapIsAboutContainer ul li .collab {
   padding: 0 10%;
 }
-/* line 410, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 #wrapper .homeHero {
   background-image: url("../assets/home/2_HERO/hero_pix.jpg");
 }
-/* line 415, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 #wrapper .heroAbout {
   background-image: url("../assets/about/1_HERO/about_hero_pix.jpg");
 }
-/* line 420, ../sass/screen.scss */
+/* line 433, ../sass/screen.scss */
 #wrapper .heroCareers {
   background-image: url("../assets/careers/HERO/hero_careers.jpg");
 }
-/* line 424, ../sass/screen.scss */
+/* line 437, ../sass/screen.scss */
 #wrapper .heroExplore {
   background-image: url("../assets/explore/HERO/hero_explore.jpg");
 }
-/* line 434, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 #wrapper .homeAbout .contentContainer .homeAboutHero {
   margin: -6em 0 0 -2em;
   width: 62%;
   float: left;
 }
-/* line 439, ../sass/screen.scss */
+/* line 452, ../sass/screen.scss */
 #wrapper .homeAbout .contentContainer .homeAboutHero img {
   width: 100%;
 }
-/* line 444, ../sass/screen.scss */
+/* line 457, ../sass/screen.scss */
 #wrapper .homeAbout .contentContainer .homeAboutCopyContainer {
   float: right;
   padding: 10% 0 0 0;
   width: 40%;
 }
-/* line 449, ../sass/screen.scss */
+/* line 462, ../sass/screen.scss */
 #wrapper .homeAbout .contentContainer .homeAboutCopyContainer h1 {
   color: #646464;
   margin-bottom: .2em;
 }
-/* line 454, ../sass/screen.scss */
+/* line 467, ../sass/screen.scss */
 #wrapper .homeAbout .contentContainer .homeAboutCopyContainer ol {
   font-family: proximaNovaBold;
   color: #f37920;
@@ -523,20 +536,20 @@ body, html {
   margin: 1.5em 0;
   line-height: 1.7em;
 }
-/* line 462, ../sass/screen.scss */
+/* line 475, ../sass/screen.scss */
 #wrapper .homeAbout .contentContainer .homeAboutCopyContainer img {
   width: 80%;
 }
-/* line 469, ../sass/screen.scss */
+/* line 482, ../sass/screen.scss */
 #wrapper .howDoesItWork {
   overflow: hidden;
   height: auto;
 }
-/* line 474, ../sass/screen.scss */
+/* line 487, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer {
   width: 100%;
 }
-/* line 478, ../sass/screen.scss */
+/* line 491, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li {
   width: inherit;
   margin: 0 auto;
@@ -544,86 +557,86 @@ body, html {
   clear: both;
   height: 100%;
 }
-/* line 485, ../sass/screen.scss */
+/* line 498, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .copy {
   margin-top: 3em;
   width: 30%;
 }
-/* line 489, ../sass/screen.scss */
+/* line 502, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .copy img {
   width: 20%;
   margin-bottom: 1em;
 }
-/* line 494, ../sass/screen.scss */
+/* line 507, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .copy p {
   width: 100%;
   color: #646464;
 }
-/* line 500, ../sass/screen.scss */
+/* line 513, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero {
   width: 40%;
   position: relative;
 }
-/* line 504, ../sass/screen.scss */
+/* line 517, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero img {
   width: 120%;
 }
-/* line 508, ../sass/screen.scss */
+/* line 521, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .size {
   width: 130%;
 }
-/* line 512, ../sass/screen.scss */
+/* line 525, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .shareCar {
   float: none;
   clear: both;
   display: block;
   width: 100%;
 }
-/* line 519, ../sass/screen.scss */
+/* line 532, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .shareCar .shareContainers {
   width: 78%;
   height: 100%;
   float: left;
 }
-/* line 524, ../sass/screen.scss */
+/* line 537, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .shareCar .shareContainers img {
   display: none;
   width: 100%;
 }
-/* line 528, ../sass/screen.scss */
+/* line 541, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .shareCar .shareContainers img:first-child {
   display: block;
 }
-/* line 534, ../sass/screen.scss */
+/* line 547, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .shareCar .arrows {
   width: 5%;
   padding: 3%;
   display: table;
   margin-top: 45%;
 }
-/* line 541, ../sass/screen.scss */
+/* line 554, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .shareCar #first {
   display: block;
 }
-/* line 547, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .heroShare {
   width: 50%;
 }
-/* line 553, ../sass/screen.scss */
+/* line 566, ../sass/screen.scss */
 #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul .right {
   margin-right: 3em;
 }
-/* line 565, ../sass/screen.scss */
+/* line 578, ../sass/screen.scss */
 #wrapper .carosel {
   background: #f1f1f1;
 }
-/* line 568, ../sass/screen.scss */
+/* line 581, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer {
   width: inherit;
   overflow: hidden;
   position: relative;
 }
-/* line 573, ../sass/screen.scss */
+/* line 586, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .carArrows {
   display: inline-block;
   position: absolute;
@@ -632,119 +645,66 @@ body, html {
   z-index: 2;
   overflow: hidden;
 }
-/* line 582, ../sass/screen.scss */
+/* line 595, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .leftArrow {
   background: rgba(255, 255, 255, 0.8) url("../assets/home/4_EXPLORE_WRAPS/arrow_left.png") no-repeat 40% center;
   padding-left: 2em;
   background-size: 40px 72px;
 }
-/* line 588, ../sass/screen.scss */
+/* line 601, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .rightArrow {
   background: rgba(255, 255, 255, 0.8) url("../assets/home/4_EXPLORE_WRAPS/arrow_right.png") no-repeat 40% center;
   right: 0em;
   padding-right: 2em;
   background-size: 40px 72px;
 }
-/* line 595, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .absoluteContainer {
   height: 80%;
 }
-/* line 598, ../sass/screen.scss */
+/* line 611, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .absoluteContainer .cardContainer {
   position: relative;
   overflow: hidden;
   width: auto;
   height: inherit;
 }
-/* line 604, ../sass/screen.scss */
+/* line 617, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .absoluteContainer .cardContainer .card {
   width: 10%;
   float: left;
 }
-/* line 608, ../sass/screen.scss */
+/* line 621, ../sass/screen.scss */
 #wrapper .carosel .caroselContainer .absoluteContainer .cardContainer .card .wrap-media-embed {
   width: 100%;
 }
-/* line 617, ../sass/screen.scss */
-#wrapper .wrapIsAbout {
-  		/* 
-  		height : 60%;
-  		background: #515151;
-  
-  		.titleContainers{
-  			h1{
-  				color: white;
-  			}
-  		}
-  
-  		.wrapIsAboutContainer{
-  			width : 64%;
-  			height : inherit;
-  			margin: 0 auto; 
-  
-  			ul{
-  				width : 100%;
-  				height : inherit;
-  				li{
-  					width: 25%; 
-  					float : left;
-  					margin : 0 2em;
-  
-  					h2{
-  						font-size: 1.2em; 
-  						line-height: 1.3em;
-  						color : white;
-  					}
-  
-  					p{
-  						color: white; 
-  						font-size: .7em; 
-  						line-height: 1.5em; 
-  						margin-bottom: 1em; 
-  					}
-  
-  					span{
-  						font-family: proximaNovaBold;
-  						font-size : .7em;
-  						color: #f37920;
-  					}
-  
-  					img{
-  						height : 40px;
-  						margin-bottom: 1em; 
-  					}
-  				}
-  			}
-  		}
-  		*/
-}
-/* line 675, ../sass/screen.scss */
+/* line 635, ../sass/screen.scss */
 #wrapper .aboutContainer {
   display: block;
   height: auto;
 }
-/* line 679, ../sass/screen.scss */
+/* line 639, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer {
   display: block;
 }
-/* line 682, ../sass/screen.scss */
+/* line 642, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer {
   margin: 2em 0;
   clear: both;
   width: 100%;
 }
-/* line 687, ../sass/screen.scss */
+/* line 647, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer {
   position: relative;
   margin: 2em 0;
   width: 100%;
   overflow: auto;
 }
-/* line 693, ../sass/screen.scss */
+/* line 653, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul {
   height: inherit;
 }
-/* line 696, ../sass/screen.scss */
+/* line 656, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li {
   float: left;
   width: 18%;
@@ -752,27 +712,27 @@ body, html {
   min-height: 100px;
   text-align: center;
 }
-/* line 703, ../sass/screen.scss */
+/* line 663, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li img {
   width: 100%;
 }
-/* line 707, ../sass/screen.scss */
+/* line 667, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li h4 {
   text-transform: uppercase;
   font-size: 80%;
   margin: 1% 0;
 }
-/* line 713, ../sass/screen.scss */
+/* line 673, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li h5 {
   text-transform: uppercase;
   text-align: center;
   font-size: 70%;
 }
-/* line 720, ../sass/screen.scss */
+/* line 680, ../sass/screen.scss */
 #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul .investors {
   width: 100%;
 }
-/* line 734, ../sass/screen.scss */
+/* line 694, ../sass/screen.scss */
 #wrapper .cardNavigation {
   margin-left: 15%;
   width: 100%;
@@ -780,7 +740,7 @@ body, html {
   position: absolute;
   z-index: 2;
 }
-/* line 741, ../sass/screen.scss */
+/* line 701, ../sass/screen.scss */
 #wrapper .cardNavigation .cardTitle {
   float: left;
   cursor: pointer;
@@ -792,94 +752,94 @@ body, html {
   font-size: .6em;
   padding: 1.5em 3em;
 }
-/* line 752, ../sass/screen.scss */
+/* line 712, ../sass/screen.scss */
 #wrapper .cardNavigation .cardTitle:first-child {
   background: white;
 }
-/* line 761, ../sass/screen.scss */
+/* line 721, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer {
   margin: 0em auto;
 }
-/* line 764, ../sass/screen.scss */
+/* line 724, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer {
   width: 100%;
   height: inherit;
 }
-/* line 768, ../sass/screen.scss */
+/* line 728, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer .wrapCovers {
   width: inherit;
   height: inherit;
   display: none;
 }
-/* line 773, ../sass/screen.scss */
+/* line 733, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer .wrapCovers .card {
   float: left;
   width: 24%;
   padding: .5%;
 }
-/* line 778, ../sass/screen.scss */
+/* line 738, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer .wrapCovers .card img, #wrapper .exploreContainer .contentContainer .wrapCoverContainer .wrapCovers .card .wrap-media-embed {
   width: 100%;
 }
-/* line 783, ../sass/screen.scss */
+/* line 743, ../sass/screen.scss */
 #wrapper .exploreContainer .contentContainer .wrapCoverContainer .wrapCovers:first-child {
   display: block;
 }
-/* line 796, ../sass/screen.scss */
+/* line 756, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer {
   height: auto;
   overflow: auto;
 }
-/* line 800, ../sass/screen.scss */
+/* line 760, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer, #wrapper .contactContainer .contentContainer questionsContainer {
   width: 20%;
 }
-/* line 803, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer h2, #wrapper .contactContainer .contentContainer questionsContainer h2 {
   margin-bottom: 1em;
 }
-/* line 807, ../sass/screen.scss */
+/* line 767, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer ol, #wrapper .contactContainer .contentContainer .addressContainer p, #wrapper .contactContainer .contentContainer questionsContainer ol, #wrapper .contactContainer .contentContainer questionsContainer p {
   color: #646464;
   font-size: .8em;
   margin-bottom: .2em;
 }
-/* line 812, ../sass/screen.scss */
+/* line 772, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .addressContainer ol a, #wrapper .contactContainer .contentContainer .addressContainer p a, #wrapper .contactContainer .contentContainer questionsContainer ol a, #wrapper .contactContainer .contentContainer questionsContainer p a {
   color: #f37920;
 }
-/* line 818, ../sass/screen.scss */
+/* line 778, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map, #wrapper .contactContainer .contentContainer .form {
   width: 70%;
   height: inherit;
 }
-/* line 822, ../sass/screen.scss */
+/* line 782, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map .mapIframe, #wrapper .contactContainer .contentContainer .form .mapIframe {
   width: 100%;
   height: 25em;
 }
-/* line 827, ../sass/screen.scss */
+/* line 787, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form, #wrapper .contactContainer .contentContainer .form form {
   width: 100%;
 }
-/* line 830, ../sass/screen.scss */
+/* line 790, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field, #wrapper .contactContainer .contentContainer .form form .field {
   width: inherit;
 }
-/* line 833, ../sass/screen.scss */
+/* line 793, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field .formDescriptions, #wrapper .contactContainer .contentContainer .form form .field .formDescriptions {
   font-size: .7em;
   width: 50%;
   margin-bottom: 0.3em;
 }
-/* line 839, ../sass/screen.scss */
+/* line 799, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field input, #wrapper .contactContainer .contentContainer .form form .field input {
   clear: both;
   width: 96%;
   padding: .7em;
   margin-bottom: .5em;
 }
-/* line 846, ../sass/screen.scss */
+/* line 806, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field textarea, #wrapper .contactContainer .contentContainer .form form .field textarea {
   width: 96%;
   padding: .7em;
@@ -887,31 +847,31 @@ body, html {
   height: 8em;
   margin-bottom: 2em;
 }
-/* line 854, ../sass/screen.scss */
+/* line 814, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field .required, #wrapper .contactContainer .contentContainer .form form .field .required {
   text-align: right;
 }
-/* line 859, ../sass/screen.scss */
+/* line 819, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .map form .field .orange, #wrapper .contactContainer .contentContainer .form form .field .orange {
   color: #f37920;
 }
-/* line 866, ../sass/screen.scss */
+/* line 826, ../sass/screen.scss */
 #wrapper .contactContainer .contentContainer .questionsContainer {
   clear: both;
   margin-top: 30em;
   border-top: 1px solid #646464;
   padding-top: 5em;
 }
-/* line 882, ../sass/screen.scss */
+/* line 842, ../sass/screen.scss */
 #wrapper .careersContainer .careerNavigation {
   width: inherit;
 }
-/* line 885, ../sass/screen.scss */
+/* line 845, ../sass/screen.scss */
 #wrapper .careersContainer .careerNavigation ul {
   width: 19em;
   margin: 0 auto;
 }
-/* line 888, ../sass/screen.scss */
+/* line 848, ../sass/screen.scss */
 #wrapper .careersContainer .careerNavigation ul li {
   float: left;
   margin: 3em 1em;
@@ -920,30 +880,30 @@ body, html {
   text-transform: uppercase;
   font-size: .7em;
 }
-/* line 899, ../sass/screen.scss */
+/* line 859, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer {
   clear: both;
 }
-/* line 902, ../sass/screen.scss */
+/* line 862, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings {
   width: 40%;
 }
-/* line 905, ../sass/screen.scss */
+/* line 865, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings h2 {
   font-size: 1.7em;
   margin-bottom: 1em;
   line-height: 1.2em;
 }
-/* line 911, ../sass/screen.scss */
+/* line 871, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections {
   margin-bottom: 3em;
 }
-/* line 914, ../sass/screen.scss */
+/* line 874, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections h2 {
   font-size: 1.3em;
   color: #9cc547;
 }
-/* line 919, ../sass/screen.scss */
+/* line 879, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections h5 {
   font-family: proximaNova;
   font-size: .5em;
@@ -951,7 +911,7 @@ body, html {
   text-transform: uppercase;
   margin-bottom: .2em;
 }
-/* line 927, ../sass/screen.scss */
+/* line 887, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobOpenings .sections h4 {
   font-family: proximaNovaBold;
   font-size: .8em;
@@ -959,30 +919,30 @@ body, html {
   text-transform: uppercase;
   margin-bottom: 2em;
 }
-/* line 937, ../sass/screen.scss */
+/* line 897, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions {
   width: 50%;
 }
-/* line 940, ../sass/screen.scss */
+/* line 900, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections {
   margin-bottom: 3em;
 }
-/* line 943, ../sass/screen.scss */
+/* line 903, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections h2 {
   font-size: 1.7em;
   margin-bottom: 1em;
   line-height: 1.2em;
 }
-/* line 949, ../sass/screen.scss */
+/* line 909, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections p {
   font-size: .7em;
   line-height: 1.3em;
 }
-/* line 954, ../sass/screen.scss */
+/* line 914, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections ul {
   margin: 1em 1em;
 }
-/* line 956, ../sass/screen.scss */
+/* line 916, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections ul li {
   font-family: proximaNova;
   font-size: .7em;
@@ -990,7 +950,7 @@ body, html {
   list-style: disc;
   margin-bottom: .3em;
 }
-/* line 968, ../sass/screen.scss */
+/* line 928, ../sass/screen.scss */
 #wrapper .careersContainer .finePrint {
   width: 100%;
   clear: both;
@@ -999,17 +959,17 @@ body, html {
   font-size: .5em;
   line-height: .9em;
 }
-/* line 978, ../sass/screen.scss */
+/* line 938, ../sass/screen.scss */
 #wrapper .footer {
   background: #333;
   position: relative;
 }
-/* line 984, ../sass/screen.scss */
+/* line 944, ../sass/screen.scss */
 #wrapper .footer .footerContainer {
   padding: 5% 21%;
   height: 10em;
 }
-/* line 988, ../sass/screen.scss */
+/* line 948, ../sass/screen.scss */
 #wrapper .footer .footerContainer .smallPrint {
   position: absolute;
   bottom: 2em;
@@ -1018,28 +978,28 @@ body, html {
   font-family: proximaNova;
   color: #b2b0b1;
 }
-/* line 996, ../sass/screen.scss */
+/* line 956, ../sass/screen.scss */
 #wrapper .footer .footerContainer .smallPrint span {
   padding-left: 3%;
   color: #f37920;
 }
-/* line 1002, ../sass/screen.scss */
+/* line 962, ../sass/screen.scss */
 #wrapper .footer .footerContainer .social {
   position: absolute;
   right: 7em;
   bottom: 4em;
 }
-/* line 1008, ../sass/screen.scss */
+/* line 968, ../sass/screen.scss */
 #wrapper .footer .footerContainer .social img {
   width: 50px;
   height: 50px;
 }
-/* line 1014, ../sass/screen.scss */
+/* line 974, ../sass/screen.scss */
 #wrapper .footer .footerContainer .column {
   float: left;
   margin-right: 6em;
 }
-/* line 1019, ../sass/screen.scss */
+/* line 979, ../sass/screen.scss */
 #wrapper .footer .footerContainer .column ul li {
   font-family: proximaNovaBold;
   font-size: .7em;
@@ -1047,13 +1007,13 @@ body, html {
   padding-bottom: 1em;
   text-transform: uppercase;
 }
-/* line 1026, ../sass/screen.scss */
+/* line 986, ../sass/screen.scss */
 #wrapper .footer .footerContainer .column ul li:first-child {
   color: white;
 }
 
 @media handheld, screen and (max-width: 995px) {
-  /* line 1059, ../sass/screen.scss */
+  /* line 1019, ../sass/screen.scss */
   #wrapper {
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
@@ -1063,26 +1023,30 @@ body, html {
     /*///////// ABOUT MOBILE /////////*/
     /*///////// CAREERS MOBILE /////////*/
   }
-  /* line 1064, ../sass/screen.scss */
+  /* line 1024, ../sass/screen.scss */
+  #wrapper .modal .modalContainers {
+    width: 90%;
+  }
+  /* line 1030, ../sass/screen.scss */
   #wrapper .module .contentContainer {
     width: 90%;
     padding: 5%;
   }
-  /* line 1071, ../sass/screen.scss */
+  /* line 1037, ../sass/screen.scss */
   #wrapper .module .titleContainers {
     padding: 1em 0;
   }
-  /* line 1078, ../sass/screen.scss */
+  /* line 1044, ../sass/screen.scss */
   #wrapper .navContainer {
     width: 100%;
     padding: 0;
     min-height: 3.8em;
   }
-  /* line 1084, ../sass/screen.scss */
+  /* line 1050, ../sass/screen.scss */
   #wrapper .navContainer .navImages img {
     height: 2.2em;
   }
-  /* line 1089, ../sass/screen.scss */
+  /* line 1055, ../sass/screen.scss */
   #wrapper .navContainer .hamburger {
     display: block;
     position: absolute;
@@ -1091,7 +1055,7 @@ body, html {
     z-index: 99;
     padding: .8em 2%;
   }
-  /* line 1097, ../sass/screen.scss */
+  /* line 1063, ../sass/screen.scss */
   #wrapper .navContainer .hamburger .x {
     position: absolute;
     padding: 0;
@@ -1100,17 +1064,17 @@ body, html {
     color: white;
     z-index: 200;
   }
-  /* line 1107, ../sass/screen.scss */
+  /* line 1073, ../sass/screen.scss */
   #wrapper .navContainer .navLogo {
     width: inherit;
     padding: .8em 0;
   }
-  /* line 1111, ../sass/screen.scss */
+  /* line 1077, ../sass/screen.scss */
   #wrapper .navContainer .navLogo img {
     display: block;
     margin: 0 auto;
   }
-  /* line 1118, ../sass/screen.scss */
+  /* line 1084, ../sass/screen.scss */
   #wrapper .navContainer .leftNav {
     display: none;
     font-family: proximaNova;
@@ -1125,7 +1089,7 @@ body, html {
     background: rgba(0, 0, 0, 0.9);
     z-index: 9;
   }
-  /* line 1133, ../sass/screen.scss */
+  /* line 1099, ../sass/screen.scss */
   #wrapper .navContainer .leftNav ul li {
     text-align: center;
     width: 100%;
@@ -1134,37 +1098,37 @@ body, html {
     clear: both;
     border: 1px solid #111;
   }
-  /* line 1144, ../sass/screen.scss */
+  /* line 1110, ../sass/screen.scss */
   #wrapper .navContainer .rightNav {
     width: 7%;
     position: absolute;
     right: 3%;
   }
-  /* line 1150, ../sass/screen.scss */
+  /* line 1116, ../sass/screen.scss */
   #wrapper .navContainer .rightNav ul li {
     display: none;
   }
-  /* line 1155, ../sass/screen.scss */
+  /* line 1121, ../sass/screen.scss */
   #wrapper .navContainer .rightNav ul #login {
     display: block;
     padding: 2.5em 3%;
   }
-  /* line 1165, ../sass/screen.scss */
+  /* line 1131, ../sass/screen.scss */
   #wrapper .module {
     height: auto;
     width: 100%;
   }
-  /* line 1170, ../sass/screen.scss */
+  /* line 1136, ../sass/screen.scss */
   #wrapper .topHero {
     height: 60%;
     background-size: 150% 100%;
     background-repeat: none;
   }
-  /* line 1175, ../sass/screen.scss */
+  /* line 1141, ../sass/screen.scss */
   #wrapper .topHero .contentContainer {
     height: 100%;
   }
-  /* line 1178, ../sass/screen.scss */
+  /* line 1144, ../sass/screen.scss */
   #wrapper .topHero .contentContainer .copy {
     position: absolute;
     height: auto;
@@ -1173,92 +1137,92 @@ body, html {
     width: 94%;
     text-align: center;
   }
-  /* line 1186, ../sass/screen.scss */
+  /* line 1152, ../sass/screen.scss */
   #wrapper .topHero .contentContainer .copy h1 {
     margin-bottom: .1em;
   }
-  /* line 1190, ../sass/screen.scss */
+  /* line 1156, ../sass/screen.scss */
   #wrapper .topHero .contentContainer .copy p {
     width: inherit;
   }
-  /* line 1194, ../sass/screen.scss */
+  /* line 1160, ../sass/screen.scss */
   #wrapper .topHero .contentContainer .copy .callToActionContainer {
     display: block;
     width: 15em;
     margin: 0 auto;
   }
-  /* line 1207, ../sass/screen.scss */
+  /* line 1173, ../sass/screen.scss */
   #wrapper .homeAbout .contentContainer .homeAboutHero {
     margin: -2em 0 0 0;
     width: 100%;
     float: left;
   }
-  /* line 1212, ../sass/screen.scss */
+  /* line 1178, ../sass/screen.scss */
   #wrapper .homeAbout .contentContainer .homeAboutHero img {
     width: 100%;
   }
-  /* line 1217, ../sass/screen.scss */
+  /* line 1183, ../sass/screen.scss */
   #wrapper .homeAbout .contentContainer .homeAboutCopyContainer {
     float: right;
     padding: 0 0 0 0;
     text-align: center;
     width: 100%;
   }
-  /* line 1223, ../sass/screen.scss */
+  /* line 1189, ../sass/screen.scss */
   #wrapper .homeAbout .contentContainer .homeAboutCopyContainer p {
     width: 100%;
   }
-  /* line 1227, ../sass/screen.scss */
+  /* line 1193, ../sass/screen.scss */
   #wrapper .homeAbout .contentContainer .homeAboutCopyContainer img {
     display: block;
     width: 80%;
     margin: 0 auto;
   }
-  /* line 1236, ../sass/screen.scss */
+  /* line 1202, ../sass/screen.scss */
   #wrapper .cardNavigation {
     margin-left: 1%;
     width: 100%;
     margin-top: -2.4em;
     position: absolute;
   }
-  /* line 1242, ../sass/screen.scss */
+  /* line 1208, ../sass/screen.scss */
   #wrapper .cardNavigation .cardTitle {
     font-size: .6em;
     padding: 1.5em 5%;
   }
-  /* line 1252, ../sass/screen.scss */
+  /* line 1218, ../sass/screen.scss */
   #wrapper .exploreContainer .contentContainer .wrapCoverContainer .personal .card {
     float: none;
     width: 100%;
     padding: .5%;
   }
-  /* line 1264, ../sass/screen.scss */
+  /* line 1230, ../sass/screen.scss */
   #wrapper .carosel .caroselContainer .absoluteContainer {
     margin-left: -11em;
     width: 500em;
   }
-  /* line 1268, ../sass/screen.scss */
+  /* line 1234, ../sass/screen.scss */
   #wrapper .carosel .caroselContainer .absoluteContainer .cardContainer {
     overflow: hidden;
   }
-  /* line 1272, ../sass/screen.scss */
+  /* line 1238, ../sass/screen.scss */
   #wrapper .carosel .caroselContainer .absoluteContainer .cardContainer .card {
     width: 15em;
     float: left;
   }
-  /* line 1276, ../sass/screen.scss */
+  /* line 1242, ../sass/screen.scss */
   #wrapper .carosel .caroselContainer .absoluteContainer .cardContainer .card .wrap-media-embed {
     width: 100%;
   }
-  /* line 1286, ../sass/screen.scss */
+  /* line 1252, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer {
     height: inherit;
   }
-  /* line 1289, ../sass/screen.scss */
+  /* line 1255, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul {
     height: 100%;
   }
-  /* line 1292, ../sass/screen.scss */
+  /* line 1258, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li {
     width: 100%;
     margin: 0 auto;
@@ -1266,136 +1230,136 @@ body, html {
     clear: both;
     height: 100%;
   }
-  /* line 1300, ../sass/screen.scss */
+  /* line 1266, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .copy {
     margin-top: 3em;
     width: 100%;
     float: none;
     clear: both;
   }
-  /* line 1306, ../sass/screen.scss */
+  /* line 1272, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .copy h2 {
     text-align: center;
   }
-  /* line 1310, ../sass/screen.scss */
+  /* line 1276, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .copy img {
     display: block;
     width: 20%;
     margin: 1em auto;
   }
-  /* line 1317, ../sass/screen.scss */
+  /* line 1283, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero {
     width: 100%;
   }
-  /* line 1320, ../sass/screen.scss */
+  /* line 1286, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero img {
     width: 100%;
   }
-  /* line 1324, ../sass/screen.scss */
+  /* line 1290, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul li .hero .size {
     width: 100%;
   }
-  /* line 1330, ../sass/screen.scss */
+  /* line 1296, ../sass/screen.scss */
   #wrapper .howDoesItWork .contentContainer .howDoesItWorkContainer ul .right {
     margin-right: 0em;
   }
-  /* line 1338, ../sass/screen.scss */
+  /* line 1304, ../sass/screen.scss */
   #wrapper .subFooter {
     height: auto;
     overflow: auto;
   }
-  /* line 1342, ../sass/screen.scss */
+  /* line 1308, ../sass/screen.scss */
   #wrapper .subFooter .wrapIsAboutContainer {
     width: 100%;
   }
-  /* line 1345, ../sass/screen.scss */
+  /* line 1311, ../sass/screen.scss */
   #wrapper .subFooter .wrapIsAboutContainer ul {
     display: block;
     margin-bottom: 2em;
   }
-  /* line 1349, ../sass/screen.scss */
+  /* line 1315, ../sass/screen.scss */
   #wrapper .subFooter .wrapIsAboutContainer ul li {
     float: none;
     width: 80%;
     margin: 0;
     padding: 2% 10%;
   }
-  /* line 1355, ../sass/screen.scss */
+  /* line 1321, ../sass/screen.scss */
   #wrapper .subFooter .wrapIsAboutContainer ul li .subImageContainer {
     padding: 2em 20% .5em;
   }
-  /* line 1359, ../sass/screen.scss */
+  /* line 1325, ../sass/screen.scss */
   #wrapper .subFooter .wrapIsAboutContainer ul li p {
     line-height: 2em;
   }
-  /* line 1374, ../sass/screen.scss */
+  /* line 1340, ../sass/screen.scss */
   #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul li {
     float: left;
     width: 45%;
     padding: 0 3% 3% 0;
     min-height: 100px;
   }
-  /* line 1381, ../sass/screen.scss */
+  /* line 1347, ../sass/screen.scss */
   #wrapper .aboutContainer .contentContainer .aboutPeopleSectionContainer .aboutPeopleContainer ul .investors {
     width: 100%;
     float: none;
     clear: both;
   }
-  /* line 1394, ../sass/screen.scss */
+  /* line 1360, ../sass/screen.scss */
   #wrapper .contactContainer .contentContainer .addressContainer, #wrapper .contactContainer .contentContainer questionsContainer {
     width: 100%;
     text-align: center;
   }
-  /* line 1399, ../sass/screen.scss */
+  /* line 1365, ../sass/screen.scss */
   #wrapper .contactContainer .contentContainer .map, #wrapper .contactContainer .contentContainer .form {
     width: 100%;
     height: inherit;
   }
-  /* line 1403, ../sass/screen.scss */
+  /* line 1369, ../sass/screen.scss */
   #wrapper .contactContainer .contentContainer .map form, #wrapper .contactContainer .contentContainer .form form {
     margin-top: 1em;
   }
-  /* line 1408, ../sass/screen.scss */
+  /* line 1374, ../sass/screen.scss */
   #wrapper .contactContainer .contentContainer .questionsContainer {
     clear: both;
     margin-top: 30em;
     border-top: 1px solid #646464;
     padding-top: 5em;
   }
-  /* line 1421, ../sass/screen.scss */
+  /* line 1387, ../sass/screen.scss */
   #wrapper .careersContainer .careerNavigation {
     width: inherit;
   }
-  /* line 1423, ../sass/screen.scss */
+  /* line 1389, ../sass/screen.scss */
   #wrapper .careersContainer .careerNavigation ul {
     margin: 0 auto;
   }
-  /* line 1425, ../sass/screen.scss */
+  /* line 1391, ../sass/screen.scss */
   #wrapper .careersContainer .careerNavigation ul li {
     margin: 3em 1em;
   }
-  /* line 1432, ../sass/screen.scss */
+  /* line 1398, ../sass/screen.scss */
   #wrapper .careersContainer .contentContainer .jobOpenings {
     float: none;
     width: 100%;
     text-align: center;
   }
-  /* line 1438, ../sass/screen.scss */
+  /* line 1404, ../sass/screen.scss */
   #wrapper .careersContainer .contentContainer .jobDescriptions {
     width: 100%;
     float: none;
   }
-  /* line 1446, ../sass/screen.scss */
+  /* line 1412, ../sass/screen.scss */
   #wrapper .footer .footerContainer {
     padding: 15% 5%;
     height: 10em;
   }
-  /* line 1450, ../sass/screen.scss */
+  /* line 1416, ../sass/screen.scss */
   #wrapper .footer .footerContainer .column {
     float: left;
     margin: 0 6%;
   }
-  /* line 1455, ../sass/screen.scss */
+  /* line 1421, ../sass/screen.scss */
   #wrapper .footer .footerContainer .column ul li {
     font-family: proximaNovaBold;
     font-size: .7em;
@@ -1403,7 +1367,7 @@ body, html {
     padding-bottom: 1em;
     text-transform: uppercase;
   }
-  /* line 1462, ../sass/screen.scss */
+  /* line 1428, ../sass/screen.scss */
   #wrapper .footer .footerContainer .column ul li:first-child {
     color: white;
   }
