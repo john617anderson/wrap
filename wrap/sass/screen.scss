@@ -977,10 +977,39 @@ body, html{
 
 	.footer{
 		background : #333;
+		position: relative;
+
+		
 
 		.footerContainer{
 			padding : 5% 21%;
 			height: 10em;
+
+			.smallPrint{
+				position: absolute;
+				bottom : 2em;
+				width: 100%;  
+				font-size: .8em; 
+				font-family: proximaNova;
+				color: #b2b0b1; 
+
+				span{
+					padding-left: 3%;
+					color : #f37920;
+				}
+			}
+
+			.social{
+				position: absolute;
+				right : 7em;
+				bottom : 4em;  
+				
+
+				img{
+					width : 50px; 
+					height : 50px; 
+				}
+			}
 
 			.column{
 				float : left;
