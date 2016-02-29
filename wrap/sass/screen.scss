@@ -66,6 +66,10 @@ a{
 	padding : 1em 2em;
 }
 
+.modalButton{
+	cursor: pointer;
+}
+
 .left{
 	float: left; 
 }
@@ -345,8 +349,9 @@ body, html{
 	}
 
 	.subFooter{
-		margin-top: 2em;
-		height : 80%;
+		padding-bottom: 2em;
+		height : auto;
+		overflow: auto;
 		background: #515151;
 
 		.titleContainers{
@@ -422,6 +427,7 @@ body, html{
 
 	.homeHero{
 		background-image: url("../assets/home/2_HERO/hero_pix.jpg"); 
+		background-attachment: 'fixed';
 		
 	}
 
@@ -576,7 +582,8 @@ body, html{
 	}
 
 	.carosel{
-		background: #f1f1f1; 
+		background: #f1f1f1;
+		height : 120%; 
 
 		.caroselContainer{
 			width : inherit;
@@ -586,7 +593,8 @@ body, html{
 			.carArrows{
 				display: inline-block;
 				position: absolute;
-				height : 100%;
+				opacity: 0;
+				height : 28%;
 				width  : 3%;
 				z-index: 2; 
 				overflow: hidden;
@@ -606,20 +614,22 @@ body, html{
 			}
 
 			.absoluteContainer{
-				height : 80%; 
+				height : 100%; 
 
 				.cardContainer{
 					position: relative;
 					overflow: hidden; 
 					width: auto;
 					height: inherit;
+					margin-bottom: 20%; 
+					padding: 1% 0 5%; 
 
 					.card{
-						width : 10%;
 						float : left;
 
 						.wrap-media-embed{
 							width : 100%;
+
 						}
 					}
 				}
