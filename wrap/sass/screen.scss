@@ -532,17 +532,24 @@ body, html{
 								float: none; 
 								clear: both;
 								display: block;
-								width: 100%; 
+								width: 120%; 
+								overflow: hidden; 
+								position: relative;
 								
 
-								.shareContainers{
-									width: 78%; 
-									height: 100%; 
+								.shareAssets{
+									width: 350px; 
+									height: 480px; 
 									float: left;
+									overflow: hidden; 
+									position: relative; 
 
 									img{
 										display: none; 
-										width: 100%; 
+										width: inherit;
+										height: inherit;
+										position: absolute;
+										z-index: -1; 
 
 										&:first-child{
 											display : block;
@@ -551,10 +558,11 @@ body, html{
 								}
 
 								.arrows{
+									position: relative;
 									width : 5%;
 									padding : 3%;
-									display: table;
-									margin-top: 45%;
+									float: left; 
+									margin-top: 30%;
 								}
 
 								#first{

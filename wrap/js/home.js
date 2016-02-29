@@ -8,6 +8,7 @@ $(function(){
 	var _big = _w/3.5; 
 	var _r = _big - parseInt(_w/4); 
 	var _start;
+	var _share = 0; 
 
 	function setWrapWidth(){
 		$('.card').css({width : _w/4}); 
@@ -80,19 +81,41 @@ $(function(){
 	}
 
 	function whatWrapIsAboutShare(){
-		var _share = 0; 
+		var _newShare;
+		var _w = $('.shareAssets img').width();
+		var _neg;  
+		var _pos; 
+		var shareImages = []; 
+
+		$('.shareAssets img').each(function(i){
+			shareImages.push($(this)); 
+		});
+
+
 
 		$('.arrows').click(function(){
 			if($(this).attr('id') === 'leftArr'){
-				(_share == 0) ? _share = 4 : _share--; 
+				(_share == 0) ? _newShare = 4 : _newShare = _share - 1; 
+				_pos = 1; 
+				_neg = -1; 
 			}else{
-				(_share == 4) ? _share = 0 : _share++; 
+				(_share == 4) ? _newShare = 0 : _newShare = _share + 1; 
+				_pos = -1; 
+				_neg = 1; 
 			}
 
-			$('.shareAssets img').each(function(i){
-				(i == _share) ? $(this).show() : $(this).hide();
-			}); 
+			shareImages[_newShare].show().css({marginLeft : _neg*_w}).animate({marginLeft : 0});
+			shareImages[_share].animate({marginLeft : _pos*_w}, function(){
+					shareImages[_share].hide(); 
+
+					_share = _newShare; 
+			});; 
+
+			
+			
 		});
+
+		 
 	}
 
 	setWrapWidth(); 
