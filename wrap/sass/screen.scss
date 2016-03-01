@@ -42,6 +42,10 @@ h2{
 	margin-bottom: .5em; 
 }
 
+h3{
+	font-family: proximaNova;
+}
+
 h4{
 	font-family: proximaNovaBold; 
 }
@@ -49,6 +53,7 @@ h4{
 p{
 	line-height: 1.8em;
 	font-size: 1em;
+	font-family: proximaNova;
 }
 
 a{
@@ -936,11 +941,10 @@ body, html{
 		background : #333;
 		position: relative;
 
-		
-
 		.footerContainer{
 			padding : 5% 21%;
 			height: 10em;
+			position: relative;
 
 			.smallPrint{
 				position: absolute;
@@ -986,6 +990,36 @@ body, html{
 						} 
 					}
 				}
+			}
+		}
+
+		.madeWithLove{
+			float: none; 
+			clear: both; 
+			width: 100%; 
+			height: auto; 
+			text-align: center; 
+			background: rgb(254, 254, 254); 
+			position: relative;
+
+			.birdContainer{
+				position: absolute;
+				width: 100%; 
+				margin-top: -1em;
+
+				.footerBird{
+					display: block;
+					margin: 0 auto;
+				}
+			}
+
+			h3{
+				padding: 3% 0 0; 
+				text-transform: uppercase;
+			}
+
+			p{
+				padding: 1%; 
 			}
 		}
 	}

@@ -33,4 +33,12 @@
 			</ul>
 		</div>
 	</div>
+	<div class="madeWithLove">
+		<div class="birdContainer">
+			<img class="footerBird" src="assets/global/FOOTER/wrap_logo_footer.png" />
+		</div>
+		
+		<h3>Crafted with love in San Francisco, California</h3>
+		<p><a href="#">@Copyright</a> 2015 Wrap Media. All rights reserved</p>
+	</div>
 </div>
