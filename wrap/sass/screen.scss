@@ -47,7 +47,7 @@ h4{
 }
 
 p{
-	line-height: 1.6em;
+	line-height: 1.8em;
 	font-size: 1em;
 }
 
@@ -57,7 +57,7 @@ a{
 
 .orangeButton{
 	font-family: proximaNovaBold;
-	font-size : .6em;
+	font-size : .8em;
 	background-color: #f37920;
 	color : white;
 	text-transform: uppercase;
@@ -420,30 +420,6 @@ body, html{
 		}
 	}
 
-
-	/* 
-		////////////////////////// HEROS /////////////////////////////////
-	*/
-
-	.homeHero{
-		background-image: url("../assets/home/2_HERO/hero_pix.jpg"); 
-		background-attachment: 'fixed';
-		
-	}
-
-	.heroAbout{
-		background-image: url("../assets/about/1_HERO/about_hero_pix.jpg"); 
-		
-	}
-
-	.heroCareers{
-		background-image: url("../assets/careers/HERO/hero_careers.jpg"); 
-	}
-
-	.heroExplore{
-		background-image: url("../assets/explore/HERO/hero_explore.jpg"); 
-	}
-
 	/* 
 		////////////////////////// HOME /////////////////////////////////
 	*/
@@ -529,24 +505,23 @@ body, html{
 							}
 
 							.shareCar{
-								float: none; 
-								clear: both;
 								display: block;
-								width: 120%; 
+								width: 100%;
+								height : 100%;
 								overflow: hidden; 
 								position: relative;
 								
 
 								.shareAssets{
-									width: 350px; 
-									height: 480px; 
+									width: 75%; 
+									min-height : 400px;
 									float: left;
 									overflow: hidden; 
 									position: relative; 
 
 									img{
 										display: none; 
-										width: inherit;
+										width: 100%;
 										height: inherit;
 										position: absolute;
 										z-index: -1; 
@@ -568,6 +543,10 @@ body, html{
 								#first{
 									display: block;
 								}
+							}
+
+							.wrap-media-embed{
+								width : 100%; 
 							}
 						}
 
@@ -1010,6 +989,36 @@ body, html{
 			}
 		}
 	}
+
+	/* 
+		////////////////////////// HEROS /////////////////////////////////
+	*/
+
+	.homeHero{
+		background-image: url("../assets/home/2_HERO/hero_pix.jpg"); 
+		background-attachment: 'fixed';
+		
+	}
+
+	.heroAbout{
+		background-image: url("../assets/about/1_HERO/about_hero_pix.jpg"); 
+		
+	}
+
+	.heroCareers{
+		background-image: url("../assets/careers/HERO/hero_careers.jpg"); 
+	}
+
+	.heroExplore{
+		background-image: url("../assets/explore/HERO/hero_explore.jpg"); 
+		.contentContainer{
+			.copy{
+				h1, p{
+					color : #646464;
+				}
+			}
+		}
+	}
 }
 
 @media handheld, screen and (max-width: 995px){
@@ -1035,7 +1044,7 @@ body, html{
     }
 
     #wrapper{
-    	overflow :scroll;
+    	overflow-x : hidden;
     	-webkit-overflow-scrolling: touch;
 
     	.modal{

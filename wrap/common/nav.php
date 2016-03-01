@@ -31,7 +31,7 @@
 		<div class="close vidClose"></div>
 
 		<h2>What is a Wrap?</h2>
-		<video controls poster="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg">
+		<video controls poster="assets/video/Video_Image.png">
 		  <source src="assets/video/WrapCo_VO_FX_11.02.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 		</video>
@@ -51,13 +51,11 @@
 			<li><a href="index.php?section=explore">explore</a></li>
 			<li><a href="index.php?section=about">about</a></li>
 			<li><a href="index.php?section=careers">careers</a></li>
-			<li><a href="index.php?section=contact">contact</a></li>
 		</ul>
 	</div>
 	<div class="rightNav">
 		<ul>
 			<li class="orangeButton modalButton" id="freeTrial">free trial</li>
-			<li>sign up</li>
 			<li id="login">login</li>
 		</ul>
 	</div>

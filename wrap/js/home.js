@@ -45,9 +45,7 @@ $(function(){
 		$('.carArrows').click(function(e){
 			var _num; 
 			var _end = false; 
-			var _newCenter; 
-
-			
+			var _newCenter; 		
 
 			if($(this).attr('id') == "left"){
 				if(_center != 2){
@@ -91,8 +89,6 @@ $(function(){
 			shareImages.push($(this)); 
 		});
 
-
-
 		$('.arrows').click(function(){
 			if($(this).attr('id') === 'leftArr'){
 				(_share == 0) ? _newShare = 4 : _newShare = _share - 1; 
@@ -109,13 +105,10 @@ $(function(){
 					shareImages[_share].hide(); 
 
 					_share = _newShare; 
-			});; 
-
-			
+			});; 	
 			
 		});
-
-		 
+	 
 	}
 
 	setWrapWidth(); 

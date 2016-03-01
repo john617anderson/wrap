@@ -28,7 +28,6 @@
 	interactive stories through a mobile interface that feels like an app, looks like an 
 	app and engages like an app—without all the app-like costs.
 			</p>
-			<ol>FREE NON-COMMERICAL USE INFO <br/>COMMERCIAL USE INFO</ol>
 			<img src="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg" />
 			<ol class="modalButton" id="video">watch video</ol>
 		</div>
@@ -153,7 +152,7 @@
 
 				<li>
 					<div class="hero left">
-						<img class="size" src="assets/home/5_HOW_DOES_WRAP_WORK/engage.png" />	
+						<div class="wrap-media-embed" data-wrap-id="1f2f5a2f-904a-43dc-95b6-43785b5ceb5a"></div>
 					</div>
 					<div class="copy right">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/engage_icon.jpg" />	
