@@ -355,7 +355,7 @@ body, html{
 		background: #515151;
 
 		.titleContainers{
-			h1{
+			h1,p{
 				color: white;
 			}
 
@@ -1062,7 +1062,7 @@ body, html{
     		}
 
     		.titleContainers{
-					padding : 1em 0;
+					padding : 3em 0;
 				}
     	}
 
@@ -1186,7 +1186,7 @@ body, html{
 
 	    			.callToActionContainer{
 	    				display: block;
-	    				width : 15em;
+	    				width : 20em;
 	    				margin : 0 auto;
 	    			}
 	    		}
@@ -1253,6 +1253,7 @@ body, html{
 		}
 
 		.carosel{
+			height: 80%; 
 			.caroselContainer{ 
 				.absoluteContainer{
 					margin-left: -11em; 
@@ -1284,7 +1285,7 @@ body, html{
 
 						li{
 							width : 100%;
-							margin: 0 auto;
+							margin: 0 auto 2em;
 							padding-top: 0;
 							clear: both;
 							height: 100%; 
@@ -1317,7 +1318,25 @@ body, html{
 								.size{
 									width: 100%;
 								}
-							}				
+
+								.shareCar{
+									.shareAssets{
+										width: 90%; 
+									}
+
+									.arrows{
+										width : 3%;
+										padding : 1%;
+										margin-top: 45%;
+
+										img{
+											width: 100%; 
+										}
+									}
+								}
+							}
+
+
 						}
 
 						.right{
