@@ -43,11 +43,10 @@
 		<div class="x">x</div>
 	</div>	
 	<div class="navImages navLogo">
-		<img src="assets/global/NAV/logo_horizontal.png" />
+		<a href="index.php"><img src="assets/global/NAV/logo_horizontal.png" /></a>
 	</div>
 	<div class="leftNav">
 		<ul>
-			<li><a href="index.php">home</a></li>
 			<li><a href="index.php?section=explore">explore</a></li>
 			<li><a href="index.php?section=about">about</a></li>
 			<li><a href="index.php?section=careers">careers</a></li>

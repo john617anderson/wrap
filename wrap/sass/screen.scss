@@ -253,7 +253,7 @@ body, html{
 		}
 
 		.leftNav{
-			margin-left : 7.7em;
+			margin-left : 7.9em;
 		}
 
 		.rightNav{
@@ -264,7 +264,7 @@ body, html{
 			ul{
 				li{
 					float: right; 
-					padding : 2.4em 7%;
+					padding : 2.4em 10%;
 				}
 
 				#freeTrial{
@@ -394,7 +394,8 @@ body, html{
 					p{
 						color: white; 
 						font-size: .7em; 
-						line-height: 1.5em; 
+						line-height: 1.5em;
+						height : 8em; 
 						margin-bottom: 1em; 
 					}
 
@@ -460,7 +461,8 @@ body, html{
 				} 
 
 				img{
-					width : 80%;
+					width : 100%;
+					margin-top: 2em; 
 				} 
 			}
 		}
@@ -469,6 +471,7 @@ body, html{
 	.howDoesItWork{
 		overflow: hidden; 
 		height: auto;
+		margin-bottom: 5em;
 
 		.contentContainer{
 			.howDoesItWorkContainer{
@@ -971,26 +974,31 @@ body, html{
 					height : 50px; 
 				}
 			}
+			.subNavContainer{
+				width : 78%;
+				margin : 0 auto; 
 
-			.column{
-				float : left;
-				margin-right: 6em; 
+				.column{
+					float : left;
+					margin-right: 15%; 
 
-				ul{
-					li{
-						font-family: proximaNovaBold;
-						font-size : .7em;
-						color: #908f8f;
-						padding-bottom: 1em;
-						text-transform: uppercase;
+					ul{
+						li{
+							font-family: proximaNovaBold;
+							font-size : .7em;
+							color: #908f8f;
+							padding-bottom: 1em;
+							text-transform: uppercase;
 
-						&:first-child{
-							color : white; 
-							
-						} 
+							&:first-child{
+								color : white; 
+								
+							} 
+						}
 					}
 				}
 			}
+			
 		}
 
 		.madeWithLove{
@@ -1135,10 +1143,13 @@ body, html{
 				width : inherit;
 				padding: .8em 0; 
 
-				img{
-					display: block;
-					margin: 0 auto; 
+				a{
+					img{
+						display: block;
+						margin: 0 auto; 
+					}
 				}
+				
 			}
 
 

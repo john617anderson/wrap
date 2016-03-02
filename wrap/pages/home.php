@@ -1,9 +1,8 @@
 <section class="module topHero homeHero">
 	<div class="contentContainer heroContent">
 		<div class="copy">
-			<h1>tell your story</h1>
-			<p>The simplest way to create and deliver app-like experiences customized to your 
-		audience.
+			<h1>more engaging content. more engaged customers</h1>
+			<p>Introducing Wrap - the simple way to create app-like experiences tailored to any audience, on any screen.
 			</p>
 
 			<div class="callToActionContainer">
