@@ -114,16 +114,18 @@ body, html{
 		display: none; 
 
 		.modalContainers{
-			width : 60%; 
-			margin: 5% auto;
+			width : 40%; 
+			padding: 3%; 
+			margin: 3% auto;
 			display: none;  
-			
+			background: white; 
+
 			.close{
 				width : 29px;
 				height : 29px; 
 				background : url("../assets/global/NAV/white_x.png") no-repeat;
 				float : right;
-				margin-right : 20%; 
+				margin : -3% -3% 0 0; 
 			}
 
 			.vidClose{
@@ -132,10 +134,8 @@ body, html{
 
 			h2{
 				display: block;
-				color: white; 
+				color: #646464; 
 				clear : none; 
-				margin: 0 0 1em; 
-				padding-top: 2em;
 				width: 100%; 
 				text-align: center; 
 			}
@@ -145,11 +145,11 @@ body, html{
 			}
 
 			.freeTrialButton{
-				width : 60%;
+				width : 70%;
 				padding : .9em 0;
-				margin: 0 auto 1em; 
+				margin: 0 auto 4%; 
 				text-align: center; 
-				color: white; 
+				color: white;
 				background : #f37920;
 				text-transform: uppercase;
 				font-family: proximaNovaBold;
@@ -161,31 +161,45 @@ body, html{
 			}
 
 			p{
-				color: white; 
-				width: 100%; 
+				display: block;
+				color: #646464; 
+				width: 80%; 
 				text-align: center; 
-				margin: 1em 0; 
+				margin: 4% auto; 
 			}
 
 			span{
 				color: #969696; 
 				font-size : .8em;
 				display: block;
-				width: 60%; 
+				width: 70%; 
 				margin: 0 auto; 
 
 				a{
-					color: white;
-					font-family: proximaNovaBold;
-					font-weight: bold;
+					color: #f37920;
+					font-family: proximaNova;
 					text-decoration: none; 
 				}
 			}
 
-			.inputEmail{
-				margin: 0 20% 1em; 
+			.inputEmail,.inputPassword{
+				margin: 0 15% 2em; 
 				background : white; 
-				border: none; 
+				border: 1px solid #ddd;
+				font-family: proximaNova;
+				color: #646464; 
+				padding-left: 2%;
+				width : 68%; 
+				text-align: left; 
+			}
+
+			.inputPassword{
+				margin: 0 15% .5em; 
+			}
+
+			.forgotPassword{
+				color: #f37920;
+				margin-bottom: 2em; 
 			}
 
 			.already{

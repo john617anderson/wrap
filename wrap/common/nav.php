@@ -1,42 +1,8 @@
-<div class="modal">
-	<div class="modalContainers" id="freeTrial">
-		<div class="close"></div>
+<?php
 
-		<h2>free trial</h2>
-		<div class="freeTrialButton facebook">
-		sign up with facebook
-		</div>
-		<p>
-		or
-		</p>
-		<span>Email</span>
-		<input class="freeTrialButton inputEmail" type="text" />
-		<div class="freeTrialButton emailMe">
-		email me a wrap
-		</div>
-		<span class="already">Already have an account? <a href="#">Sign in</a></span>
-	</div>
-	<div class="modalContainers" id="sendMeAWrap">
-		<div class="close"></div>
+require_once("modals.php");
 
-		<h2>Send Me a Wrap</h2>
-		<div class="freeTrialButton emailMe">
-		send me a wrap
-		</div>
-		<div class="freeTrialButton emailMe">
-		text me a wrap
-		</div>
-	</div>
-	<div class="modalContainers" id="video">
-		<div class="close vidClose"></div>
-
-		<h2>What is a Wrap?</h2>
-		<video controls poster="assets/video/Video_Image.png">
-		  <source src="assets/video/WrapCo_VO_FX_11.02.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-		</video>
-	</div>
-</div>
+?>
 <div class="navContainer">
 	<div class="navImages hamburger">
 		<img src="assets/global/NAV/hamburger.png" />
@@ -55,7 +21,7 @@
 	<div class="rightNav">
 		<ul>
 			<li class="orangeButton modalButton" id="freeTrial">free trial</li>
-			<li id="login">login</li>
+			<li class="modalButton" id="login">login</li>
 		</ul>
 	</div>
 </div>
