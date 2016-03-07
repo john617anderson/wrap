@@ -22,19 +22,18 @@
 			<img src="assets/home/3_WHAT_IS_A_WRAP/phone_group_1.png" />
 		</div>
 		<div class="homeAboutCopyContainer">
-			<h1>What is a wrap?</h1>
+			<h2>What is a wrap?</h2>
 			<p>Wrap helps everyone from consumers to large enterprises share highly 
 	interactive stories through a mobile interface that feels like an app, looks like an 
 	app and engages like an app—without all the app-like costs.
 			</p>
-			<img src="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg" />
-			<ol class="modalButton" id="video">watch video</ol>
+			<img class="modalButton" id="video" src="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg" />
 		</div>
 	</div>	
 </section>
 <section class="module carosel">
 	<div class="titleContainers caroselCopyContainer">
-		<h1>Explore the world of wraps</h1>
+		<h2>Explore the world of wraps</h2>
 		<p>Take a closer look at how a well-delivered story helps increase audience
 	engagement, loyalty and deliver unprecedented value.
 		</p>
@@ -101,7 +100,7 @@
 <section class="module howDoesItWork">
 	<div class="contentContainer">
 		<div class="titleContainers">
-			<h1>How Does Wrap work?</h1>
+			<h2>How Does Wrap work?</h2>
 			<p>Discover how to create a compelling app-like experience in four easy steps.
 			</p>
 		</div>
@@ -182,7 +181,7 @@
 </section>
 <section class="module subFooter subFooterHome wrapIsAbout">
 	<div class="titleContainers">
-		<h1>Engage your customers, not a line of code.</h1>
+		<h2>Engage your customers, not a line of code.</h2>
 		<p>Learn how Wrap helps three global brands deliver customer delight in uniquely 
 	compelling ways.</p>
 	</div>

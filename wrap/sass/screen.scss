@@ -30,16 +30,17 @@ h1,h2,h3,h4,h5,p,span,ol, div{
 
 h1{
 	font-family: proximaNova;
-	font-size: 2.3em; 
+	font-size: 48px;
+	line-height: 54px; 
 	text-transform: uppercase;
 	color: white; 
 }
 
 h2{
 	font-family: proximaNova;
-	font-size: 1.5em; 
+	font-size: 36px; 
 	text-transform: uppercase;
-	margin-bottom: .5em; 
+	margin-bottom: .05em; 
 }
 
 h3{
@@ -67,6 +68,7 @@ a{
 	color : white;
 	text-transform: uppercase;
 	float : left;
+	letter-spacing: .1em;
 	margin-right: 1em; 
 	padding : 1em 2em;
 }
@@ -213,11 +215,11 @@ body, html{
 
 	.navContainer{
 		position: fixed;
-		width: 74%;
+		width: 80%;
 		background : white;
 		min-height: 3em; 
 		z-index: 999;
-		padding: 0 13%; 
+		padding: 0 10%; 
 
 		.navImages{
 			padding : .8em 1.5em;
@@ -236,10 +238,15 @@ body, html{
 			}
 		}
 
+		.navLogo{
+			display: none;
+		}
 
-		.leftNav, .rightNav{
-			position: absolute;
-			width: 50%; 
+
+		.leftNav{
+			position: relative;
+			width: 100%; 
+			margin: 0 auto; 
 
 			ul{
 				width : 100%; 
@@ -251,7 +258,8 @@ body, html{
 					text-transform: uppercase;
 					font-size: .7em; 
 					float: left; 
-					padding : 2.4em 3%;
+					padding : 2.4em 4.3%;
+					letter-spacing: .15em;
 					color : #969696;
 					cursor: pointer; 
 
@@ -260,30 +268,25 @@ body, html{
 					}
 				}
 
+				#logo{
+					padding : 1.4em 4% 1.4em 1%;
+
+					a{
+						img{
+							height : 2.8em;
+						}
+					}
+				}
+
+				
+
 				&:nth-child(2){
 					color : black;
-				}
-			}
-		}
-
-		.leftNav{
-			margin-left : 7.9em;
-		}
-
-		.rightNav{
-			right : 15%; 
-			width: 25%; 
-
-
-			ul{
-				li{
-					float: right; 
-					padding : 2.4em 10%;
 				}
 
 				#freeTrial{
 				    color: white;
-				    margin: 1.2em 0;
+				    margin: 1.2em 0 1.2em 2%;
 				    padding: 1em 1.7em;
 				}
 			}
@@ -298,8 +301,8 @@ body, html{
 
 		.contentContainer{
 			height: 100%; 
-			width: 70%; 
-			padding : 0 15%;
+			width: 80%; 
+			padding : 0 10%;
 			
 
 			.copy{
@@ -322,6 +325,7 @@ body, html{
 
 		.heroContent{
 			display: table;
+			width: 45%; 
 		}
 
 		.titleContainers{
@@ -343,7 +347,7 @@ body, html{
 		overflow: auto;
 
 		.contentContainer{
-			width : 70%; 
+			width : 80%; 
 			margin : 3em auto;
 			position: relative;
 		}
@@ -374,7 +378,7 @@ body, html{
 		background: #515151;
 
 		.titleContainers{
-			h1,p{
+			h2,p{
 				color: white;
 			}
 
@@ -461,9 +465,9 @@ body, html{
 				padding: 10% 0 0 0;
 				width: 40%;
 
-				h1{
+				h2{
 					color: #646464; 
-					margin-bottom: .2em;
+					margin-bottom: .7em;
 				}
 
 				ol{
@@ -501,7 +505,11 @@ body, html{
 
 						.copy{
 							margin-top: 3em;
-							width : 30%; 
+							width : 40%; 
+
+							h2{
+								margin-bottom: .1em;
+							}
 
 							img{
 								width: 20%; 
@@ -711,7 +719,7 @@ body, html{
 	*/
 
 	.cardNavigation{
-		margin-left: 15%; 
+		margin-left: 10%; 
 		width : 100%;
 		margin-top: -2.4em; 
 		position: absolute;
@@ -1155,6 +1163,7 @@ body, html{
 
 			.navLogo{
 				width : inherit;
+				display: block;
 				padding: .8em 0; 
 
 				a{

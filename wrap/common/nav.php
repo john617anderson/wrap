@@ -13,15 +13,13 @@ require_once("modals.php");
 	</div>
 	<div class="leftNav">
 		<ul>
+			<li id="logo"><a href="index.php"><img src="assets/global/NAV/logo_horizontal.png" /></a></li>
 			<li><a href="index.php?section=explore">explore</a></li>
 			<li><a href="index.php?section=about">about</a></li>
 			<li><a href="index.php?section=careers">careers</a></li>
-		</ul>
-	</div>
-	<div class="rightNav">
-		<ul>
-			<li class="orangeButton modalButton" id="freeTrial">free trial</li>
+			<li><a href="index.php?section=blog">blog</a></li>
 			<li class="modalButton" id="login">login</li>
+			<li class="orangeButton modalButton" id="freeTrial">free trial</li>
 		</ul>
 	</div>
 </div>
