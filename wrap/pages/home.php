@@ -23,9 +23,7 @@
 		</div>
 		<div class="homeAboutCopyContainer">
 			<h2>What is a wrap?</h2>
-			<p>Wrap helps everyone from consumers to large enterprises share highly 
-	interactive stories through a mobile interface that feels like an app, looks like an 
-	app and engages like an app—without all the app-like costs.
+			<p>Wrap is the platform that allows you to design content for mobile that engages and delights.
 			</p>
 			<img class="modalButton" id="video" src="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg" />
 		</div>
@@ -113,8 +111,7 @@
 					<div class="copy right">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_icon.jpg" />	
 						<h2>create</h2>
-						<p>Everyone has a story. Which one will you tell? Wrap’s easy-to-use authoring tool 
-	puts mobile storytelling within anyone’s reach.
+						<p>The mobile phone has become a channel, not just a device. Wrap’s easy-to-use authoring tool puts mobile storytelling within anyone’ reach.
 						</p>
 					</div>
 				</li>
@@ -155,9 +152,7 @@
 					<div class="copy right">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/engage_icon.jpg" />	
 						<h2>engage</h2>
-						<p>You create the content and a unique user interface, Wrap delivers a highly 
-	interactive app-like experience that engages whatever audience you’re trying to 
-	reach.
+						<p>Wrap delivers a highly interactive app-like experience without the need for a developer. Easily integrate differ content type (Video, Music, etc.) into a beautiful mobile experience.
 						</p>
 					</div>
 				</li>
@@ -169,9 +164,7 @@
 					<div class="copy left">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/manage_icon.jpg" />	
 						<h2>manage</h2>
-						<p>The democratization of the mobile web has begun. Wrap provides individuals
-	and businesses with built-in analytics that help them ensure that their story is 
-	being heard.
+						<p>We can help you design the right solution to create, manage, track and optimize your mobile content experiences.
 						</p>
 					</div>
 				</li>

@@ -29,8 +29,7 @@
 	<div class="contentContainer">
 		<div class="titleContainers">
 			<h1>DISCOVER THE WRAP FOR YOU</h1>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae 
+			<p>
 			</p>
 		</div>
 		<div class="wrapCoverContainer">
