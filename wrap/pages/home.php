@@ -1,7 +1,7 @@
 <section class="module topHero homeHero">
 	<div class="contentContainer heroContent">
 		<div class="copy">
-			<h1>more engaging content. more engaged customers</h1>
+			<h1>more engaging content. more engaged customers.</h1>
 			<p>Introducing Wrap - the simple way to create app-like experiences tailored to any audience, on any screen.
 			</p>
 

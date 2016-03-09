@@ -10,8 +10,8 @@
 		<link href="stylesheets/screen.css" rel="stylesheet" media="screen">
 		<link href="stylesheets/slick-theme.css" rel="stylesheet" media="screen">
 		<link href="stylesheets/slick.css" rel="stylesheet" media="screen">
-		<script src="js/jquery.js"></script>
-		<script src="js/slick.min.js"></script>
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/vendor/isMobile.js"></script>
 		<script src="js/main.js"></script>
 
 		<?php

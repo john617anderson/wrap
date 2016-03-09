@@ -3,31 +3,54 @@ $(function(){
 	var _wrapW = 0; 
 	var _w = window.innerWidth;
 	var _remainder;
-	var _center = 2; 
 	var cards = []; 
-	var _big = _w/3.5; 
-	var _r = _big - parseInt(_w/4); 
+	var _big; 
 	var _start;
+	var _r;
+	var _first;
 	var _share = 0; 
+	var _div; 
+	var _size; 
+	var _int; 
+
+	function setMobile(){
+		if(detectmob()){
+			_div = 1.8; 
+			_first = 1; 	
+			_big = _w/1.5;
+			_size = 2; 
+			_int = 1.8
+		}else{
+			_div = 4; 
+			_first = 2; 
+			_big = _w/3.5; 
+			_size = 25;
+			_int = 1.5;
+		}
+	}
 
 	function setWrapWidth(){
-		$('.card').css({width : _w/4}); 
-		_wrapW = $('.card').innerWidth();
+		setMobile(); 
+
+		_r = _big - parseInt(_w/_div); 
+		_wrapW = _w/_div;
 		_start = parseInt(-1*parseInt(_wrapW/2) - _r); 
+
+		$('.card').css({width : _wrapW}); 
+		
+		
 
 		$('.card').each(function(i){
 			cards.push($(this));
 
-			if(i === 2){
-				$(this).animate({width : _big, marginTop : -1*_r/1.5})
+			if(i === _first){
+				$(this).css({width : _big, marginTop : -1*_r/_int})
 			}
 
 			totalWraps++;
 		});
 
-		$('.absoluteContainer').css({width : parseInt(totalWraps*_wrapW) + _w/25, marginLeft : _start});
-
-		console.log(parseInt(-1*parseInt(_w/2)));
+		$('.absoluteContainer').css({width : parseInt(totalWraps*_wrapW) + _w/_size, marginLeft : _start});
 	}
 
 	function createWraps(_total, wrapW){
@@ -48,17 +71,17 @@ $(function(){
 			var _newCenter; 		
 
 			if($(this).attr('id') == "left"){
-				if(_center != 2){
+				if(_first != 2){
 					_containerMargin = _containerMargin + _wrapW;
-					_newCenter = _center - 1;				 
+					_newCenter = _first - 1;				 
 					
 				}else{
 					_end = true;
 				}	
 			}else{
-				 if(_center != totalWraps - 3){
+				 if(_first != totalWraps - 3){
 				 	_containerMargin = _containerMargin - _wrapW;
-				 	_newCenter = _center + 1;
+				 	_newCenter = _first + 1;
 
 				 }else{
 				 	_end = true;
@@ -67,10 +90,10 @@ $(function(){
 			}
 
 			if(!_end){
-				cards[_center].stop().animate({marginTop: 0, width : _w/4}, 300, function(){
-					cards[_newCenter].stop().animate({width : _big, marginTop : -1*_r/1.5}, 300);
+				cards[_first].stop().animate({marginTop: 0, width : _w/_div}, 300, function(){
+					cards[_newCenter].stop().animate({width : _big, marginTop : -1*_r/_int}, 300);
 					$('.absoluteContainer').stop().animate({marginLeft : _containerMargin});
-					_center = _newCenter
+					_first = _newCenter
 				});
 
 				
@@ -111,7 +134,15 @@ $(function(){
 	 
 	}
 
-	setWrapWidth(); 
+	function detectmob() { 
+	 if( navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)){
+	    return true;
+	  }else{
+	    return false;
+	  }
+	}
+ 	
+ 	setWrapWidth();
 	createWraps(totalWraps, _wrapW); 
 	whatWrapIsAboutShare(); 
 }); 

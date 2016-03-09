@@ -1088,7 +1088,8 @@ body, html{
 @media handheld, screen and (max-width: 995px){
 
     h1{
-    	
+    	font-size: 40px; 	
+    	line-height: 44px; 
     }
 
     h2{
@@ -1104,8 +1105,10 @@ body, html{
     }
 
     .orangeButton{
-    	
-    }
+		font-size : .7em;
+		letter-spacing: .1em;
+		padding : 1em 1.5em;
+	}
 
     #wrapper{
     	overflow-x : hidden;
@@ -1237,9 +1240,6 @@ body, html{
     			height: 100%; 
 
 	    		.copy{
-	    			position: absolute;
-	    			height : auto; 
-	    			bottom : 45%;
 	    			padding: 0; 
 	    			width : 94%;
 	    			text-align: center; 
@@ -1254,7 +1254,7 @@ body, html{
 
 	    			.callToActionContainer{
 	    				display: block;
-	    				width : 20em;
+	    				width : 81%;
 	    				margin : 0 auto;
 	    			}
 	    		}
@@ -1288,7 +1288,7 @@ body, html{
 					img{
 						display: block;
 						width : 80%;
-						margin : 0 auto;
+						margin : 2em auto;
 					} 
 				}
 			}
@@ -1321,18 +1321,21 @@ body, html{
 		}
 
 		.carosel{
-			height: 80%; 
-			.caroselContainer{ 
-				.absoluteContainer{
-					margin-left: -11em; 
-					width: 500em;
+			height: 105%;
 
+			.titleContainers{
+				padding : 3em 0 0;
+			} 
+			.caroselContainer{ 
+				.carArrows{
+					opacity: 1; 
+				}
+
+				.absoluteContainer{
 					.cardContainer{
-						
 						overflow: hidden;
 
 						.card{
-							width: 15em; 
 							float : left;
 
 							.wrap-media-embed{
@@ -1524,27 +1527,43 @@ body, html{
 
 		.footer{
 			.footerContainer{
-				padding : 15% 5%;
+				padding : 15% 1%;
 				height: 10em;
 
-				.column{
-					float : left;
-					margin: 0 6%; 
+				.subNavContainer{
+					width : 90%; 
 
-					ul{
-						li{
-							font-family: proximaNovaBold;
-							font-size : .7em;
-							color: #908f8f;
-							padding-bottom: 1em;
-							text-transform: uppercase;
+					.column{
+						float : left;
+						margin: 0 5%; 
 
-							&:first-child{
-								color : white; 
-								
-							} 
+						ul{
+							li{
+								font-family: proximaNovaBold;
+								font-size : .7em;
+								color: #908f8f;
+								padding-bottom: 1em;
+								text-transform: uppercase;
+
+								&:first-child{
+									color : white; 
+									
+								} 
+							}
 						}
 					}
+				}
+
+				.smallPrint{
+					text-align: center; 
+				}
+			}
+
+			.madeWithLove{
+				padding : 2em 0;
+
+				.birdContainer{
+					margin-top: -3em; 
 				}
 			}
 		}
