@@ -3,7 +3,8 @@
 		<div class="close"></div>
 
 		<h2>Sign Up for a free trial</h2>
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquerem aperiam, eaque ipsa quae ab illo inventore veritatis 
+		<p>
+
 		</p>
 		<div class="freeTrialButton facebook">
 		sign up with facebook
@@ -21,7 +22,7 @@
 		<div class="close"></div>
 
 		<h2>Welcome back</h2>
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquerem aperiam, eaque ipsa quae ab illo inventore veritatis 
+		<p>
 		</p>
 		<div class="freeTrialButton facebook">
 		sign in with facebook
