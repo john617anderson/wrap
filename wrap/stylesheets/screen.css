@@ -997,8 +997,8 @@ body, html {
 }
 /* line 970, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections p {
-  font-size: .7em;
-  line-height: 1.3em;
+  font-size: .8em;
+  line-height: 1.7em;
 }
 /* line 975, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections ul {
@@ -1007,8 +1007,8 @@ body, html {
 /* line 977, ../sass/screen.scss */
 #wrapper .careersContainer .contentContainer .jobDescriptions .sections ul li {
   font-family: proximaNova;
-  font-size: .7em;
-  line-height: 1.2em;
+  font-size: .8em;
+  line-height: 1.7em;
   list-style: disc;
   margin-bottom: .3em;
 }
