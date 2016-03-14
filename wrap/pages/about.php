@@ -1,4 +1,7 @@
-<section class="module topHero shortHero heroAbout">
+<div class="background heroAbout">
+
+</div>
+<section class="module topHero shortHero">
 	<div class="contentContainer heroContent">
 		<div class="copy">
 			<h1>We are storytellers</h1>

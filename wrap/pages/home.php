@@ -1,4 +1,7 @@
-<section class="module topHero homeHero">
+<div class="background homeHero">
+
+</div>
+<section class="module topHero">
 	<div class="contentContainer heroContent">
 		<div class="copy">
 			<h1>more engaging content. more engaged customers.</h1>
@@ -6,7 +9,7 @@
 			</p>
 
 			<div class="callToActionContainer">
-				<div class="orangeButton">
+				<div class="orangeButton modalButton" id="createAccount">
 					Start now
 				</div>
 				<div class="orangeButton modalButton" id="sendMeAWrap">
@@ -19,7 +22,7 @@
 <section class="module homeAbout">
 	<div class="contentContainer">
 		<div class="homeAboutHero">
-			<img src="assets/home/3_WHAT_IS_A_WRAP/phone_group_1.png" />
+			<img id="phones" src="assets/home/3_WHAT_IS_A_WRAP/phone_group_1.png" />
 		</div>
 		<div class="homeAboutCopyContainer">
 			<h2>What is a wrap?</h2>

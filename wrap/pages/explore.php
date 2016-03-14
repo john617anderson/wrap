@@ -1,5 +1,8 @@
-<section class="module topHero shortHero heroExplore">
-	<div class="contentContainer heroContent">
+<div class="background heroExplore">
+
+</div>
+<section class="module topHero shortHero exploreHeroContent">
+	<div class="contentContainer heroContent exploreContent">
 		<div class="copy">
 			<h1>There's a wrap for everyone</h1>
 			<p>Discover the world of Wraps and experience

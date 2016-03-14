@@ -142,8 +142,23 @@ body, html{
 				text-align: center; 
 			}
 
+			#sendMeAWrap{
+				margin-bottom: 1em;
+			}
+
 			video{
 				width: 100%;  
+			}
+
+			.accountImage{
+				width : 8em;
+				height : 8em;
+				background-color: #e5e5e5;
+				background-image: url('../assets/modals/blank_user.png');
+				background-repeat: no-repeat;
+				background-position: center; 
+				border-radius: 4em 4em 4em 4em; 
+				margin: 0 auto 2em; 
 			}
 
 			.freeTrialButton{
@@ -293,11 +308,22 @@ body, html{
 		}
 	}
 
+	.background{
+		position: fixed; 
+		width: 100%; 
+		height: 100%; 
+		pointer-events : none;
+		background-position: center; 
+		background-size: cover;
+		z-index: -1; 
+	}
+
 	.module{
 		width: inherit;
 		height: 100%;
 		float: none;
 		clear: both;
+		background: white;
 
 		.contentContainer{
 			height: 100%; 
@@ -354,8 +380,7 @@ body, html{
 	}
 
 	.topHero{
-		background-size: cover; 
-		background-position: 0 0;
+	    background: none;
 		display: table;
 		height: 100%;  
 		margin-top: 4em;
@@ -489,7 +514,7 @@ body, html{
 	.howDoesItWork{
 		overflow: hidden; 
 		height: auto;
-		margin-bottom: 5em;
+		padding-bottom: 5em;
 
 		.contentContainer{
 			.howDoesItWorkContainer{
@@ -544,7 +569,7 @@ body, html{
 
 								.shareAssets{
 									width: 75%; 
-									min-height : 400px;
+									min-height : 500px;
 									float: left;
 									overflow: hidden; 
 									position: relative; 
@@ -554,7 +579,6 @@ body, html{
 										width: 100%;
 										height: inherit;
 										position: absolute;
-										z-index: -1; 
 
 										&:first-child{
 											display : block;
@@ -717,6 +741,16 @@ body, html{
 	/* 
 		////////////////////////// EXPLORE /////////////////////////////////
 	*/
+
+	.exploreHeroContent{
+		.exploreContent{
+			.copy{
+				h1, p{
+					color : #646464;
+				}
+			}
+		}
+	}
 
 	.cardNavigation{
 		margin-left: 10%; 
@@ -1121,6 +1155,8 @@ body, html{
     	}
 
     	.module{
+    		background: white;
+
     		.contentContainer{
     			width: 90%; 
     			padding: 5%; 
@@ -1157,9 +1193,8 @@ body, html{
 				.x{
 					position: absolute;
 					padding: 0; 
-					margin: -1em 0; 
-					font-size: 3em; 
-					color: white; 
+					width: 2em; 
+					height: 2em;
 					z-index: 200; 
 				}
 			}
@@ -1190,7 +1225,7 @@ body, html{
 				float : none;
 				clear : both;
 				color : white; 
-				background : rgba(0,0,0,.9);
+				background : rgba(252,252,252,.95);
 				z-index: 9; 
 
 				ul{
@@ -1199,9 +1234,26 @@ body, html{
 						width : 100%;
 						padding: 3em 0; 
 						float: none;
-						clear: both; 
-						border : 1px solid #111;
+						clear: both;
+
+
 					}
+
+					#logo{
+
+						padding: 1em 0 1em 0; 
+							a{
+								img{
+									height : 2.6em;
+								}
+							}	
+						} 
+
+					#freeTrial{
+						display: none;
+					}
+
+					
 				}
 			}
 
@@ -1232,6 +1284,7 @@ body, html{
     	}
 
     	.topHero{
+    		background: none;
     		height : 60%;
     		background-size: 150% 100%;
     		background-repeat: none;
@@ -1254,7 +1307,7 @@ body, html{
 
 	    			.callToActionContainer{
 	    				display: block;
-	    				width : 81%;
+	    				width : 18em;
 	    				margin : 0 auto;
 	    			}
 	    		}
@@ -1264,18 +1317,26 @@ body, html{
     	/* /////////// MOBILE HOME ////////// */
 
     	.homeAbout{
+    		background : white;
+    		height : auto;
+    		overflow: auto;
 			.contentContainer{
+				height : auto;
+				background : white;
 				.homeAboutHero{
 					margin: -2em 0 0 0; 
 					width : 100%;
-					float: left; 
+					float: left;
+					height : 100%; 
 
 					img{
 						width : 100%;
+						display: block;
 					}
 				}
 
 				.homeAboutCopyContainer{
+					height : 100%;
 					float: right; 
 					padding: 0 0 0 0;
 					text-align: center;
@@ -1302,7 +1363,7 @@ body, html{
 
 			.cardTitle{
 				font-size: .6em; 
-				padding : 1.5em 5%;
+				padding : 1.5em 3%;
 			} 		
 		}
 

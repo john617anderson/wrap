@@ -1,9 +1,17 @@
 $(function(){
 	var _hamClicked = false; 
 
-	$('.hamburger').click(function(){		
-		(_hamClicked) ? $('.leftNav, .x').hide() : $('.leftNav, .x').show();	
-		(_hamClicked) ? _hamClicked = false : _hamClicked = true; 
+	$('.hamburger').click(function(){	
+		if(_hamClicked){
+			$('.leftNav, .x').hide();
+			$('.burger').show(); 
+			_hamClicked = false;
+		}else{
+			 $('.leftNav, .x').show();
+			 $('.burger').hide(); 
+			 _hamClicked = true; 	
+		}
+
 	});
 
 	$('.modalButton, .close').click(function(){

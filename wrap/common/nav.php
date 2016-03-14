@@ -5,8 +5,8 @@ require_once("modals.php");
 ?>
 <div class="navContainer">
 	<div class="navImages hamburger">
-		<img src="assets/global/NAV/hamburger.png" />
-		<div class="x">x</div>
+		<img class="burger" src="assets/global/NAV/hamburger.png" />
+		<img class="x" src="assets/global/NAV/white_x.png" />
 	</div>	
 	<div class="navImages navLogo">
 		<a href="index.php"><img src="assets/global/NAV/logo_horizontal.png" /></a>

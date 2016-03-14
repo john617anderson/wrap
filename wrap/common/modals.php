@@ -52,7 +52,7 @@
 	<div class="modalContainers" id="sendMeAWrap">
 		<div class="close"></div>
 
-		<h2>Send Me a Wrap</h2>
+		<h2 id="sendMeAWrap">Send Me a Wrap</h2>
 		<div class="freeTrialButton emailMe">
 		send me a wrap
 		</div>
@@ -68,5 +68,21 @@
 		  <source src="assets/video/WrapCo_VO_FX_11.02.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 		</video>
+	</div>
+	<div class="modalContainers" id="createAccount">
+		<div class="close vidClose"></div>
+
+		<div class="accountImage">
+
+		</div>
+		<input class="freeTrialButton inputEmail" placeholder="Username" type="text" />
+
+		<input class="freeTrialButton inputEmail" placeholder="Password" type="text" />
+
+		<input class="freeTrialButton inputEmail" placeholder="Confirm Password" type="text" />
+		<div class="freeTrialButton emailMe">
+		create account
+		</div>
+		<span class="already">By creating an account, you are agreeing to Wrap's <a class="modalButton" id="signUp">terms of service</a> and <a class="modalButton" id="signUp">privacy policy</a> </span>  
 	</div>
 </div>
