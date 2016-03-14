@@ -38,11 +38,6 @@
 						<h5>Chief Technology Officer</h5>
 					</li>
 					<li>
-						<img src="assets/about/2_TEAM/peter_foster.jpg" />
-						<h4>Peter Foster</h4>
-						<h5>CHIEF REVENUE OFFICER</h5>
-					</li>
-					<li>
 						<img src="assets/about/2_TEAM/john_garris.jpg" />
 						<h4>John Garris</h4>
 						<h5>VP Product Management</h5>

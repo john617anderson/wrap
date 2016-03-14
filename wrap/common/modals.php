@@ -52,10 +52,14 @@
 	<div class="modalContainers" id="sendMeAWrap">
 		<div class="close"></div>
 
-		<h2 id="sendMeAWrap">E-mail me a wrap</h2>
+		<h2 id="sendMeAWrap">Send me a wrap</h2>
+		<input class="freeTrialButton inputEmail" placeholder="E-mail Address" type="text" />
 		<div class="freeTrialButton emailMe">
-		send me a wrap
+		e-mail me a wrap
 		</div>
+		<p>
+		or
+		</p>
 		<div class="freeTrialButton emailMe">
 		text me a wrap
 		</div>
