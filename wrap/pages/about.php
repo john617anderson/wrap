@@ -33,6 +33,16 @@
 						<h5>CHIEF CREATIVE OFFICER</h5>
 					</li>
 					<li>
+						<img src="assets/about/2_TEAM/dc.png" />
+						<h4>Dave Cheng</h4>
+						<h5>Cheif Product Officer</h5>
+					</li>
+					<li>
+						<img src="assets/about/2_TEAM/lily.png" />
+						<h4>Lily Teng</h4>
+						<h5>Cheif Fincial Officer</h5>
+					</li>
+					<li>
 						<img src="assets/about/2_TEAM/kunal_bhasin.jpg" />
 						<h4>kunal bhasin</h4>
 						<h5>Chief Technology Officer</h5>
