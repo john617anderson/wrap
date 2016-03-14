@@ -13,7 +13,7 @@
 		</p>
 		<input class="freeTrialButton inputEmail" placeholder="Email Address" type="text" />
 		<div class="freeTrialButton emailMe">
-		email me a wrap
+		sign up
 		</div>
 		<span class="already">Already have an account? <a class="modalButton" id="login">Sign in</a></span>
 	</div>
@@ -52,7 +52,7 @@
 	<div class="modalContainers" id="sendMeAWrap">
 		<div class="close"></div>
 
-		<h2 id="sendMeAWrap">Send Me a Wrap</h2>
+		<h2 id="sendMeAWrap">E-mail me a wrap</h2>
 		<div class="freeTrialButton emailMe">
 		send me a wrap
 		</div>

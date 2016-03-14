@@ -156,12 +156,14 @@
 		</div>
 	</div>
 </section>
+	<!--
 <section class="module subFooter wrapIsAbout">
 	<div class="titleContainers">
 		<h1>join wrap</h1>
 		<p>We’re looking for people who are driven and has a thing for the digital world.</p>
 		<span>learn more</span>
 	</div>
+
 	<div class="wrapIsAboutContainer">
 		<ul>
 			<li>
@@ -200,3 +202,5 @@ quasi architecto beatae vitae explicabo.
 		</ul>
 	</div>
 </section>	
+
+-->

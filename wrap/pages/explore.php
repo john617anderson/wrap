@@ -25,7 +25,7 @@
 		Enterprise
 	</div>
 	<div class="cardTitle" id="content">
-		Enterprise
+		Content
 	</div>
 </section>
 <section class="module largeContainer exploreContainer">
