@@ -1010,6 +1010,7 @@ body, html{
 				bottom : 2em;
 				width: 100%;  
 				font-size: .8em; 
+
 				font-family: proximaNova;
 				color: #b2b0b1; 
 
@@ -1031,7 +1032,7 @@ body, html{
 				}
 			}
 			.subNavContainer{
-				width : 78%;
+				width : 83%;
 				margin : 0 auto; 
 
 				.column{
@@ -1040,14 +1041,20 @@ body, html{
 
 					ul{
 						li{
-							font-family: proximaNovaBold;
-							font-size : .7em;
-							color: #908f8f;
-							padding-bottom: 1em;
-							text-transform: uppercase;
+							padding-bottom: .5em;
+
+							a{
+								font-family: proximaNovaBold;
+								font-size : .7em;
+								letter-spacing: .1em;
+								color: #908f8f;
+								text-transform: uppercase;
+							}
 
 							&:first-child{
-								color : white; 
+								a{
+									color : white; 
+								}
 								
 							} 
 						}

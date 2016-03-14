@@ -11,26 +11,24 @@
 		<div class="subNavContainer">
 			<div class="column">
 				<ul>
-					<li>about</li>
+					<li><a href="index.php?section=about">about</a></li>
 				</ul>
 			</div>
 			<div class="column">
 				<ul>
-					<li>explore</li>
-					<li>create</li>
+					<li><a href="index.php?section=explore">explore</a></li>
+					<li><a class="modalButton" id="createAccount">create</a></li>
 				</ul>
 			</div>
 			<div class="column">
 				<ul>
-					<li>careers</li>
-					<li>about</li>
-					<li>contact</li>
+					<li><a href="index.php?section=careers">careers</a></li>
 				</ul>
 			</div>
 			<div class="column">
 				<ul>
-					<li>log in</li>
-					<li>sign up</li>
+					<li><a class="modalButton" id="login">log in</li>
+					<li><a class="modalButton" id="createAccount">sign up</li>
 				</ul>
 			</div>
 		</div>
