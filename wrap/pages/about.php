@@ -38,7 +38,7 @@
 					<li>
 						<img src="assets/about/2_TEAM/lily.png" />
 						<h4>Lily Teng</h4>
-						<h5>Cheif Fincial Officer</h5>
+						<h5>Chief Financial Officer</h5>
 					</li>
 					<li>
 						<img src="assets/about/2_TEAM/kunal_bhasin.jpg" />
@@ -48,7 +48,7 @@
 					<li>
 						<img src="assets/about/2_TEAM/john_garris.jpg" />
 						<h4>John Garris</h4>
-						<h5>VP Product Management</h5>
+						<h5>VP, Platform</h5>
 					</li>
 					<li>
 						<img src="assets/about/2_TEAM/pete_petras.jpg" />
@@ -69,11 +69,6 @@
 						<img src="assets/about/2_TEAM/jim_rose.jpg" />
 						<h4>jim rose</h4>
 						<h5>VP BUSINESS INTELLECTUAL PROPERTY</h5>
-					</li>
-					<li>
-						<img src="assets/about/2_TEAM/mike_cohen.jpg" />
-						<h4>mike cohen</h4>
-						<h5>VP Operations</h5>
 					</li>
 				</ul>
 			</div>

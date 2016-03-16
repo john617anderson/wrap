@@ -17,7 +17,7 @@ require_once("modals.php");
 			<li><a href="index.php?section=explore">explore</a></li>
 			<li><a href="index.php?section=about">about</a></li>
 			<li><a href="index.php?section=careers">careers</a></li>
-			<li><a href="index.php?section=blog">blog</a></li>
+			<li><a target="_blank" href="https://wrapdotco.wordpress.com/">blog</a></li>
 			<li class="modalButton" id="login">login</li>
 			<li class="orangeButton modalButton" id="freeTrial">free trial</li>
 		</ul>

@@ -5,9 +5,7 @@
 	<div class="contentContainer heroContent">
 		<div class="copy">
 			<h1>We're onto something big, be apart of it.</h1>
-			<p>ncrease user engagement and drive improved 
-	your, eaque ipsa quae ab illo inventore tatis et 
-	quasi architecto beatae vitae explicabo.
+			<p>
 			</p>
 		</div>
 	</div>	

@@ -9,8 +9,8 @@
 			</p>
 
 			<div class="callToActionContainer">
-				<div class="orangeButton modalButton" id="createAccount">
-					Start now
+				<div class="orangeButton" id="createAccount">
+					<a target="_blank" href="https://authoring.wrap.co/#/plans/select?scroll-to-pricing=true#introducingWrap">Contact us</a>
 				</div>
 				<div class="orangeButton modalButton" id="sendMeAWrap">
 					send me a wrap
@@ -25,8 +25,8 @@
 			<img id="phones" src="assets/home/3_WHAT_IS_A_WRAP/phone_group_1.png" />
 		</div>
 		<div class="homeAboutCopyContainer">
-			<h2>What is a wrap?</h2>
-			<p>Wrap is the platform that allows you to design content for mobile that engages and delights.
+			<h2>What is wrap?</h2>
+			<p>Wrap is a mobile first storytelling and commerce platform that allows you to designs content for mobile that engages and delights. Increased engagement can lead to higher conversion rates, more revenue and a deeper relationship with your customers.
 			</p>
 			<img class="modalButton" id="video" src="assets/home/3_WHAT_IS_A_WRAP/video_screen_shot.jpg" />
 		</div>
@@ -35,8 +35,7 @@
 <section class="module carosel">
 	<div class="titleContainers caroselCopyContainer">
 		<h2>Explore the world of wraps</h2>
-		<p>Take a closer look at how a well-delivered story helps increase audience
-	engagement, loyalty and deliver unprecedented value.
+		<p>App-like experiences are delivered in bite-sized pieces  that get and hold attention.
 		</p>
 	</div>
 	<div class="caroselContainer">
@@ -114,7 +113,7 @@
 					<div class="copy right">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_icon.jpg" />	
 						<h2>create</h2>
-						<p>The mobile phone has become a channel, not just a device. Wrap’s easy-to-use authoring tool puts mobile storytelling within anyone’s reach.
+						<p>The mobile phone has become a channel, not just a devices. Wrap’s card based system allows you to create dynamic multi-function web experiences that look and feel like an app. Our studio team can help you design the best experience for your customers.
 						</p>
 					</div>
 				</li>
@@ -141,9 +140,7 @@
 
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/share_icon.jpg" />	
 						<h2>share</h2>
-						<p>Your audience is mobile. Make sure your message is too. Wrap makes it easier 
-	than ever to share your story by delivering a user interface that matches how 
-	your audience uses Mobile smart devices every day.
+						<p>Wrap makes it easier than ever to share your story. Sent as a link, image or embed, Wraps are authored once, fully portable and run anywhere – that means any web platform, app, game, device or brand property.
 						</p>
 					</div>
 				</li>
@@ -155,7 +152,7 @@
 					<div class="copy right">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/engage_icon.jpg" />	
 						<h2>engage</h2>
-						<p>Wrap delivers a highly interactive app-like experience without the need for a developer. Easily integrate differ content types(Video, Music, etc.) into a beautiful mobile experience.
+						<p>Wrap delivers a highly interactive app-like experience without the need for a developer. Easily integrate different types of content (Video, Music, Images, etc) into a beautiful mobile-first experience delivered through unique URLs.
 						</p>
 					</div>
 				</li>
@@ -167,7 +164,7 @@
 					<div class="copy left">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/manage_icon.jpg" />	
 						<h2>manage</h2>
-						<p>We can help you design the right solution to create, manage, track and optimize your mobile content experiences.
+						<p>Wrap can help you design the right solution to create, manage, track and optimize your mobile content experiences.
 						</p>
 					</div>
 				</li>
