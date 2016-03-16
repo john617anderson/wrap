@@ -12,7 +12,7 @@
 		<p>
 		or
 		</p>
-		<input class="freeTrialButton inputEmail" placeholder="Email Address" type="text" />
+		<input class="inputEmail" placeholder="Email Address" type="text" />
 		<div class="freeTrialButton emailMe">
 		sign up
 		</div>
@@ -23,6 +23,7 @@
 
 		<h2>Welcome back</h2>
 		<p>
+
 		</p>
 		<div class="freeTrialButton facebook">
 		sign in with facebook
@@ -30,8 +31,8 @@
 		<p>
 		or
 		</p>
-		<input class="freeTrialButton inputEmail" placeholder="Email Address" type="text" />
-		<input class="freeTrialButton inputPassword" placeholder="Password" type="text" />
+		<input class="inputEmail" placeholder="Email Address" type="text" />
+		<input class="inputPassword" placeholder="Password" type="text" />
 		<span class="forgotPassword modalButton" id="resetPassword">Forgot Password?</span>
 		<div class="freeTrialButton emailMe">
 		sign in
@@ -42,9 +43,10 @@
 		<div class="close"></div>
 
 		<h2>Reset Password</h2>
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremquerem aperiam, eaque ipsa quae ab illo inventore veritatis 
+		<p>
+
 		</p>
-		<input class="freeTrialButton inputEmail" placeholder="Email Address" type="text" />
+		<input class="inputEmail" placeholder="Email Address" type="text" />
 		<div class="freeTrialButton emailMe">
 		submit
 		</div>
@@ -54,7 +56,7 @@
 		<div class="close"></div>
 
 		<h2 id="sendMeAWrap">Send me a wrap</h2>
-		<input class="freeTrialButton inputEmail" placeholder="E-mail Address" type="text" />
+		<input class="inputEmail" placeholder="E-mail Address" type="text" />
 		<div class="freeTrialButton emailMe">
 		e-mail me a wrap
 		</div>
@@ -80,11 +82,11 @@
 		<div class="accountImage">
 
 		</div>
-		<input class="freeTrialButton inputEmail" placeholder="Username" type="text" />
+		<input class="inputEmail" placeholder="Username" type="text" />
 
-		<input class="freeTrialButton inputEmail" placeholder="Password" type="text" />
+		<input class="inputEmail" placeholder="Password" type="text" />
 
-		<input class="freeTrialButton inputEmail" placeholder="Confirm Password" type="text" />
+		<input class="inputEmail" placeholder="Confirm Password" type="text" />
 		<div class="freeTrialButton emailMe">
 		create account
 		</div>

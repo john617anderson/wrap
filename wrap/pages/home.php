@@ -114,7 +114,7 @@
 					<div class="copy right">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/create_icon.jpg" />	
 						<h2>create</h2>
-						<p>The mobile phone has become a channel, not just a device. Wrap’s easy-to-use authoring tool puts mobile storytelling within anyone’ reach.
+						<p>The mobile phone has become a channel, not just a device. Wrap’s easy-to-use authoring tool puts mobile storytelling within anyone’s reach.
 						</p>
 					</div>
 				</li>
@@ -155,7 +155,7 @@
 					<div class="copy right">
 						<img src="assets/home/5_HOW_DOES_WRAP_WORK/engage_icon.jpg" />	
 						<h2>engage</h2>
-						<p>Wrap delivers a highly interactive app-like experience without the need for a developer. Easily integrate differ content type (Video, Music, etc.) into a beautiful mobile experience.
+						<p>Wrap delivers a highly interactive app-like experience without the need for a developer. Easily integrate differ content types(Video, Music, etc.) into a beautiful mobile experience.
 						</p>
 					</div>
 				</li>

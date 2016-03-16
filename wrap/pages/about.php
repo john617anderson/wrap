@@ -5,12 +5,10 @@
 	<div class="contentContainer heroContent">
 		<div class="copy">
 			<h1>We are storytellers</h1>
-			<p>We are also creators, designers, thinkers, writers and
-	we’re serious about delivering mobile user experiences
-	that move you. 
+			<p>We're looking for people who are driven and have a serious thing for the digital world.
 			</p>
 			<div class="orangeButton">
-				join us
+				<a href="index.php?section=careers">join us</a>
 			</div>
 		</div>
 	</div>	

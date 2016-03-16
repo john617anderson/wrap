@@ -71,6 +71,18 @@ a{
 	letter-spacing: .1em;
 	margin-right: 1em; 
 	padding : 1em 2em;
+
+	a{
+		color: white;
+	}
+
+	&:hover{
+		background-color: #E66922;
+	}
+
+	&:active{
+		background-color: #DC5000;
+	}
 }
 
 .modalButton{
@@ -147,7 +159,9 @@ body, html{
 			}
 
 			video{
-				width: 100%;  
+				width: 100%; 
+				display: block; 
+				margin-top: 5%;  
 			}
 
 			.accountImage{
@@ -171,6 +185,14 @@ body, html{
 				text-transform: uppercase;
 				font-family: proximaNovaBold;
 				font-size : .8em;
+
+				&:hover{
+					background-color: #E66922;
+				}
+
+				&:active{
+					background-color: #DC5000;
+				}
 			}
 
 			.facebook{
@@ -203,11 +225,12 @@ body, html{
 				margin: 0 15% 2em; 
 				background : white; 
 				border: 1px solid #ddd;
+				font-size : .8em;
 				font-family: proximaNova;
 				color: #646464; 
-				padding-left: 2%;
 				width : 68%; 
 				text-align: left; 
+				padding : .9em 0 .9em 2%;
 			}
 
 			.inputPassword{
@@ -225,6 +248,10 @@ body, html{
 				width: 100%; 
 				text-align: center; 
 			}
+		}
+
+		#video{
+			width : 60%;
 		} 
 	}	
 
