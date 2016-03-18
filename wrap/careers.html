@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="stylesheets/screen.css" rel="stylesheet" media="screen">
+		<script src="js/vendor/jquery.js"></script>
+		<script src="js/vendor/isMobile.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="modal">
+				<div class="modalContainers" id="freeTrial">
+					<div class="close"></div>
+
+					<h2>Sign Up for a free trial</h2>
+					<p>
+
+					</p>
+					<div class="freeTrialButton facebook">
+					sign up with facebook
+					</div>
+					<p>
+					or
+					</p>
+					<input class="inputEmail" placeholder="Email Address" type="text" />
+					<div class="freeTrialButton emailMe">
+					sign up
+					</div>
+					<span class="already">Already have an account? <a class="modalButton" id="login">Sign in</a></span>
+				</div>
+				<div class="modalContainers" id="login">
+					<div class="close"></div>
+
+					<h2>Welcome back</h2>
+					<p>
+
+					</p>
+					<div class="freeTrialButton facebook">
+					sign in with facebook
+					</div>
+					<p>
+					or
+					</p>
+					<input class="inputEmail" placeholder="Email Address" type="text" />
+					<input class="inputPassword" placeholder="Password" type="text" />
+					<span class="forgotPassword modalButton" id="resetPassword">Forgot Password?</span>
+					<div class="freeTrialButton emailMe">
+					sign in
+					</div>
+					<span class="already">Don't have an account? <a class="modalButton" id="signUp">Sign up</a></span>
+				</div>
+				<div class="modalContainers" id="resetPassword">
+					<div class="close"></div>
+
+					<h2>Reset Password</h2>
+					<p>
+
+					</p>
+					<input class="inputEmail" placeholder="Email Address" type="text" />
+					<div class="freeTrialButton emailMe">
+					submit
+					</div>
+					<span class="already"><a class="modalButton" id="login">Back to sign in</a></span>
+				</div>
+				<div class="modalContainers" id="sendMeAWrap">
+					<div class="close"></div>
+
+					<h2 id="sendMeAWrap">Send me a wrap</h2>
+					<input class="inputEmail" placeholder="E-mail Address" type="text" />
+					<div class="freeTrialButton emailMe">
+					e-mail me a wrap
+					</div>
+					<p>
+					or
+					</p>
+					<div class="freeTrialButton emailMe">
+					text me a wrap
+					</div>
+				</div>
+				<div class="modalContainers" id="video">
+					<div class="close vidClose"></div>
+
+					<h2>What is a Wrap?</h2>
+					<video controls poster="assets/video/Video_Image.png">
+					  <source src="assets/video/WrapCo_VO_FX_11.02.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+					</video>
+				</div>
+				<div class="modalContainers" id="createAccount">
+					<div class="close vidClose"></div>
+
+					<div class="accountImage">
+
+					</div>
+					<input class="inputEmail" placeholder="Username" type="text" />
+
+					<input class="inputEmail" placeholder="Password" type="text" />
+
+					<input class="inputEmail" placeholder="Confirm Password" type="text" />
+					<div class="freeTrialButton emailMe">
+					create account
+					</div>
+					<span class="already">By creating an account, you are agreeing to Wrap's <a class="modalButton" id="signUp">terms of service</a> and <a class="modalButton" id="signUp">privacy policy</a> </span>  
+				</div>
+			</div>
+			<div class="navContainer">
+				<div class="navImages hamburger">
+					<img class="burger" src="assets/global/NAV/hamburger.png" />
+					<img class="x" src="assets/global/NAV/white_x.png" />
+				</div>	
+				<div class="navImages navLogo">
+					<a href="index.php"><img src="assets/global/NAV/logo_horizontal.png" /></a>
+				</div>
+				<div class="leftNav">
+					<ul>
+						<li id="logo"><a href="index.html"><img src="assets/global/NAV/logo_horizontal.png" /></a></li>
+						<li><a href="explore.html">explore</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="careers.html">careers</a></li>
+						<li><a target="_blank" href="https://wrapdotco.wordpress.com/">blog</a></li>
+						<li class="modalButton" id="login">login</li>
+						<li class="orangeButton modalButton" id="freeTrial">free trial</li>
+					</ul>
+				</div>
+			</div>
+			<div class="background heroCareers">
+
+			</div>
+			<section class="module topHero shortHero">
+				<div class="contentContainer heroContent">
+					<div class="copy">
+						<h1>We're onto something big, be apart of it.</h1>
+						<p>
+						</p>
+					</div>
+				</div>	
+			</section>
+			<section class="module largeContainer careersContainer">
+			<!--
+				<div class="careerNavigation">
+					<ul>	
+						<li>careers</li>
+						<li>values</li>
+						<li>company</li>
+						<li>contact</li>
+					</ul>
+				</div>
+				-->
+				<div class="contentContainer">
+					<div class="left jobOpenings">
+					<h2>Current Job openings at Wrap</h2>
+						<div class="sections">
+							<h2>customer success</h2>
+
+							<h5>San Francisco</h5>
+							<h4>Customer Success Manager</h4>
+						</div>
+						<div class="sections">
+							<h2>design</h2>
+
+							<h5>San Francisco</h5>
+							<h4>UI/ Visual Designer</h4>
+						</div>
+						<div class="sections">
+							<h2>engineering</h2>
+
+							<h5>San Francisco</h5>
+							<h4>Backend Engineer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Frontend Engineer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>frontend engineer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Ruby Full Stack Engineer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Senior Agile Program Manager</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Senior DevOps Engineer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Senior iOS Engineer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Senior QA Performance Engineer</h4>
+						</div>
+						<div class="sections">
+							<h2>marketing</h2>
+
+							<h5>San Francisco</h5>
+							<h4>Content Marketing Manager</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Product Marketing Manager</h4>
+						</div>
+						<div class="sections">
+							<h2>product</h2>
+
+							<h5>San Francisco</h5>
+							<h4>Customer Insights &amp; Product Researcher</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Digital Product Designer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Project Manager</h4>
+
+							<h5>San Francisco</h5>
+							<h4>SaaS Product Manager</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Solutions Engineer</h4>
+
+							<h5>San Francisco</h5>
+							<h4>Sr. Digital Product Designer</h4>
+						</div>
+					</div>
+					<div class="right jobDescriptions">
+						<div class="sections">
+							<h2>What Sets Wrap Media Apart</h2>
+							<p>
+								Unlike other great technology companies started by first time founders, Wrap Media’s founding team of leadership has numerous wins building and leading great technology companies.  We are channeling this experience to build something remarkable at Wrap Media.
+							</p>
+							<ul>
+								<li>CEO/ Founder of Wrap Media founded & took public companies Viant and Scient.</li>
+								<li>Closed Series B for a total of $16 million within a year of launching the company, led by Raine Ventures and Salesforce Ventures.</li>
+								<li>Wrap Media is the first “WE” corporation, 10% of Wrap’s capitalization is willed to philanthropy.</li>
+								<li>As a WE corporation, we hire leaders, visionaries and advocates of a meaningful work culture that inspires people to challenge themselves and use their voice.</li>
+								<li>Leadership team comes from Yahoo, Salesforce.com, Oracle, Frog Design, Ebay, Samsung, PayPal, Bazaarvoice, Icix, Terracotta, Pantheon, InMobi, Scribd and AudioPress.</li>
+							</ul>
+						</div>
+						<div class="sections">
+							<h2>life at Wrap Media</h2>
+							<p>Wrap Media attracts the thoughtful, naturally inquisitive and spirited.  We think about mobile from new perspectives.  We encourage each other to push boundaries.  Our office is based in downtown San Francisco convenient to all public transportation.  Our people enjoy access to the best tools available, an open and collaborative work environment and a supportive culture inspiring them to do their very best. We offer great salaries, generous equity,100% employee health coverage,  three weeks vacation and delicious catered meals among other perks.  We encourage you to learn more about working here!</p>
+						</div>
+					</div>
+					<div class="finePrint">
+						
+					</div>
+				</div>		
+			</section>		
+			
+			<div class="footer">
+				<div class="footerContainer">
+					<div class="smallPrint">
+					©2016 Wrap Media, Inc. All rights reserved.<span>Terms of Service</span><span>Privacy Policy</span><span>Copyright Policy</span>
+					</div>
+					<div class="social">
+						<img src="assets/global/FOOTER/facebook.png" />
+						<img src="assets/global/FOOTER/linkedin.png" />
+						<img src="assets/global/FOOTER/twitter.png" />
+					</div>
+					<div class="subNavContainer">
+						<div class="column">
+							<ul>
+								<li><a href="index.php?section=about">about</a></li>
+							</ul>
+						</div>
+						<div class="column">
+							<ul>
+								<li><a href="index.php?section=explore">explore</a></li>
+								<li><a class="modalButton" id="createAccount">create</a></li>
+							</ul>
+						</div>
+						<div class="column">
+							<ul>
+								<li><a href="index.php?section=careers">careers</a></li>
+							</ul>
+						</div>
+						<div class="column">
+							<ul>
+								<li><a class="modalButton" id="login">log in</li>
+								<li><a class="modalButton" id="createAccount">sign up</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="madeWithLove">
+					<div class="birdContainer">
+						<img class="footerBird" src="assets/global/FOOTER/wrap_logo_footer.png" />
+					</div>
+					
+					<h3>Crafted with love in San Francisco, California</h3>
+					<p><a href="#">@Copyright</a> 2015 Wrap Media. All rights reserved</p>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
