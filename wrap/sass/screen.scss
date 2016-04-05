@@ -1032,8 +1032,8 @@ body, html{
 		position: relative;
 
 		.footerContainer{
-			padding : 5% 21%;
-			height: 10em;
+			padding : 5% 10%;
+			height: 8em;
 			position: relative;
 
 			.smallPrint{
@@ -1050,29 +1050,21 @@ body, html{
 					color : #f37920;
 				}
 			}
-
-			.social{
-				position: absolute;
-				right : 7em;
-				bottom : 4em;  
-				
-
-				img{
-					width : 50px; 
-					height : 50px; 
-				}
-			}
 			.subNavContainer{
-				width : 83%;
+				width : 100%;
 				margin : 0 auto; 
 
 				.column{
-					float : left;
-					margin-right: 15%; 
+					float : none; 
+					clear: both;
+					width: 80%; 
+					margin: 0 auto; 
 
 					ul{
 						li{
-							padding-bottom: .5em;
+							padding: 0 5% .5em;
+							float : left; 
+							display : block;
 
 							a{
 								font-family: proximaNovaBold;
@@ -1088,7 +1080,32 @@ body, html{
 								}
 								
 							} 
+
+							&:last-child{
+								padding: 0 0 .5em 5%;
+							} 
 						}
+					}
+				}
+
+				.social{
+					width : 20%;
+					margin: 0 auto; 
+					padding-top: 3%; 
+
+					ul{
+						li{
+							padding: 0 2% .5em;
+
+							img{
+								width : 50px; 
+								height : 50px; 
+							}
+
+							&:last-child{
+								padding: 0 2% .5em 2%;
+							} 
+						}						
 					}
 				}
 			}
@@ -1627,27 +1644,44 @@ body, html{
 		.footer{
 			.footerContainer{
 				padding : 15% 1%;
-				height: 10em;
+				height: auto;
+				overflow: auto; 
 
 				.subNavContainer{
 					width : 90%; 
 
 					.column{
-						float : left;
-						margin: 0 5%; 
+						float : none;
+						width: 100%;
 
 						ul{
 							li{
 								font-family: proximaNovaBold;
-								font-size : .7em;
+								font-size : 1.2em;
 								color: #908f8f;
 								padding-bottom: 1em;
 								text-transform: uppercase;
+								width: 100%; 
+								padding : 4% 0 0 4%;
 
 								&:first-child{
 									color : white; 
 									
 								} 
+
+								&:last-child{
+									color : white; 
+									padding : 4% 0 0 4%;
+								} 
+							}
+						}
+					}
+
+					.social{
+						ul{
+							li{
+								float: left; 
+								width: 12%;
 							}
 						}
 					}
