@@ -241,6 +241,44 @@ body, html {
   width: 100%;
   text-align: center;
 }
+
+#wrapper .modal #bioContainer{
+  height : auto;
+  overflow: auto; 
+  width : 80%;
+}
+
+#wrapper .modal .modalContainers .headerBioImage{
+ float: left; 
+ width : 30%;
+}
+
+
+#wrapper .modal .modalContainers .headerBioImage img{
+ display: block; 
+ width : 100%;
+}
+
+#wrapper .modal .modalContainers .bio{
+  float : right;
+  width : 60%; 
+  padding-left: 9%; 
+  display: block; 
+  height: auto; 
+  overflow: auto; 
+}
+
+#wrapper .modal .modalContainers .bio h2{
+  text-align: left; 
+  margin-bottom: .2em; 
+}
+
+#wrapper .modal .modalContainers .bio p{
+  text-align: left; 
+  width: 100%; 
+}
+
+
 /* line 157, ../sass/screen.scss */
 #wrapper .modal .modalContainers #sendMeAWrap {
   margin-bottom: 1em;
