@@ -20,15 +20,12 @@ $(function(){
 		if($(this).attr('class') === "modalButton bios"){
 			var _img = $(this).find('img').attr('src'); 
 			var _name = $(this).find('h4').text(); 
-			var _title = $(this).find('h5').text(); 
-
-
-			_this = $(this).find('h4').text().toLowerCase();  
+			var _title = $(this).find('h5').text();  
 
 			for(var i = 0; i < bios.length; i++){
 				var _b = bios[i]; 
 
-				if(_b.name.toLowerCase() === _this){
+				if(_b.name.toLowerCase() === _name.toLowerCase()){
 					$('.headerBioImage').empty().html('<img src="' + _img + '" />'); 		
 					$('.bio').find('h2').empty().html(_name.toString());
 					$('.bio').find('h3').empty().html(_title.toString());
