@@ -494,6 +494,16 @@ body, html {
   width: 90%;
   color: white;
 }
+
+#wrapper .module .legal p{
+  padding : 1em 0 1.4em;
+}
+
+#wrapper .module .legal h3{
+  font-family: proximaNova;
+  font-size: 1.5em; 
+}
+
 /* line 379, ../sass/screen.scss */
 #wrapper .module .heroContent {
   display: table;
@@ -1113,8 +1123,12 @@ body, html {
   color: #b2b0b1;
 }
 /* line 1048, ../sass/screen.scss */
-#wrapper .footer .footerContainer .smallPrint span {
+#wrapper .footer .footerContainer .smallPrint span{
   padding-left: 3%;
+  color: #f37920;
+}
+
+#wrapper .footer .footerContainer .smallPrint span a{
   color: #f37920;
 }
 /* line 1054, ../sass/screen.scss */
